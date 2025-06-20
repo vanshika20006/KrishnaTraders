@@ -19,7 +19,9 @@ const HomePage = () => {
   return (
     <>
       <Navbar onSearch={handleSearch} />
-      <HeroSection />
+      
+  <HeroSection />
+
       <Index scrollToCategory={scrollToCategory} searchQuery={searchQuery} />
       <BestSelling />
       <BeliefSection />

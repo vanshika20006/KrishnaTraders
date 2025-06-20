@@ -1,50 +1,40 @@
-import SimpleImageSlider from "react-simple-image-slider";
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css"; 
+import "slick-carousel/slick/slick-theme.css";
 
 const images = [
-  { url: "Hero1.png" },
-  { url: "Hero2.png" },
-  { url: "Hero3.png" }
+  "Hero1.png",
+  "Hero2.png",
+  "Hero3.png"
 ];
 
 const HeroSection = () => {
+  const settings = {
+    dots: true,
+    infinite: true,
+    speed: 700,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 2000,
+    arrows: true,
+  };
+
   return (
-    <div>
-      <SimpleImageSlider
-        width={1513}
-        height={500}
-        images={images}
-        showBullets={true}
-        showNavs={true}
-        autoPlay={true}
-        autoPlayDelay={2} // Delay in seconds (change to your preference)
-      />
+    <div className="w-full max-w-[1800px] mx-auto overflow-hidden">
+      <Slider {...settings}>
+        {images.map((img, index) => (
+          <div key={index}>
+            <img
+              src={img}
+              alt={`slide-${index}`}
+              className="w-full h-[300px] md:h-[400px] lg:h-[500px] object-cover "
+            />
+          </div>
+        ))}
+      </Slider>
     </div>
   );
 };
 
 export default HeroSection;
-
-
-// import SimpleImageSlider from "react-simple-image-slider";
-
-// const images = [
-//   { url: "Hero1.png" },
-//   { url: "Hero2.png" },
-//   { url: "Hero3.png" }
-  
-// ];
-
-// const HeroSection = () => {
-//   return (
-//     <div >
-//       <SimpleImageSlider
-//         width={1513}
-//         height={500}
-//         images={images}
-//         showBullets={true}
-//         showNavs={true}
-//       />
-//     </div>
-//   );
-// }
-// export default HeroSection;
