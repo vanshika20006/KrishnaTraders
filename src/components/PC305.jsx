@@ -53,8 +53,10 @@ const ProductCard = ({
           <p className="text-blue-700 font-bold">₹{price}</p>
         )}
         <div className="flex justify-center gap-2 m-2">
+          
   <span className="w-3 h-3 rounded-full bg-white border border-gray-400"></span>
   <span className="w-3 h-3 rounded-full bg-gray-400 border border-gray-600"></span>
+  
 </div>
 
 

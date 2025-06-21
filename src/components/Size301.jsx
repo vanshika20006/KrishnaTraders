@@ -4,10 +4,11 @@ import { ChevronDown } from "lucide-react";
 import { Link } from "react-router-dom";
 
 const categories = [
-  { image: "Short-body-BREZZA.jpg", label: "BREZZA MODEL", route: "/Size401" },
-  { image: "Arya-head-TABLE.jpg", label: "ARYA HEAD", route: "/Size402" },
-  { image: "Sink-cock-JERRY.jpg", label: "JERRY MODEL", route: "/Size403" },
-  { image: "ANGLECOCKVIVO.jpg", label: "VIVO MODEL", route: "/Size404" }
+  { image: "POLOSHORTBODY.jpg", label: "POLO DESIGN(WHITE)", route: "/Size301" },
+  { image: "CRYSTALNOZZLECOCK.jpg", label: "CRYSTAL DESIGN(HEAVY)", route: "/Size302" },
+  { image: "OPELFRONT.jpg", label: "OPEL DESIGN(BLUE)", route: "/Size303" },
+  { image: "RANDOMSHORTBODY.jpg", label: "RANDOM MODEL", route: "/Size304" },
+  { image: "MOSCOWSHORTBODY.jpg", label: "MOSCOW MODEL", route: "/Size305" }
 ];
  
 
@@ -18,7 +19,7 @@ const products = [
     price: 4500,
     inStock: true,
     size: "18X18",
-    image: "/Short-body-BREZZA.jpg",
+    image: "/POLOSHORTBODY.jpg",
   },
   {
     id: 2,
@@ -26,7 +27,7 @@ const products = [
     price: 6200,
     inStock: true,
     size: "24X24",
-    image: "/Long-body-BREZZA-1s.jpg",
+    image: "/POLOLONGBODY.jpg",
   },
   {
     id: 3,
@@ -34,7 +35,7 @@ const products = [
     price: 6200,
     inStock: true,
     size: "18X24",
-    image: "/Angle-Cock-BREZZA.jpg",
+    image: "/POLOANGLECOCK.jpg",
   },
   {
     id: 4,
@@ -42,7 +43,7 @@ const products = [
     price: 4500,
     inStock: true,
     size: "27X27",
-    image: "/Sink-cock-BREZZA.jpg",
+    image: "/POLOSINKCOCK.jpg",
   },
   {
     id: 5,
@@ -50,7 +51,7 @@ const products = [
     price: 6200,
     inStock: true,
     size: "30X30",
-    image: "/Swan-cock-BREZZA.jpg",
+    image: "/POLOSWANCOCK.jpg",
   },
   {
     id: 6,
@@ -58,7 +59,7 @@ const products = [
     price: 4500,
     inStock: true,
     size: "18X18",
-    image: "/Two-way-bib-cock-BREZZA-1st.jpg",
+    image: "/POLOTWOWAYBIBCOCK.jpg",
   },
   {
     id: 7,
@@ -66,15 +67,7 @@ const products = [
     price: 6200,
     inStock: true,
     size: "24X24",
-    image: "/Two-way-angle-clock-Brezza.jpg",
-  },
-  {
-    id: 8,
-    name: "FOAM FLOW S/B",
-    price: 6200,
-    inStock: true,
-    size: "18X24",
-    image: "/Pillar-cock-M-BREZZA.jpg",
+    image: "/POLOTWOWAYANGLECOCK.jpg",
   }
 ];
 
@@ -146,7 +139,7 @@ const Ghotu = () => {
           onClick={() => setShowSort(!showSort)}
         >
           <h3 className="text-2xl  font-semibold text-[#1a1f2c]">
-           BREZZA MODEL
+           POLO MODEL
           </h3>
           <ChevronDown className="w-6 h-6 text-[#1a1f2c]" />
         </div>

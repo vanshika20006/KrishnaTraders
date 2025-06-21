@@ -4,10 +4,12 @@ import { ChevronDown } from "lucide-react";
 import { Link } from "react-router-dom";
 
 const categories = [
-  { image: "Short-body-BREZZA.jpg", label: "BREZZA MODEL", route: "/Size401" },
-  { image: "Arya-head-TABLE.jpg", label: "ARYA HEAD", route: "/Size402" },
-  { image: "Sink-cock-JERRY.jpg", label: "JERRY MODEL", route: "/Size403" },
-  { image: "ANGLECOCKVIVO.jpg", label: "VIVO MODEL", route: "/Size404" }
+  { image: "RANDOMSHORTBODY.jpg", label: "RANDOM MODEL", route: "/Size304" },
+  { image: "POLOSHORTBODY.jpg", label: "POLO DESIGN(WHITE)", route: "/Size301" },
+  { image: "CRYSTALNOZZLECOCK.jpg", label: "CRYSTAL DESIGN(HEAVY)", route: "/Size302" },
+  { image: "OPELFRONT.jpg", label: "OPEL DESIGN(BLUE)", route: "/Size303" },
+  
+  { image: "MOSCOWSHORTBODY.jpg", label: "MOSCOW MODEL", route: "/Size305" }
 ];
  
 
@@ -15,59 +17,19 @@ const products = [
   
   {
     id: 1,
-    name: "LONG BODY",
+    name: "SHORT BODY",
     price: 6200,
     inStock: true,
     size: "24X24",
-    image: "/Long-body-BREZZA-1s.jpg",
+    image: "/RANDOMSHORTBODY.jpg",
   },
   {
     id: 2,
-    name: "ANGLE COCK",
+    name: "ITALIAN PILLAR",
     price: 6200,
     inStock: true,
     size: "18X24",
-    image: "/Angle-Cock-BREZZA.jpg",
-  },
-  {
-    id: 3,
-    name: "FOAM FLOW S/B",
-    price: 4500,
-    inStock: true,
-    size: "27X27",
-    image: "/Sink-cock-BREZZA.jpg",
-  },
-  {
-    id: 4,
-    name: "SINK COCK",
-    price: 6200,
-    inStock: true,
-    size: "30X30",
-    image: "/Swan-cock-BREZZA.jpg",
-  },
-  {
-    id: 5,
-    name: "SWAN COCK",
-    price: 4500,
-    inStock: true,
-    size: "18X18",
-    image: "/Two-way-bib-cock-BREZZA-1st.jpg",
-  },
-  {
-    id: 6,
-    name: "TWO WAY BIB COCK",
-    price: 6200,
-    inStock: true,
-    size: "24X24",
-    image: "/Two-way-angle-clock-Brezza.jpg",
-  },
-  {
-    id: 7,
-    name: "TWO WAY ANGLE",
-    price: 6200,
-    inStock: true,
-    size: "24X24",
-    image: "/Two-way-angle-clock-Brezza.jpg",
+    image: "/RANDOMITALIANPILLAR.jpg",
   }
 ];
 
@@ -139,7 +101,7 @@ const Ghotu = () => {
           onClick={() => setShowSort(!showSort)}
         >
           <h3 className="text-2xl  font-semibold text-[#1a1f2c]">
-           BREZZA MODEL
+           RANDOM MODEL
           </h3>
           <ChevronDown className="w-6 h-6 text-[#1a1f2c]" />
         </div>

@@ -15,9 +15,8 @@ const Productcardfinal = () => {
   } = location.state || {};
 
  const defaultImages = [
-  { url: "Short-body-BREZZA.jpg" },
-  { url: "Short-body-BREZZA-2nd.jpg" },
-  { url: "BREZZA-MODEL-every-product-me-2nd-ya-3rd.jpg" },
+  { url: "CRYSTALPILLARCOCK.jpg" },
+  { url: "EVERYCRYSTALFOAM" }
 ];
 
 

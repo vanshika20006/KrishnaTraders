@@ -8,11 +8,23 @@ import { Link } from "react-router-dom";
 
 
 const categories = [
-  { image: "FRP18X36.jpg", label: "FRP CHAMBER COVER", route: "/varients11" },
-  { image: "LOCK18X24.jpg", label: "PVC CHAMBER COVER", route: "/varients12" },
-  { image: "LDPE18X24.jpg", label: "LDPE CHAMBER COVER", route: "/varients13" },
-  { image: "HDP18X18.jpg", label: "HDP CHAMBER COVER", route: "/varients14" }
-  
+  { image: "Chamber.png", label: "Chamber Cover", route: "/categories1" },
+  { image: "Kitchensink.png", label: "Kitchen Sink", route: "/categories2" },
+  { image: "PVCtaps.png", label: "PVC Taps (Rolex)", route: "/varients3" },
+  { image: "Brass.png", label: "Brass faucets", route: "/categories4" },
+  { image: "CPVCfittingsandmore.png", label: "CP fittings and more", route: "/categories5" },
+  { image: "solvent.png", label: "Solvent", route: "/categories6" },
+  { image: "Flush.png", label: "Flush Tank", route: "/categories7" },
+  { image: "chambercover.png", label: "Seat Cover", route: "/categories8" },
+  { image: "Connection.png", label: "Connection Pipe", route: "/categories9" },
+  { image: "PTMT.png", label: "PTMT Taps", route: "/categories10" },
+  { image: "sumolex.jpg", label: "Sumolex Pipe & Fittings", route: "/pdf" },
+  { image: "sumolex.jpg", label: "Sumolex PTMT Taps", route: "/pdf" },
+  { image: "UPVCPIPE.png", label: "UPVC Pipe", route: "/categories13" },
+  { image: "CPVCPIPE.png", label: "CPVC Pipe", route: "/categories4" },
+  { image: "UPVCFITTING.png", label: "UPVC Fittings", route: "/categories15" },
+  { image: "CPVCFITTING.png", label: "CPVC Fittings", route: "/categories16" },
+  { image: "BALL.png", label: "Ball Valve", route: "/categories17" },
 ];
 
 const products = [
@@ -22,7 +34,7 @@ const products = [
     price: 4500,
     inStock: true,
     size: 36, // in inches
-    image: "/Chamber.png",
+    image: "/POLOSHORTBODY.jpg",
   },
   {
     id: 2,
@@ -30,7 +42,7 @@ const products = [
     price: 4500,
     inStock: true,
     size: 36, // in inches
-    image: "/Chamber.png",
+    image: "/CRYSTALNOZZLECOCK.jpg",
   },
   {
     id: 3,
@@ -38,31 +50,24 @@ const products = [
     price: 4500,
     inStock: true,
     size: 36, // in inches
-    image: "/Chamber.png",
+    image: "/OPELFRONT.jpg",
   },
+  
   {
-    id: 4,
-    name: "SINGLE BOX PACKING",
-    price: 4500,
-    inStock: true,
-    size: 36, // in inches
-    image: "/Chamber.png",
-  },
-  {
-    id: 5,
+    id:4 ,
     name: "RANDOM MODEL",
     price: 4500,
     inStock: true,
     size: 36, // in inches
-    image: "/Chamber.png",
+    image: "/RANDOMITALIANPILLAR.jpg",
   },
   {
-    id: 6,
+    id: 5,
     name: "MOSCOW MODEL(BLUE)",
     price: 4500,
     inStock: true,
     size: 36, // in inches
-    image: "/Chamber.png",
+    image: "/MOSCOWSHORTBODY.jpg",
   },
   
 ];
@@ -137,7 +142,7 @@ const Ghotu = () => {
           onClick={() => setShowSort(!showSort)}
         >
           <h3 className="text-2xl  font-semibold text-[#1a1f2c]">
-           BREZZA MODEL
+           PVC TAPS
           </h3>
           <ChevronDown className="w-6 h-6 text-[#1a1f2c]" />
         </div>

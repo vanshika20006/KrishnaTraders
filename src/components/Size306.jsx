@@ -18,7 +18,7 @@ const products = [
     price: 4500,
     inStock: true,
     size: "18X18",
-    image: "/Short-body-BREZZA.jpg",
+    image: "/MOSCOWSHORTBODY.jpg",
   },
   {
     id: 2,
@@ -26,7 +26,7 @@ const products = [
     price: 6200,
     inStock: true,
     size: "24X24",
-    image: "/Long-body-BREZZA-1s.jpg",
+    image: "/MOSCOWLONGBODY.jpg",
   }
 ];
 

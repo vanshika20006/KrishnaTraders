@@ -4,10 +4,12 @@ import { ChevronDown } from "lucide-react";
 import { Link } from "react-router-dom";
 
 const categories = [
-  { image: "Short-body-BREZZA.jpg", label: "BREZZA MODEL", route: "/Size401" },
-  { image: "Arya-head-TABLE.jpg", label: "ARYA HEAD", route: "/Size402" },
-  { image: "Sink-cock-JERRY.jpg", label: "JERRY MODEL", route: "/Size403" },
-  { image: "ANGLECOCKVIVO.jpg", label: "VIVO MODEL", route: "/Size404" }
+  { image: "OPELFRONT.jpg", label: "OPEL DESIGN(BLUE)", route: "/Size303" },
+  { image: "POLOSHORTBODY.jpg", label: "POLO DESIGN(WHITE)", route: "/Size301" },
+  { image: "CRYSTALNOZZLECOCK.jpg", label: "CRYSTAL DESIGN(HEAVY)", route: "/Size302" },
+  
+  { image: "RANDOMSHORTBODY.jpg", label: "RANDOM MODEL", route: "/Size304" },
+  { image: "MOSCOWSHORTBODY.jpg", label: "MOSCOW MODEL", route: "/Size305" }
 ];
  
 
@@ -18,7 +20,55 @@ const products = [
     price: 4500,
     inStock: true,
     size: "18X18",
-    image: "/Short-body-BREZZA.jpg",
+    image: "/OPELBIBCOCK.jpg",
+  },
+  {
+    id: 2,
+    name: "LONG BODY",
+    price: 6200,
+    inStock: true,
+    size: "24X24",
+    image: "/OPELLONGBODY.jpg",
+  },
+  {
+    id: 3,
+    name: "BIB COCK",
+    price: 6200,
+    inStock: true,
+    size: "18X24",
+    image: "/OPELBIBCOCK.jpg",
+  },
+  {
+    id: 4,
+    name: "SINK COCK",
+    price: 4500,
+    inStock: true,
+    size: "27X27",
+    image: "/OPELSINKCOCK.jpg",
+  },
+  {
+    id: 5,
+    name: " SWAN COCK",
+    price: 6200,
+    inStock: true,
+    size: "30X30",
+    image: "/OPELSWANCOCK.jpg",
+  },
+  {
+    id: 6,
+    name: "ANGLE COCK",
+    price: 4500,
+    inStock: true,
+    size: "18X18",
+    image: "/OPELANGLECOCK.jpg",
+  },
+  {
+    id: 7,
+    name: "TWO WAY BIB COCK",
+    price: 6200,
+    inStock: true,
+    size: "24X24",
+    image: "/OPELTWOWAYBIBCOCK.jpg",
   }
 ];
 
@@ -90,7 +140,7 @@ const Ghotu = () => {
           onClick={() => setShowSort(!showSort)}
         >
           <h3 className="text-2xl  font-semibold text-[#1a1f2c]">
-           BREZZA MODEL
+           OPEL DESIGN (BLUE)
           </h3>
           <ChevronDown className="w-6 h-6 text-[#1a1f2c]" />
         </div>

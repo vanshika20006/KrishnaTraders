@@ -4,10 +4,12 @@ import { ChevronDown } from "lucide-react";
 import { Link } from "react-router-dom";
 
 const categories = [
-  { image: "Short-body-BREZZA.jpg", label: "BREZZA MODEL", route: "/Size401" },
-  { image: "Arya-head-TABLE.jpg", label: "ARYA HEAD", route: "/Size402" },
-  { image: "Sink-cock-JERRY.jpg", label: "JERRY MODEL", route: "/Size403" },
-  { image: "ANGLECOCKVIVO.jpg", label: "VIVO MODEL", route: "/Size404" }
+  
+  { image: "MOSCOWSHORTBODY.jpg", label: "MOSCOW MODEL", route: "/Size305" },
+  { image: "POLOSHORTBODY.jpg", label: "POLO DESIGN(WHITE)", route: "/Size301" },
+  { image: "CRYSTALNOZZLECOCK.jpg", label: "CRYSTAL DESIGN(HEAVY)", route: "/Size302" },
+  { image: "OPELFRONT.jpg", label: "OPEL DESIGN(BLUE)", route: "/Size303" },
+  { image: "RANDOMSHORTBODY.jpg", label: "RANDOM MODEL", route: "/Size304" }
 ];
  
 
@@ -18,7 +20,7 @@ const products = [
     price: 4500,
     inStock: true,
     size: "18X18",
-    image: "/Short-body-BREZZA.jpg",
+    image: "/MOSCOWSHORTBODY.jpg",
   },
   {
     id: 2,
@@ -26,7 +28,7 @@ const products = [
     price: 6200,
     inStock: true,
     size: "24X24",
-    image: "/Long-body-BREZZA-1s.jpg",
+    image: "/MOSCOWLONGBODY.jpg",
   }
 ];
 
@@ -98,7 +100,7 @@ const Ghotu = () => {
           onClick={() => setShowSort(!showSort)}
         >
           <h3 className="text-2xl  font-semibold text-[#1a1f2c]">
-           BREZZA MODEL
+           MOSCOW MODEL
           </h3>
           <ChevronDown className="w-6 h-6 text-[#1a1f2c]" />
         </div>

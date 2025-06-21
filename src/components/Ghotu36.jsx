@@ -10,7 +10,7 @@ const products = [
     price: 4500,
     inStock: true,
     size: 36, // in inches
-    image: "/door.png",
+    image: "/MOSCOWSHORTBODY.jpg",
   }
 ];
 
