@@ -84,6 +84,12 @@ import Sizes23 from "./pages/Sizes23";
 import Sizes31 from "./pages/Sizes31";
 import Sizes41 from "./pages/Sizes41";
 
+import Sizes201 from "./pages/Sizes201";
+import Sizes202 from "./pages/Sizes202";
+import Sizes211 from "./pages/Sizes211";
+import Sizes212 from "./pages/Sizes212";
+import Sizes213 from "./pages/Sizes213";
+
 import Sizes301 from "./pages/Sizes301";
 import Sizes302 from "./pages/Sizes302";
 import Sizes303 from "./pages/Sizes303";
@@ -129,6 +135,46 @@ import Product33 from "./pages/Product33.jsx";
 import Product34 from "./pages/Product34.jsx";
 import Product35 from "./pages/Product35.jsx";
 import Product36 from "./pages/Product36.jsx";
+
+import Product201 from "./pages/Product201.jsx";
+import Product202 from "./pages/Product202.jsx";
+import Product203 from "./pages/Product203.jsx";
+import Product204 from "./pages/Product204.jsx";
+import Product205 from "./pages/Product205.jsx";
+import Product206 from "./pages/Product206.jsx";
+import Product207 from "./pages/Product207.jsx";
+import Product208 from "./pages/Product208.jsx";
+import Product209 from "./pages/Product209.jsx";
+import Product2010 from "./pages/Product2010.jsx";
+import Product2011 from "./pages/Product2011.jsx";
+import Product2012 from "./pages/Product2012.jsx";
+import Product2013 from "./pages/Product2013.jsx";
+import Product2014 from "./pages/Product2014.jsx";
+import Product2015 from "./pages/Product2015.jsx";
+import Product2016 from "./pages/Product2016.jsx";
+import Product2017 from "./pages/Product2017.jsx";
+import Product2018 from "./pages/Product2018.jsx";
+import Product211 from "./pages/Product211.jsx";
+import Product212 from "./pages/Product212.jsx";
+import Product213 from "./pages/Product213.jsx";
+import Product214 from "./pages/Product214.jsx";
+import Product215 from "./pages/Product215.jsx";
+import Product216 from "./pages/Product216.jsx";
+import Product217 from "./pages/Product217.jsx";
+import Product218 from "./pages/Product218.jsx";
+import Product219 from "./pages/Product219.jsx";
+import Product2110 from "./pages/Product2110.jsx";
+import Product2111 from "./pages/Product2111.jsx";
+import Product221 from "./pages/Product221.jsx";
+import Product222 from "./pages/Product222.jsx";
+import Product223 from "./pages/Product223.jsx";
+import Product224 from "./pages/Product224.jsx";
+import Product225 from "./pages/Product225.jsx";
+import Product226 from "./pages/Product226.jsx";
+import Product227 from "./pages/Product227.jsx";
+import Product228 from "./pages/Product228.jsx";
+import Product231 from "./pages/Product231.jsx";
+import Product241 from "./pages/Product241.jsx";
 
 import Product301 from "./pages/Product301.jsx";
 import Product302 from "./pages/Product302.jsx";
@@ -256,8 +302,8 @@ function App() {
         <Route path="/varients12" element={<VarientsPage12 />} />
         <Route path="/varients13" element={<VarientsPage13 />} />
         <Route path="/varients14" element={<VarientsPage14 />} />
-        <Route path="/varients211" element={<VarientsPage21 />} />
-        <Route path="/varients212" element={<VarientPage22 />} />
+        <Route path="/varients21" element={<VarientsPage21 />} />
+        <Route path="/varients22" element={<VarientPage22 />} />
         <Route path="/varients3" element={<VarientPage31 />} />
         <Route path="/varients41" element={<VarientPage41 />} />
         <Route path="/varients51" element={<VarientPage51 />} />
@@ -287,6 +333,12 @@ function App() {
         <Route path="/size23" element={<Sizes23 />} />
         <Route path="/size31" element={<Sizes31 />} />
         <Route path="/size41" element={<Sizes41 />} />
+        <Route path="/sizek1" element={<Sizes201 />} />
+        <Route path="/sizek2" element={<Sizes202 />} />
+
+        <Route path="/sizeq1" element={<Sizes211 />} />
+        <Route path="/sizeq2" element={<Sizes212 />} />
+        <Route path="/sizeq3" element={<Sizes213 />} />
         <Route path="/size301" element={<Sizes301 />} />
         <Route path="/size302" element={<Sizes302 />} />
         <Route path="/size303" element={<Sizes303 />} />
@@ -328,6 +380,46 @@ function App() {
         <Route path="/product34" element={<Product34 />} />
         <Route path="/product35" element={<Product35 />} />
         <Route path="/product36" element={<Product36 />} />
+        <Route path="/product201" element={<Product201 />} />
+        <Route path="/product202" element={<Product202 />} />
+        <Route path="/product203" element={<Product203 />} />
+        <Route path="/product204" element={<Product204 />} />
+        <Route path="/product205" element={<Product205 />} />
+        <Route path="/product206" element={<Product206 />} />
+        <Route path="/product207" element={<Product207 />} />
+        <Route path="/product208" element={<Product208 />} />
+        <Route path="/product209" element={<Product209 />} />
+        <Route path="/product2010" element={<Product2010 />} />
+        <Route path="/product2011" element={<Product2011 />} />
+        <Route path="/product2012" element={<Product2012 />} />
+        <Route path="/product2013" element={<Product2013 />} />
+        <Route path="/product2014" element={<Product2014 />} />
+        <Route path="/product2015" element={<Product2015 />} />
+        <Route path="/product2016" element={<Product2016 />} />
+        <Route path="/product2017" element={<Product2017 />} />
+        <Route path="/product2018" element={<Product2018 />} />
+        <Route path="/product211" element={<Product211 />} />
+        <Route path="/product212" element={<Product212 />} />
+        <Route path="/product213" element={<Product213 />} />
+        <Route path="/product214" element={<Product214 />} />
+        <Route path="/product215" element={<Product215 />} />
+        <Route path="/product216" element={<Product216 />} />
+        <Route path="/product217" element={<Product217 />} />
+        <Route path="/product218" element={<Product218 />} />
+        <Route path="/product219" element={<Product219 />} />
+        <Route path="/product2110" element={<Product2110 />} />
+        <Route path="/product2111" element={<Product2111 />} />
+        <Route path="/product221" element={<Product221 />} />
+        <Route path="/product222" element={<Product222 />} />
+        <Route path="/product223" element={<Product223 />} />
+        <Route path="/product224" element={<Product224 />} />
+        <Route path="/product225" element={<Product225 />} />
+        <Route path="/product226" element={<Product226 />} />
+        <Route path="/product227" element={<Product227 />} />
+        <Route path="/product228" element={<Product228 />} />
+        <Route path="/product231" element={<Product231 />} />
+        <Route path="/product241" element={<Product241 />} />
+
         <Route path="/product301" element={<Product301 />} />
         <Route path="/product302" element={<Product302 />} />
         <Route path="/product303" element={<Product303 />} />
@@ -365,7 +457,7 @@ function App() {
         <Route path="/product335" element={<Product335 />} />
         <Route path="/product336" element={<Product336 />} />
         <Route path="/product337" element={<Product337 />} />
-        
+
         <Route path="/product41" element={<Product41 />} />
         <Route path="/product42" element={<Product42 />} />
         <Route path="/product43" element={<Product43 />} />
