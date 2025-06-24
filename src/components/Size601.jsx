@@ -19,7 +19,7 @@ const products = [
     price: 0,
     inStock: true,
     size: "",
-    image: "FShortbody(1).PNG",
+    image: "FShortbody1.PNG",
   },
   {
     id: 2,
@@ -27,7 +27,7 @@ const products = [
     price: 0,
     inStock: true,
     size: "",
-    image: "FLongbody(1).jpg",
+    image: "FLongbody1.jpg",
   },
   {
     id: 3,
@@ -43,7 +43,7 @@ const products = [
     price: 0,
     inStock: true,
     size: "",
-    image: "FSinkcock(2).jpg",
+    image: "FSinkcock2.jpg",
   },
   {
     id: 5,
@@ -179,7 +179,7 @@ const Ghotu = () => {
           onClick={() => setShowSort(!showSort)}
         >
           <h3 className="text-2xl  font-semibold text-[#1a1f2c]">
-           VIVO MODEL
+           RADO MODEL
           </h3>
           <ChevronDown className="w-6 h-6 text-[#1a1f2c]" />
         </div>

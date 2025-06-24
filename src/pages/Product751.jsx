@@ -1,5 +1,6 @@
 
 
+
 import { useLocation } from "react-router-dom";
 import SimpleImageSlider from "react-simple-image-slider";
 import Navbar from '../components/Navbar';
@@ -15,10 +16,9 @@ const Productcardfinal = () => {
   } = location.state || {};
 
   const defaultImages = [
-    { url: "FTwowayanglcock.jpg" },
-    { url: "FTwowayanglcock.jpg" }
+    { url: "Singletoppushbutton3.jpg" },
+    { url: "Singletoppushbutton3.jpg" },
   ];
-
   const imagesToShow = imageList || defaultImages;
 
   return (

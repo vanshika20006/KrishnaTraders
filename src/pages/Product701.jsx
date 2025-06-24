@@ -15,10 +15,9 @@ const Productcardfinal = () => {
   } = location.state || {};
 
   const defaultImages = [
-    { url: "FTwowayanglcock.jpg" },
-    { url: "FTwowayanglcock.jpg" }
+    { url: "Sidehandle1.jpg" },
+    { url: "Sidehandle1.jpg" },
   ];
-
   const imagesToShow = imageList || defaultImages;
 
   return (

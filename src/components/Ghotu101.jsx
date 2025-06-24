@@ -18,7 +18,7 @@ const products = [
     price: 0,
     inStock: true,
     size: "",
-    image: "FShortbody(1).PNG",
+    image: "FShortbody1.PNG",
   },
   {
     id: 2,
@@ -84,7 +84,7 @@ const Ghotu = () => {
           className="flex items-center gap-2 cursor-pointer mb-4"
           onClick={() => setShowSort(!showSort)}
         >
-          <h2 className="text-2xl font-semibold text-[#1a1f2c]">MONTAC BRAND</h2>
+          <h2 className="text-2xl font-semibold text-[#1a1f2c]">SPARSH BRAND</h2>
           <ChevronDown className="w-6 h-6 text-[#1a1f2c]" />
         </div>
 

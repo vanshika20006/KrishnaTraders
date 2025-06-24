@@ -1,98 +1,25 @@
 import React, { useState } from "react";
-import ProductCard from "./PC602";
+import ProductCard from "./PC702";
 import { ChevronDown } from "lucide-react";
 import { Link } from "react-router-dom";
 
 const categories = [
-  { image: "ANGLECOCKVIVO.jpg", label: "VIVO MODEL", route: "/Size404" },
-  { image: "Sink-cock-JERRY.jpg", label: "JERRY MODEL", route: "/Size403" },
-  { image: "Short-body-BREZZA.jpg", label: "BREZZA MODEL", route: "/Size401" },
-  { image: "Arya-head-TABLE.jpg", label: "ARYA HEAD", route: "/Size402" },
-  
- 
+  { image: "Sidehandle2.jpg", label: "WHITE & IVORY & MORE", route: "/Size702" },
+  { image: "Sidehandle1.jpg", label: "WHITE & IVORY", route: "/Size701" },
+  { image: "Sidehandle3.jpg", label: "WHITE & IVORY & MORE", route: "/Size703" },
+  { image: "Singletoppushbutton1.jpg", label: "WHITE & IVORY", route: "/Size704" },
+  { image: "Singletoppushbutton2.jpg", label: "WHITE & IVORY & MORE", route: "/Size705" },
+  { image: "Singletoppushbutton3.jpg", label: "COLOURFULL PRINT", route: "/Size706" },
 ];
 
 const products = [
  {
     id: 1,
-    name: "SHORT BODY",
+    name: "WHITE & IVORY & MORE",
     price: 0,
     inStock: true,
     size: "",
-    image: "DShortbody1.PNG",
-  },
-  {
-    id: 2,
-    name: "LONG BODY",
-    price: 0,
-    inStock: true,
-    size: "",
-    image: "DLongbody1.PNG",
-  },
-  {
-    id: 3,
-    name: "ANGLE COCK",
-    price: 0,
-    inStock: true,
-    size: "",
-    image: "DAnglecock1.PNG",
-  },
-  {
-    id: 4,
-    name: "SHORT SINK COCK",
-    price: 0,
-    inStock: true,
-    size: "",
-    image: ".PNG",
-  },
-  {
-    id: 5,
-    name: "SHORT SWAN COCK",
-    price: 0,
-    inStock: true,
-    size: "",
-    image: "DSwancock.PNG",
-  },
-  {
-    id: 6,
-    name: "TWO WAY BIB COCK",
-    price: 0,
-    inStock: true,
-    size: "",
-    image: "DTwowaybibcock.PNG",
-  },
-  {
-    id: 7,
-    name: "TWO WAY ANGLE",
-    price: 0,
-    inStock: true,
-    size: "",
-    image: ".PNG",
-  },
-  
-  {
-    id: 8,
-    name: "MIXER WITH BEND",
-    price: 0,
-    inStock: true,
-    size: "",
-    image: ".PNG",
-  },
-  {
-    id: 9,
-    name: "PILLAR COCK",
-    price: 0,
-    inStock: true,
-    size: "",
-    image: ".PNG",
-  },
-  {
-    id: 10,
-    name: "NOZZLE COCK",
-    price: 0,
-    inStock: true,
-    size: "",
-    image: ".PNG",
+    image: "Sidehandle2.jpg",
   }
 ];
 

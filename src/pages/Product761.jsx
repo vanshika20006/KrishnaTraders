@@ -15,10 +15,9 @@ const Productcardfinal = () => {
   } = location.state || {};
 
   const defaultImages = [
-    { url: "FTwowayanglcock.jpg" },
-    { url: "FTwowayanglcock.jpg" }
+    { url: "Nozzle-cock-JERRY.jpg" },
+    { url: "JERRY-MODEL-every-product-me-2nd-ya-3rd.jpg" },
   ];
-
   const imagesToShow = imageList || defaultImages;
 
   return (
