@@ -53,6 +53,7 @@ const categories = [
         route: "/categories16",
       },
       { image: "BALL.png", label: "Ball Valve", route: "/categories17" },
+      { image: "CLIPf.jpg", label: "Clips", route: "/categories18" },
     ],
   },
   {
