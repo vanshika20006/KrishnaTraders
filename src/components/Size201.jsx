@@ -4,11 +4,8 @@ import { ChevronDown } from "lucide-react";
 import { Link } from "react-router-dom";
 
 const categories = [
-  { image: "POLOSHORTBODY.jpg", label: "POLO DESIGN(WHITE)", route: "/Size301" },
-  { image: "CRYSTALNOZZLECOCK.jpg", label: "CRYSTAL DESIGN(HEAVY)", route: "/Size302" },
-  { image: "OPELFRONT.jpg", label: "OPEL DESIGN(BLUE)", route: "/Size303" },
-  { image: "RANDOMSHORTBODY.jpg", label: "RANDOM MODEL", route: "/Size304" },
-  { image: "MOSCOWSHORTBODY.jpg", label: "MOSCOW MODEL", route: "/Size305" }
+  { image: "SSfm1.PNG", label: "STEEL SINK", route: "/Size301" },
+  { image: "HANDMADE_SINK_1.PNG", label: "HANDMADE SINK", route: "/Size302" },
 ];
  
 
@@ -35,7 +32,7 @@ const products = [
   price: 6200,
   inStock: true,
   size: "18X16",
-  image: "/SSfs1.PNG",
+  image: "/Silver18X16.jpg",
 },
 {
   id: 4,
@@ -228,7 +225,7 @@ const Ghotu = () => {
           onClick={() => setShowSort(!showSort)}
         >
           <h3 className="text-2xl  font-semibold text-[#1a1f2c]">
-           POLO MODEL
+           STEEL SINK
           </h3>
           <ChevronDown className="w-6 h-6 text-[#1a1f2c]" />
         </div>
