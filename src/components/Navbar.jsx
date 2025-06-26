@@ -9,7 +9,7 @@ const Navbar = ({ onSearch }) => {
   };
 
   return (
-    <header className="bg-[#f9f9e6] w-full h-[31vh]">
+    <header className="bg-[#f9f9e6] w-full h-[33vh]">
       {/* Top Section with Logo, Search Bar, and Showroom Button */}
       <div className="flex items-center justify-between w-full px-10 py-4 bg-[#f9f9e6]">
         {/* Left: Logo */}
