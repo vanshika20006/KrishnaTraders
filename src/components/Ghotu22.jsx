@@ -18,7 +18,7 @@ const products = [
     price: 6200,
     inStock: true,
     size: 32,
-    image: "Double bowl 1.PNG",
+    image: "DOUBLEBOWL1F.jpg",
   },
   {
    
@@ -27,7 +27,7 @@ const products = [
     price: 6200,
     inStock: true,
     size: 32,
-    image: "Drain board 1.PNG", 
+    image: "drainboardf.jpg", 
   }
 ];
 

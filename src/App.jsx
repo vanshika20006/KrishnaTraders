@@ -121,11 +121,18 @@ import Sizes803 from "./pages/Sizes803";
 import Sizes804 from "./pages/Sizes804";
 import Sizes805 from "./pages/Sizes805";
 
+import Sizes1701 from "./pages/Sizes1701";
+import Sizes1702 from "./pages/Sizes1702";
+import Sizes1703 from "./pages/Sizes1703";
+
+import Sizes1711 from "./pages/Sizes1711";
+
 import Sizes181 from "./pages/Sizes181";
 import Sizes182 from "./pages/Sizes182";
 import Sizes183 from "./pages/Sizes183";
 import Sizes184 from "./pages/Sizes184";
 import Sizes185 from "./pages/Sizes185";
+
 
 import Product11 from "./pages/Product11.jsx";
 import Product12 from "./pages/Product12.jsx";
@@ -440,6 +447,7 @@ function App() {
         <Route path="/varients121" element={<VarientPage121 />} />
         <Route path="/varients171" element={<VarientPage171 />} />
         <Route path="/varients172" element={<VarientPage172 />} />
+        
         <Route path="/size1" element={<Sizes11 />} />
         <Route path="/size2" element={<Sizes12 />} />
         <Route path="/size21" element={<Sizes21 />} />
@@ -481,6 +489,14 @@ function App() {
         <Route path="/size805" element={<Sizes805 />} />
         <Route path="/size901" element={<Sizes901 />} />
         <Route path="/size911" element={<Sizes911 />} />
+
+        
+        <Route path="/size1701" element={<Sizes1701 />} />
+        <Route path="/size1702" element={<Sizes1702 />} />
+        <Route path="/size1703" element={<Sizes1703 />} />
+
+        <Route path="/size1711" element={<Sizes1711 />} />
+
 
         <Route path="/size181" element={<Sizes181 />} />
         <Route path="/size182" element={<Sizes182 />} />

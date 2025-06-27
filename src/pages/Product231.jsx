@@ -13,8 +13,9 @@ const Productcardfinal = () => {
   } = location.state || {};
 
   const defaultImages = [
-    { url: "DOUBLE_BOWL_2.PNG" },
-    { url: "DOUBLE_BOWL_1.PNG" },
+    { url: "DOUBLEBOWL1F.jpg" },
+    { url: "DOUBLEBOWL1F2.jpg" },
+    { url: "DOUBLEBOWL1F3.jpg" },
     
     
   ];

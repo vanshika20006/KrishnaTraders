@@ -13,7 +13,7 @@ const Productcardfinal = () => {
   } = location.state || {};
 
   const defaultImages = [
-    { url: "STEEL_CLASSIC_1.PNG" },
+    { url: "CLAASSICF18X16.jpg" },
     { url: "STEEL_CLASSIC_1.PNG" }
   ];
 

@@ -13,7 +13,8 @@ const Productcardfinal = () => {
   } = location.state || {};
 
   const defaultImages = [
-    { url: "STEEL_GOLD_2.PNG" }
+    { url: "MIRROR18X16FF.jpg" },
+    { url: "MIRROR18X16FF.jpg" },
     
     
   ];

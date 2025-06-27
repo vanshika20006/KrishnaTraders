@@ -18,8 +18,8 @@ const products = [
   name: "ALL COLOUR",
   price: 4500,
   inStock: true,
-  size: "18X18",
-  image: "/STEEL_CLASSIC_1.jpg",
+  size: "37X18",
+  image: "/drainboardf.jpg",
 }
 ];
 

@@ -4,8 +4,8 @@ import { ChevronDown } from "lucide-react";
 import { Link } from "react-router-dom";
 
 const categories = [
-  { image: "SSfm1.PNG", label: "STEEL SINK", route: "/Size301" },
-  { image: "HANDMADE_SINK_1.PNG", label: "HANDMADE SINK", route: "/Size302" },
+  { image: "SSfm1.PNG", label: "STEEL SINK", route: "/Sizek1" },
+  { image: "HANDMADE_SINK_1.PNG", label: "HANDMADE SINK", route: "/Sizek2" },
 ];
  
 
@@ -16,15 +16,15 @@ const products = [
   price: 4500,
   inStock: true,
   size: "16X18",
-  image: "/STEEL_CLASSIC_1.PNG",
+  image: "/CLAASSICF18X16.jpg",
 },
 {
   id: 2,
   name: "CLASSIC",
   price: 6200,
   inStock: true,
-  size: "18X16",
-  image: "/STEEL_CLASSIC_1.PNG",
+  size: "18X24",
+  image: "/CLASSIC18X24F.jpg",
 },
 {
   id: 3,
@@ -40,7 +40,7 @@ const products = [
   price: 4500,
   inStock: true,
   size: "18X24",
-  image: "/SSfs2.PNG",
+  image: "/silver18x24F.jpg",
 },
 {
   id: 5,
@@ -48,7 +48,7 @@ const products = [
   price: 6200,
   inStock: true,
   size: "18X16",
-  image: "/STEEL_GOLD_1.jpg",
+  image: "/GOLD18X16F.jpg",
 },
 {
   id: 6,
@@ -56,7 +56,7 @@ const products = [
   price: 4500,
   inStock: true,
   size: "18X24",
-  image: "/STEEL_GOLD_2.PNG",
+  image: "/GOLD18X24F.jpg",
 },
 {
   id: 7,
@@ -64,15 +64,15 @@ const products = [
   price: 6200,
   inStock: true,
   size: "18X16",
-  image: "/18x16mirror.PNG",
+  image: "/MIRROR18X16FF.jpg",
 },
 {
   id: 8,
   name: "MIRROR",
   price: 4500,
   inStock: true,
-  size: "18X18",
-  image: "/18x24mirror.PNG",
+  size: "18X24",
+  image: "/MIRROR18X24F.jpg",
 },
 {
   id: 9,
@@ -96,7 +96,7 @@ const products = [
   price: 6200,
   inStock: true,
   size: "24X24",
-  image: "/STEEL_DOLLAR.jpg",
+  image: "/DOLLARF.jpg",
 },
 {
   id: 12,
@@ -104,7 +104,7 @@ const products = [
   price: 6200,
   inStock: true,
   size: "18X16",
-  image: "/18x16square.PNG",
+  image: "/SQUARE18X16F.jpg",
 },
 {
   id: 13,
@@ -119,24 +119,24 @@ const products = [
   name: "SILVER",
   price: 6200,
   inStock: true,
-  size: "30X30",
-  image: "/STEEL_SILVER_3.jpg",
+  size: "12X12",
+  image: "/SILVERNEXT.jpg",
 },
 {
   id: 15,
   name: "SILVER",
   price: 4500,
   inStock: true,
-  size: "18X18",
-  image: "/STEEL_SILVER_4.jpg",
+  size: "14X16",
+  image: "/SILVERNEXT.jpg",
 },
 {
   id: 16,
   name: "SILVER",
   price: 4500,
   inStock: true,
-  size: "24X24",
-  image: "/STEEL_SILVER_5.jpg",
+  size: "12X15",
+  image: "/SILVERNEXT.jpg",
 },
 {
   id: 17,

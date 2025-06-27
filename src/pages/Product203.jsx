@@ -13,8 +13,8 @@ const Productcardfinal = () => {
   } = location.state || {};
 
   const defaultImages = [
-    { url: "SSfs1.PNG" },
-    { url: "18x16silver2.jpg" }
+    { url: "Silver18X16.jpg" },
+    { url: "SILVER218X16SIL.jpg" }
   ];
 
   const imagesToShow = imageList || defaultImages;
