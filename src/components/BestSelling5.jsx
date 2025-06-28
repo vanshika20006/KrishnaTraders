@@ -45,14 +45,6 @@ const products = [
   },
   {
     id: 3,
-    name: "ABS SHOWER ",
-    price: 4500,
-    inStock: true,
-    size: 36, // in inches
-    image: "/Chamber.png",
-  },
-  {
-    id: 4,
     name: "SHOWER ROD",
     price: 4500,
     inStock: true,
@@ -60,15 +52,16 @@ const products = [
     image: "/Chamber.png",
   },
   {
-    id: 5,
+    id: 4,
     name: "CP FLANCH",
     price: 4500,
     inStock: true,
     size: 36, // in inches
     image: "/Chamber.png",
   },
+  
   {
-    id: 6,
+    id: 5,
     name: "HEALTH FAUCET",
     price: 4500,
     inStock: true,
@@ -76,8 +69,16 @@ const products = [
     image: "/Chamber.png",
   },
   {
-    id: 7,
+    id: 6,
     name: "TEFLON TAPE",
+    price: 4500,
+    inStock: true,
+    size: 36, // in inches
+    image: "/Chamber.png",
+  },
+  {
+    id: 7,
+    name: "SS JALI",
     price: 4500,
     inStock: true,
     size: 36, // in inches

@@ -109,6 +109,10 @@ import Sizes512 from "./pages/Sizes512";
 import Sizes513 from "./pages/Sizes513";
 import Sizes514 from "./pages/Sizes514";
 import Sizes521 from "./pages/Sizes521";
+import Sizes531 from "./pages/Sizes531";
+import Sizes532 from "./pages/Sizes532";
+import Sizes533 from "./pages/Sizes533";
+import Sizes534 from "./pages/Sizes534";
 
 import Sizes601 from "./pages/Sizes601";
 import Sizes602 from "./pages/Sizes602";
@@ -314,7 +318,19 @@ import Product505 from "./pages/Product505.jsx";
 import Product506 from "./pages/Product506.jsx";
 import Product507 from "./pages/Product507.jsx";
 import Product508 from "./pages/Product508.jsx";
-
+import Product5211 from "./pages/Product5211.jsx";
+import Product5212 from "./pages/Product5212.jsx";
+import Product5213 from "./pages/Product5213.jsx";
+import Product5214 from "./pages/Product5214.jsx";
+import Product5215 from "./pages/Product5215.jsx";
+import Product5216 from "./pages/Product5216.jsx";
+import Product5217 from "./pages/Product5217.jsx";
+import Product5218 from "./pages/Product5218.jsx";
+import Product5219 from "./pages/Product5219.jsx";
+import Product5311 from "./pages/Product5311.jsx";
+import Product5321 from "./pages/Product5321.jsx";
+import Product5331 from "./pages/Product5331.jsx";
+import Product5341 from "./pages/Product5341.jsx";
 
 import Product601 from "./pages/Product601.jsx";
 import Product602 from "./pages/Product602.jsx";
@@ -518,6 +534,11 @@ function App() {
         <Route path="/size513" element={<Sizes513 />} />
         <Route path="/size514" element={<Sizes514 />} />
         <Route path="/size521" element={<Sizes521 />} />
+        
+        <Route path="/size531" element={<Sizes531 />} />
+        <Route path="/size532" element={<Sizes532 />} />
+        <Route path="/size533" element={<Sizes533 />} />
+        <Route path="/size534" element={<Sizes534 />} />
 
         <Route path="/size601" element={<Sizes601 />} />
         <Route path="/size602" element={<Sizes602 />} />
@@ -705,6 +726,19 @@ function App() {
         <Route path="/product506" element={<Product506 />} />
         <Route path="/product507" element={<Product507 />} />
         <Route path="/product508" element={<Product508 />} />
+        <Route path="/product5211" element={<Product5211 />} />
+        <Route path="/product5212" element={<Product5212 />} />
+        <Route path="/product5213" element={<Product5213 />} />
+        <Route path="/product5214" element={<Product5214 />} />
+        <Route path="/product5215" element={<Product5215 />} />
+<Route path="/product5216" element={<Product5216 />} />
+<Route path="/product5217" element={<Product5217 />} />
+<Route path="/product5218" element={<Product5218 />} />
+<Route path="/product5219" element={<Product5219 />} />
+<Route path="/product5311" element={<Product5311 />} />
+<Route path="/product5321" element={<Product5321 />} />
+<Route path="/product5331" element={<Product5331 />} />
+<Route path="/product5341" element={<Product5341 />} />
 
         <Route path="/product601" element={<Product601 />} />
         <Route path="/product602" element={<Product602 />} />

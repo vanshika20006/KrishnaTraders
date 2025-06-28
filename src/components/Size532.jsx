@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import ProductCard from "./PC521";
+import ProductCard from "./PC532";
 import { ChevronDown } from "lucide-react";
 import { Link } from "react-router-dom";
 
@@ -10,75 +10,11 @@ const categories = [
 const products = [
   {
     id: 1,
-    name: "EXTENSION NIPPLE",
+    name: "HEAVY",
     price: 0,
     inStock: true,
     size: "1",
     image: "FShortbody1.PNG",
-  },
-  {
-    id: 2,
-    name: "EXTENSION NIPPLE",
-    price: 0,
-    inStock: true,
-    size: "1-1/2",
-    image: "FLongbody1.jpg",
-  },
-  {
-    id: 3,
-    name: "EXTENSION NIPPLE",
-    price: 0,
-    inStock: true,
-    size: "2",
-    image: "FAnglecock1.jpg",
-  },
-  {
-    id: 4,
-    name: "EXTENSION NIPPLE",
-    price: 0,
-    inStock: true,
-    size: "2-1/2",
-    image: "FSinkcock2.jpg",
-  },
-  {
-    id: 5,
-    name: "EXTENSION NIPPLE",
-    price: 0,
-    inStock: true,
-    size: "3",
-    image: "FSwancock1.jpg",
-  },
-  {
-    id: 6,
-    name: "EXTENSION NIPPLE",
-    price: 0,
-    inStock: true,
-    size: "4",
-    image: "FTwowaybibcock1.jpg",
-  },
-  {
-    id: 7,
-    name: "EXTENSION NIPPLE",
-    price: 0,
-    inStock: true,
-    size: "6",
-    image: "FTwowayanglcock.jpg",
-  },
-  {
-    id: 8,
-    name: "HEX NIPPLESS",
-    price: 0,
-    inStock: true,
-    size: "1/2",
-    image: "FLongsinkcock.PNG",
-  },
-  {
-    id: 9,
-    name: "HEX NIPPLESS",
-    price: 0,
-    inStock: true,
-    size: "1/2",
-    image: "FLongsinkcock.PNG",
   }
 ];
 

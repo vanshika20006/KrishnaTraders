@@ -1,4 +1,4 @@
-
+      
 
 import { useLocation } from "react-router-dom";
 import SimpleImageSlider from "react-simple-image-slider";
