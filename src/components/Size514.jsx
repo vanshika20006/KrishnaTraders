@@ -1,106 +1,79 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
-import ProductCard from "./ProductCard5";
+import ProductCard from "./PC514";
 import { ChevronDown } from "lucide-react";
+import { Link } from "react-router-dom";
 
 const categories = [
-  
-  { image: "CPVCfittingsandmore.png", label: "CP fittings and more", route: "/categories5" },
-  { image: "Kitchensink.png", label: "Kitchen Sink", route: "/categories2" },
-   { image: "Brass.png", label: "Brass faucets", route: "/categories4" },
-  { image: "Chamber.png", label: "Chamber Cover", route: "/categories1" },
-  
-  { image: "PVCtaps.png", label: "PVC Taps (Rolex)", route: "/categories3" },
- 
-  { image: "solvent.png", label: "Solvent", route: "/categories6" },
-  { image: "Flush.png", label: "Flush Tank", route: "/categories7" },
-  { image: "chambercover.png", label: "Seat Cover", route: "/categories8" },
-  { image: "Connection.png", label: "Connection Pipe", route: "/categories9" },
-  { image: "PTMT.png", label: "PTMT Taps", route: "/categories10" },
-  { image: "sumolex.jpg", label: "Sumolex Pipe & Fittings", route: "/pdf" },
-  { image: "sumolex.jpg", label: "Sumolex PTMT Taps", route: "/pdf" },
-  { image: "UPVCPIPE.png", label: "UPVC Pipe", route: "/categories13" },
-  { image: "CPVCPIPE.png", label: "CPVC Pipe", route: "/categories4" },
-  { image: "UPVCFITTING.png", label: "UPVC Fittings", route: "/categories15" },
-  { image: "CPVCFITTING.png", label: "CPVC Fittings", route: "/categories16" },
-  { image: "BALL.png", label: "Ball Valve", route: "/categories17" },
+  { image: "ANGLECOCKVIVO.jpg", label: "EXTENSION NIPPLE", route: "/Size501" }
 ];
-// Sample product data with different images and properties
+
 const products = [
   {
     id: 1,
-    name: "SS EXTENSION NIPPLE",
-    price: 4500,
+    name: "EXTENSION NIPPLE",
+    price: 0,
     inStock: true,
-    size: 36, // in inches
-    image: "/Chamber.png",
+    size: "1",
+    image: "FShortbody1.PNG",
   },
   {
     id: 2,
-    name: "SS(304) SHOWER ",
-    price: 4500,
+    name: "EXTENSION NIPPLE",
+    price: 0,
     inStock: true,
-    size: 36, // in inches
-    image: "/Chamber.png",
+    size: "1-1/2",
+    image: "FLongbody1.jpg",
   },
   {
     id: 3,
-    name: "ABS SHOWER ",
-    price: 4500,
+    name: "EXTENSION NIPPLE",
+    price: 0,
     inStock: true,
-    size: 36, // in inches
-    image: "/Chamber.png",
+    size: "2",
+    image: "FAnglecock1.jpg",
   },
   {
     id: 4,
-    name: "SHOWER ROD",
-    price: 4500,
+    name: "EXTENSION NIPPLE",
+    price: 0,
     inStock: true,
-    size: 36, // in inches
-    image: "/Chamber.png",
+    size: "2-1/2",
+    image: "FSinkcock2.jpg",
   },
   {
     id: 5,
-    name: "CP FLANCH",
-    price: 4500,
+    name: "EXTENSION NIPPLE",
+    price: 0,
     inStock: true,
-    size: 36, // in inches
-    image: "/Chamber.png",
+    size: "3",
+    image: "FSwancock1.jpg",
   },
   {
     id: 6,
-    name: "HEALTH FAUCET",
-    price: 4500,
+    name: "EXTENSION NIPPLE",
+    price: 0,
     inStock: true,
-    size: 36, // in inches
-    image: "/Chamber.png",
+    size: "4",
+    image: "FTwowaybibcock1.jpg",
   },
   {
     id: 7,
-    name: "TEFLON TAPE",
-    price: 4500,
+    name: "EXTENSION NIPPLE",
+    price: 0,
     inStock: true,
-    size: 36, // in inches
-    image: "/Chamber.png",
+    size: "6",
+    image: "FTwowayanglcock.jpg",
   },
   {
     id: 8,
-    name: "ANGLE COCK",
-    price: 4500,
+    name: "HEX NIPPLESS",
+    price: 0,
     inStock: true,
-    size: 36, // in inches
-    image: "/Chamber.png",
-  },
-  {
-    id: 9,
-    name: "SPENDLE DISC",
-    price: 4500,
-    inStock: true,
-    size: 36, // in inches
-    image: "/Chamber.png",
-  },
-  
+    size: "1/2",
+    image: "FLongsinkcock.PNG",
+  }
 ];
+
 
 const Ghotu = () => {
   const [showSort, setShowSort] = useState(false);
@@ -168,7 +141,7 @@ const Ghotu = () => {
           onClick={() => setShowSort(!showSort)}
         >
           <h3 className="text-2xl  font-semibold text-[#1a1f2c]">
-           CP FITTINGS & MORE
+           RADO MODEL
           </h3>
           <ChevronDown className="w-6 h-6 text-[#1a1f2c]" />
         </div>
