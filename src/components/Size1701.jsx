@@ -135,7 +135,7 @@ const Ghotu = () => {
           onClick={() => setShowSort(!showSort)}
         >
           <h3 className="text-2xl  font-semibold text-[#1a1f2c]">
-            SS CONNECTION
+            BALL VALVE
           </h3>
           <ChevronDown className="w-6 h-6 text-[#1a1f2c]" />
         </div>

@@ -4,9 +4,7 @@ import { ChevronDown } from "lucide-react";
 import { Link } from "react-router-dom";
 
 const categories = [
-  { image: "UPVCBALLVALVE1.jpg", label: "BALL VALVE", route: "/Size1701" },
-   { image: "THREADBALL.jpg", label: "THREAD BALL VALVE", route: "/Size1702" },
-    { image: "THREEWAYBALL.jpg", label: "THREE WAY BALL VALVE", route: "/Size1703" },
+  { image: "HEAVYCPVCBALL.jpg", label: "HEAVY BALL VALVE", route: "/Size1711" },
   
 ];
 
@@ -17,7 +15,7 @@ const products = [
     price: 0,
     inStock: true,
     size: "1/2",
-    image: "UPVCBALLVALVE1.jpg",
+    image: "HEAVYCPVCBALL.jpg",
   },
   {
     id: 2,
@@ -25,7 +23,7 @@ const products = [
     price: 0,
     inStock: true,
     size: "3/4",
-    image: "UPVCBALLVALVE1.jpg",
+    image: "HEAVYCPVCBALL.jpg",
   },
   {
     id: 3,
@@ -33,7 +31,7 @@ const products = [
     price: 0,
     inStock: true,
     size: "1",
-    image: "UPVCBALLVALVE1.jpg",
+    image: "HEAVYCPVCBALL.jpg",
   },
   {
     id: 4,
@@ -41,7 +39,7 @@ const products = [
     price: 0,
     inStock: true,
     size: "1-1/4",
-    image: "UPVCBALLVALVE1.jpg",
+    image: "HEAVYCPVCBALL.jpg",
   },
   {
     id: 5,
@@ -49,7 +47,7 @@ const products = [
     price: 0,
     inStock: true,
     size: "1-1/2",
-    image: "UPVCBALLVALVE1.jpg",
+    image: "HEAVYCPVCBALL.jpg",
   },
   {
     id: 6,
@@ -57,7 +55,7 @@ const products = [
     price: 0,
     inStock: true,
     size: "2",
-    image: "UPVCBALLVALVE1.jpg",
+    image: "HEAVYCPVCBALL.jpg",
   },
 
 ];

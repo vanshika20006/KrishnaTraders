@@ -133,7 +133,6 @@ import Sizes183 from "./pages/Sizes183";
 import Sizes184 from "./pages/Sizes184";
 import Sizes185 from "./pages/Sizes185";
 
-
 import Product11 from "./pages/Product11.jsx";
 import Product12 from "./pages/Product12.jsx";
 import Product13 from "./pages/Product13.jsx";
@@ -352,6 +351,23 @@ import Product121 from "./pages/Product121.jsx";
 import Product122 from "./pages/Product122.jsx";
 import Product123 from "./pages/Product123.jsx";
 
+import Product17011 from "./pages/Product17011.jsx";
+import Product17012 from "./pages/Product17012.jsx";
+import Product17013 from "./pages/Product17013.jsx";
+import Product17014 from "./pages/Product17014.jsx";
+import Product17015 from "./pages/Product17015.jsx";
+import Product17016 from "./pages/Product17016.jsx";
+import Product17021 from "./pages/Product17021.jsx";
+import Product17022 from "./pages/Product17022.jsx";
+import Product17031 from "./pages/Product17031.jsx";
+import Product17111 from "./pages/Product17111.jsx";
+import Product17112 from "./pages/Product17112.jsx";
+import Product17113 from "./pages/Product17113.jsx";
+import Product17114 from "./pages/Product17114.jsx";
+import Product17115 from "./pages/Product17115.jsx";
+import Product17116 from "./pages/Product17116.jsx";
+
+
 import Product181 from "./pages/Product181.jsx";
 import Product182 from "./pages/Product182.jsx";
 import Product183 from "./pages/Product183.jsx";
@@ -390,8 +406,6 @@ import Product1842 from "./pages/Product1842.jsx";
 import Product1843 from "./pages/Product1843.jsx";
 import Product1844 from "./pages/Product1844.jsx";
 import Product1845 from "./pages/Product1845.jsx";
-
-
 
 function App() {
   return (
@@ -447,7 +461,7 @@ function App() {
         <Route path="/varients121" element={<VarientPage121 />} />
         <Route path="/varients171" element={<VarientPage171 />} />
         <Route path="/varients172" element={<VarientPage172 />} />
-        
+
         <Route path="/size1" element={<Sizes11 />} />
         <Route path="/size2" element={<Sizes12 />} />
         <Route path="/size21" element={<Sizes21 />} />
@@ -490,13 +504,11 @@ function App() {
         <Route path="/size901" element={<Sizes901 />} />
         <Route path="/size911" element={<Sizes911 />} />
 
-        
         <Route path="/size1701" element={<Sizes1701 />} />
         <Route path="/size1702" element={<Sizes1702 />} />
         <Route path="/size1703" element={<Sizes1703 />} />
 
         <Route path="/size1711" element={<Sizes1711 />} />
-
 
         <Route path="/size181" element={<Sizes181 />} />
         <Route path="/size182" element={<Sizes182 />} />
@@ -710,6 +722,23 @@ function App() {
         <Route path="/product122" element={<Product122 />} />
         <Route path="/product123" element={<Product123 />} />
 
+        <Route path="/product17011" element={<Product17011 />} />
+        <Route path="/product17012" element={<Product17012 />} />
+        <Route path="/product17013" element={<Product17013 />} />
+        <Route path="/product17014" element={<Product17014 />} />
+        <Route path="/product17015" element={<Product17015 />} />
+        <Route path="/product17016" element={<Product17016 />} />
+        <Route path="/product17021" element={<Product17021 />} />
+        <Route path="/product17022" element={<Product17022 />} />
+        <Route path="/product17031" element={<Product17031 />} />
+        <Route path="/product17111" element={<Product17111 />} />
+<Route path="/product17112" element={<Product17112 />} />
+<Route path="/product17113" element={<Product17113 />} />
+<Route path="/product17114" element={<Product17114 />} />
+<Route path="/product17115" element={<Product17115 />} />
+<Route path="/product17116" element={<Product17116 />} />
+
+
         <Route path="/product181" element={<Product181 />} />
         <Route path="/product182" element={<Product182 />} />
         <Route path="/product183" element={<Product183 />} />
@@ -718,40 +747,37 @@ function App() {
         <Route path="/product186" element={<Product186 />} />
         <Route path="/product187" element={<Product187 />} />
         <Route path="/product1811" element={<Product1811 />} />
-<Route path="/product1812" element={<Product1812 />} />
-<Route path="/product1813" element={<Product1813 />} />
-<Route path="/product1814" element={<Product1814 />} />
-<Route path="/product1815" element={<Product1815 />} />
-<Route path="/product1816" element={<Product1816 />} />
-<Route path="/product1817" element={<Product1817 />} />
-<Route path="/product1818" element={<Product1818 />} />
-<Route path="/product1819" element={<Product1819 />} />
-<Route path="/product18110" element={<Product18110 />} />
-<Route path="/product18111" element={<Product18111 />} />
+        <Route path="/product1812" element={<Product1812 />} />
+        <Route path="/product1813" element={<Product1813 />} />
+        <Route path="/product1814" element={<Product1814 />} />
+        <Route path="/product1815" element={<Product1815 />} />
+        <Route path="/product1816" element={<Product1816 />} />
+        <Route path="/product1817" element={<Product1817 />} />
+        <Route path="/product1818" element={<Product1818 />} />
+        <Route path="/product1819" element={<Product1819 />} />
+        <Route path="/product18110" element={<Product18110 />} />
+        <Route path="/product18111" element={<Product18111 />} />
 
-<Route path="/product1821" element={<Product1821 />} />
-<Route path="/product1822" element={<Product1822 />} />
-<Route path="/product1823" element={<Product1823 />} />
-<Route path="/product1824" element={<Product1824 />} />
-<Route path="/product1825" element={<Product1825 />} />
-<Route path="/product1826" element={<Product1826 />} />
-<Route path="/product1827" element={<Product1827 />} />
-<Route path="/product1828" element={<Product1828 />} />
-<Route path="/product1829" element={<Product1829 />} />
-<Route path="/product1831" element={<Product1831 />} />
-<Route path="/product1832" element={<Product1832 />} />
-<Route path="/product1833" element={<Product1833 />} />
-<Route path="/product1834" element={<Product1834 />} />
-<Route path="/product1835" element={<Product1835 />} />
-<Route path="/product1836" element={<Product1836 />} />
-<Route path="/product1841" element={<Product1841 />} />
-<Route path="/product1842" element={<Product1842 />} />
-<Route path="/product1843" element={<Product1843 />} />
-<Route path="/product1844" element={<Product1844 />} />
-<Route path="/product1845" element={<Product1845 />} />
-
-
-
+        <Route path="/product1821" element={<Product1821 />} />
+        <Route path="/product1822" element={<Product1822 />} />
+        <Route path="/product1823" element={<Product1823 />} />
+        <Route path="/product1824" element={<Product1824 />} />
+        <Route path="/product1825" element={<Product1825 />} />
+        <Route path="/product1826" element={<Product1826 />} />
+        <Route path="/product1827" element={<Product1827 />} />
+        <Route path="/product1828" element={<Product1828 />} />
+        <Route path="/product1829" element={<Product1829 />} />
+        <Route path="/product1831" element={<Product1831 />} />
+        <Route path="/product1832" element={<Product1832 />} />
+        <Route path="/product1833" element={<Product1833 />} />
+        <Route path="/product1834" element={<Product1834 />} />
+        <Route path="/product1835" element={<Product1835 />} />
+        <Route path="/product1836" element={<Product1836 />} />
+        <Route path="/product1841" element={<Product1841 />} />
+        <Route path="/product1842" element={<Product1842 />} />
+        <Route path="/product1843" element={<Product1843 />} />
+        <Route path="/product1844" element={<Product1844 />} />
+        <Route path="/product1845" element={<Product1845 />} />
       </Routes>
     </Router>
   );
