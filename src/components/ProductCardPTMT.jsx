@@ -4,7 +4,7 @@ const ProductCard = ({ id, name, price, discountedPrice, image, inStock, size })
   const navigate = useNavigate();
 
   const handleClick = () => {
-    navigate(`/size90${id}`);
+    navigate(`/size30${id}`);
   };
 
   return (
