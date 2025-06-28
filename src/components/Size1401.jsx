@@ -1,27 +1,32 @@
 import React, { useState } from "react";
-import ProductCard from "./PC213";
+import ProductCard from "./PC1401";
 import { ChevronDown } from "lucide-react";
 import { Link } from "react-router-dom";
 
 const categories = [
+  { image: "CPVCF.jpg", label: "CPVC PIPE", route: "/Size1401" },
   
-  { image: "drainboardf.jpg", label: "DRAIN BOARD", route: "/Sizeq3" },
-  { image: "DOUBLEBOWL1F.jpg", label: "DOUBLE BOWL", route: "/Sizeq2" },
-  { image: "QUARTZ_WHITE.PNG", label: "QUARDS SINK", route: "/Sizeq1" },
 ];
 
 const products = [
- {
-  id: 1,
-  name: "ALL COLOUR",
-  price: 4500,
-  inStock: true,
-  size: "37X18",
-  image: "/drainboardf.jpg",
-}
+  {
+    id: 1,
+    name: "CPVC PIPE",
+    price: 0,
+    inStock: true,
+    size: "3/4",
+    image: "CPVCF.jpg",
+  },
+  {
+    id: 2,
+    name: "CPVC PIPE",
+    price: 0,
+    inStock: true,
+    size: "1",
+    image: "CPVCF.jpg",
+  }
+
 ];
-
-
 
 const Ghotu = () => {
   const [showSort, setShowSort] = useState(false);
@@ -40,14 +45,20 @@ const Ghotu = () => {
 
   return (
     <div className="flex gap-x-6 w-full h-screen bg-[#f9f9e6] overflow-hidden px-6">
-      
       {/* Left Sidebar Scrollable Categories */}
       <div className="w-72 mt-35 p-4 bg-[#F8F8E1] border-r border-black overflow-y-auto max-h-screen">
         {categories.map((cat, i) => (
-          <Link to={cat.route} key={i} onClick={() => setSelectedIndex(i)} style={{ textDecoration: "none" }}>
+          <Link
+            to={cat.route}
+            key={i}
+            onClick={() => setSelectedIndex(i)}
+            style={{ textDecoration: "none" }}
+          >
             <div
               className={`w-full max-w-[220px] p-4 rounded-2xl shadow-md mb-6 ${
-                i === selectedIndex ? "bg-[#0A2A4D] text-white" : "bg-white text-black"
+                i === selectedIndex
+                  ? "bg-[#0A2A4D] text-white"
+                  : "bg-white text-black"
               } flex flex-col items-center mx-auto`}
             >
               <img
@@ -55,7 +66,9 @@ const Ghotu = () => {
                 alt={cat.label}
                 className="w-full h-28 object-cover rounded-md mb-2"
               />
-              <h6 className="font-semibold text-sm text-center mb-1">{cat.label}</h6>
+              <h6 className="font-semibold text-sm text-center mb-1">
+                {cat.label}
+              </h6>
               <p className="text-green-400 text-sm">In Stock</p>
             </div>
           </Link>
@@ -64,7 +77,6 @@ const Ghotu = () => {
 
       {/* Main Right Side Product Area */}
       <div className="flex-1 px-8 pt-15 pb-12">
-        
         {/* Discount Box */}
         <div className="ml-231 flex w-[215px] h-[50px] rounded-2xl overflow-hidden border-4 border-[#1b3554] mb-4">
           <div className="flex-1 bg-[#f7933e] text-white flex items-center justify-center text-2xl font-bold">
@@ -89,22 +101,22 @@ const Ghotu = () => {
           onClick={() => setShowSort(!showSort)}
         >
           <h3 className="text-2xl  font-semibold text-[#1a1f2c]">
-           DRAIN BOARD
+           CPVC PIPE
           </h3>
           <ChevronDown className="w-6 h-6 text-[#1a1f2c]" />
         </div>
 
         {showSort && (
           <div className="absolute top-32 left-4 bg-white rounded shadow w-52 border z-10 text-sm">
-            {['low', 'high', 'newest'].map((type) => (
+            {["low", "high", "newest"].map((type) => (
               <button
                 key={type}
                 onClick={() => sortBy(type)}
                 className="w-full text-left px-4 py-2 hover:bg-gray-100 capitalize"
               >
-                {type === 'low' && 'Price: Low to High'}
-                {type === 'high' && 'Price: High to Low'}
-                {type === 'newest' && 'Newest First'}
+                {type === "low" && "Price: Low to High"}
+                {type === "high" && "Price: High to Low"}
+                {type === "newest" && "Newest First"}
               </button>
             ))}
           </div>
@@ -118,16 +130,15 @@ const Ghotu = () => {
                 const discountedPrice = p.price - (p.price * discount) / 100;
                 return (
                   <ProductCard
-  key={p.id}
-  id={p.id}
-  name={p.name}
-  price={p.price}
-  image={p.image}
-  inStock={p.inStock}
-  size={`${p.size || ""}"`}
-  discountPercentage={discount}
-/>
-
+                    key={p.id}
+                    id={p.id}
+                    name={p.name}
+                    price={p.price}
+                    image={p.image}
+                    inStock={p.inStock}
+                    size={`${p.size || ""}"`}
+                    discountPercentage={discount}
+                  />
                 );
               })}
             </div>

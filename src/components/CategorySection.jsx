@@ -41,7 +41,7 @@ const categories = [
       { image: "sumolex.jpg", label: "Sumolex Pipe & Fittings", route: "/pdf" },
       { image: "sumolex.jpg", label: "Sumolex PTMT Taps", route: "/pdf" },
       { image: "UPVCPIPE.png", label: "UPVC Pipe", route: "/categories13" },
-      { image: "CPVCPIPE.png", label: "CPVC Pipe", route: "/categories4" },
+      { image: "CPVCPIPE.png", label: "CPVC Pipe", route: "/categories14" },
       {
         image: "UPVCFITTING.png",
         label: "UPVC Fittings",

@@ -122,6 +122,7 @@ import Sizes804 from "./pages/Sizes804";
 import Sizes805 from "./pages/Sizes805";
 
 import Sizes1301 from "./pages/Sizes1301";
+import Sizes1401 from "./pages/Sizes1401";
 
 import Sizes1701 from "./pages/Sizes1701";
 import Sizes1702 from "./pages/Sizes1702";
@@ -357,6 +358,8 @@ import Product13011 from "./pages/Product13011.jsx";
 import Product13012 from "./pages/Product13012.jsx";
 import Product13013 from "./pages/Product13013.jsx";
 
+import Product14011 from "./pages/Product14011.jsx";
+import Product14012 from "./pages/Product14012.jsx";
 
 import Product17011 from "./pages/Product17011.jsx";
 import Product17012 from "./pages/Product17012.jsx";
@@ -513,6 +516,7 @@ function App() {
 
         
         <Route path="/size1301" element={<Sizes1301 />} />
+        <Route path="/size1401" element={<Sizes1401 />} />
 
         <Route path="/size1701" element={<Sizes1701 />} />
         <Route path="/size1702" element={<Sizes1702 />} />
@@ -736,6 +740,8 @@ function App() {
 <Route path="/product13012" element={<Product13012 />} />
 <Route path="/product13013" element={<Product13013 />} />
 
+<Route path="/product14011" element={<Product14011 />} />
+<Route path="/product14012" element={<Product14012 />} />
 
         <Route path="/product17011" element={<Product17011 />} />
         <Route path="/product17012" element={<Product17012 />} />

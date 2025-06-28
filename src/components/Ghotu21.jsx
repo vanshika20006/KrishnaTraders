@@ -24,8 +24,8 @@ const products = [
 
 const categories = [
   
-  { image: "SSfm1.PNG", label: "STEEL SINK", route: "/varients12" },
-  { image: "HANDMADE_SINK_1.PNG", label: "QUARDS SINK", route: "/varients11" }
+  { image: "SSfm1.PNG", label: "STEEL SINK", route: "/varients21" },
+  { image: "HANDMADE_SINK_1.PNG", label: "QUARDS SINK", route: "/varients22" }
   
 ];
 
