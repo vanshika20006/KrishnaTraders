@@ -15,7 +15,7 @@ const products = [
     name: "EXTENSION NIPPLE",
     price: 0,
     inStock: true,
-    size: "1",
+    size: '1',
     image: "FShortbody1.PNG",
   },
   {
@@ -23,7 +23,7 @@ const products = [
     name: "EXTENSION NIPPLE",
     price: 0,
     inStock: true,
-    size: "1-1/2",
+    size: '1.1/2',
     image: "FLongbody1.jpg",
   },
   {
@@ -31,7 +31,7 @@ const products = [
     name: "EXTENSION NIPPLE",
     price: 0,
     inStock: true,
-    size: "2",
+    size: '2',
     image: "FAnglecock1.jpg",
   },
   {
@@ -39,7 +39,7 @@ const products = [
     name: "EXTENSION NIPPLE",
     price: 0,
     inStock: true,
-    size: "2-1/2",
+    size: '2.1/2',
     image: "FSinkcock2.jpg",
   },
   {
@@ -47,7 +47,7 @@ const products = [
     name: "EXTENSION NIPPLE",
     price: 0,
     inStock: true,
-    size: "3",
+    size: '3',
     image: "FSwancock1.jpg",
   },
   {
@@ -55,7 +55,7 @@ const products = [
     name: "EXTENSION NIPPLE",
     price: 0,
     inStock: true,
-    size: "4",
+    size: '4',
     image: "FTwowaybibcock1.jpg",
   },
   {
@@ -63,18 +63,20 @@ const products = [
     name: "EXTENSION NIPPLE",
     price: 0,
     inStock: true,
-    size: "6",
+    size: '6',
     image: "FTwowayanglcock.jpg",
   },
   {
     id: 8,
-    name: "HEX NIPPLESS",
+    name: "HEX NIPPLE SS",
     price: 0,
     inStock: true,
-    size: "1/2",
+    size: '1/2',
     image: "FLongsinkcock.PNG",
   }
 ];
+
+
 
 
 const Ghotu = () => {

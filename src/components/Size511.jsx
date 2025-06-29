@@ -12,69 +12,46 @@ const categories = [
 const products = [
   {
     id: 1,
-    name: "EXTENSION NIPPLE",
+    name: "SHOWER",
     price: 0,
     inStock: true,
-    size: "1",
+    size: "4",
     image: "FShortbody1.PNG",
   },
   {
     id: 2,
-    name: "EXTENSION NIPPLE",
+    name: "SHOWER",
     price: 0,
     inStock: true,
-    size: "1-1/2",
+    size: "6",
     image: "FLongbody1.jpg",
   },
   {
     id: 3,
-    name: "EXTENSION NIPPLE",
+    name: "SHOWER",
     price: 0,
     inStock: true,
-    size: "2",
+    size: "8",
     image: "FAnglecock1.jpg",
   },
   {
     id: 4,
-    name: "EXTENSION NIPPLE",
+    name: "SHOWER",
     price: 0,
     inStock: true,
-    size: "2-1/2",
+    size: "10",
     image: "FSinkcock2.jpg",
   },
   {
     id: 5,
-    name: "EXTENSION NIPPLE",
+    name: "SHOWER",
     price: 0,
     inStock: true,
-    size: "3",
+    size: "12",
     image: "FSwancock1.jpg",
-  },
-  {
-    id: 6,
-    name: "EXTENSION NIPPLE",
-    price: 0,
-    inStock: true,
-    size: "4",
-    image: "FTwowaybibcock1.jpg",
-  },
-  {
-    id: 7,
-    name: "EXTENSION NIPPLE",
-    price: 0,
-    inStock: true,
-    size: "6",
-    image: "FTwowayanglcock.jpg",
-  },
-  {
-    id: 8,
-    name: "HEX NIPPLESS",
-    price: 0,
-    inStock: true,
-    size: "1/2",
-    image: "FLongsinkcock.PNG",
   }
 ];
+
 
 
 const Ghotu = () => {
