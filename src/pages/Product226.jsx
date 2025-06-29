@@ -13,8 +13,8 @@ const Productcardfinal = () => {
   } = location.state || {};
 
   const defaultImages = [
-    { url: "DOUBLE_BOWL_2.PNG" },
-    { url: "DOUBLE_BOWL_1.PNG" },
+    { url: "QUARTZ_PEACH_IVORY.PNG" },
+    { url: "QUARTZ_PEACH_IVORY.PNG" },
     
     
   ];
