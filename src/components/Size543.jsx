@@ -14,7 +14,7 @@ const products = [
     price: 0,
     inStock: true,
     size: "1",
-    image: "FShortbody1.PNG",
+    image: "PTMTGUN1MTR.jpg",
   },
   {
     id: 2,
@@ -22,7 +22,7 @@ const products = [
     price: 0,
     inStock: true,
     size: "1",
-    image: "FShortbody1.PNG",
+    image: "PTMTGUN1MTRhy.jpg",
   }
 ];
 

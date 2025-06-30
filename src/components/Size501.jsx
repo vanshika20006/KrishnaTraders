@@ -16,7 +16,7 @@ const products = [
     price: 0,
     inStock: true,
     size: '1',
-    image: "FShortbody1.PNG",
+    image: "ENIPPLE1.jpg",
   },
   {
     id: 2,
@@ -24,7 +24,7 @@ const products = [
     price: 0,
     inStock: true,
     size: '1.1/2',
-    image: "FLongbody1.jpg",
+    image: "ENIPPLE11.jpg",
   },
   {
     id: 3,
@@ -32,7 +32,7 @@ const products = [
     price: 0,
     inStock: true,
     size: '2',
-    image: "FAnglecock1.jpg",
+    image: "ENIPPLE2.jpg",
   },
   {
     id: 4,
@@ -40,7 +40,7 @@ const products = [
     price: 0,
     inStock: true,
     size: '2.1/2',
-    image: "FSinkcock2.jpg",
+    image: "ENIPPLE3.jpg",
   },
   {
     id: 5,
@@ -48,7 +48,7 @@ const products = [
     price: 0,
     inStock: true,
     size: '3',
-    image: "FSwancock1.jpg",
+    image: "ENIPPLE5.jpg",
   },
   {
     id: 6,
@@ -56,7 +56,7 @@ const products = [
     price: 0,
     inStock: true,
     size: '4',
-    image: "FTwowaybibcock1.jpg",
+    image: "ENIPPLE6.jpg",
   },
   {
     id: 7,
@@ -64,7 +64,7 @@ const products = [
     price: 0,
     inStock: true,
     size: '6',
-    image: "FTwowayanglcock.jpg",
+    image: "ENIPPLE7.jpg",
   },
   {
     id: 8,
@@ -72,7 +72,7 @@ const products = [
     price: 0,
     inStock: true,
     size: '1/2',
-    image: "FLongsinkcock.PNG",
+    image: "ENIPPLE8.jpg",
   }
 ];
 

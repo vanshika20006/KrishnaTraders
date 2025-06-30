@@ -23,7 +23,7 @@ const products = [
     price: 4500,
     inStock: true,
     size: 36, // in inches
-    image: "/Short-body-BREZZA.jpg",
+    image: "/pvccp.jpg",
   },
   {
     id: 2,
@@ -31,7 +31,7 @@ const products = [
     price: 4500,
     inStock: true,
     size: 36, // in inches
-    image: "/Short-body-BREZZA.jpg",
+    image: "/mhindra1.jpg",
   },
   {
     id: 3,
@@ -39,7 +39,7 @@ const products = [
     price: 4500,
     inStock: true,
     size: 36, // in inches
-    image: "/Short-body-BREZZA.jpg",
+    image: "/PTMTGUN1MTRhy2.jpg",
   }
 
 

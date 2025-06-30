@@ -14,7 +14,7 @@ const products = [
     price: 0,
     inStock: true,
     size: "9",
-    image: "Medium9.jpg",
+    image: "medium9.jpg",
   },
   {
     id: 2,

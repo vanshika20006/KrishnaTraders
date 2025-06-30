@@ -17,7 +17,7 @@ const ProductCard = ({ id, name, price, discountedPrice, image, inStock, size })
         <img
           src={image}
           alt={name}
-          className="w-full h-full object-content"
+          className="w-full h-full object-cover"
         />
       </div>
 

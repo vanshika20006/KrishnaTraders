@@ -25,7 +25,7 @@ const products = [
     price: 4500,
     inStock: true,
     size: 36, // in inches
-    image: "/Short-body-BREZZA.jpg",
+    image: "/normal3.jpg",
   },
   {
     id: 2,
@@ -33,7 +33,7 @@ const products = [
     price: 4500,
     inStock: true,
     size: 36, // in inches
-    image: "/Short-body-BREZZA.jpg",
+    image: "/normal4.jpg",
   },
   {
     id: 3,
@@ -41,7 +41,7 @@ const products = [
     price: 4500,
     inStock: true,
     size: 36, // in inches
-    image: "/Short-body-BREZZA.jpg",
+    image: "/normal5.jpg",
   },
   {
     id: 4,
@@ -49,7 +49,7 @@ const products = [
     price: 4500,
     inStock: true,
     size: 36, // in inches
-    image: "/Short-body-BREZZA.jpg",
+    image: "/lockingjali5.jpg",
   }
 ,
 {
@@ -58,7 +58,7 @@ const products = [
     price: 4500,
     inStock: true,
     size: 36, // in inches
-    image: "/Short-body-BREZZA.jpg",
+    image: "/holejali5.jpg",
   },
   {
     id: 6,
@@ -66,7 +66,7 @@ const products = [
     price: 4500,
     inStock: true,
     size: 36, // in inches
-    image: "/Short-body-BREZZA.jpg",
+    image: "/lockinhhole5.jpg",
   },
   {
     id: 7,
@@ -74,7 +74,7 @@ const products = [
     price: 4500,
     inStock: true,
     size: 36, // in inches
-    image: "/Short-body-BREZZA.jpg",
+    image: "/kabjajali.jpg",
   },
   {
     id: 8,
@@ -82,7 +82,7 @@ const products = [
     price: 4500,
     inStock: true,
     size: 36, // in inches
-    image: "/Short-body-BREZZA.jpg",
+    image: "/cockroachjali.jpg",
   }
 
 

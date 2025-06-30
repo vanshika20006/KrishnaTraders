@@ -15,8 +15,8 @@ const Productcardfinal = () => {
   } = location.state || {};
 
   const defaultImages = [
-  { url: "FShortbody1.PNG" },
-  { url: "FShortbody1.PNG" }
+  { url: "ENIPPLE1.jpg" },
+  { url: "ENIPPLE1.jpg" }
 ];
 
   const imagesToShow = imageList || defaultImages;

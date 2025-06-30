@@ -19,7 +19,7 @@ const categories = [
 const products = [
  {
     id: 1,
-    name: "SQUARE",
+    name: "ROUND",
     price: 4500,
     inStock: true,
     size: 36, // in inches
@@ -27,7 +27,7 @@ const products = [
   },
   {
     id: 2,
-    name: "SQUARE",
+    name: "ROUND",
     price: 4500,
     inStock: true,
     size: 36, // in inches
@@ -35,14 +35,6 @@ const products = [
   },
   {
     id: 3,
-    name: "ROUND",
-    price: 4500,
-    inStock: true,
-    size: 36, // in inches
-    image: "/Short-body-BREZZA.jpg",
-  },
-   {
-    id: 4,
     name: "ROUND",
     price: 4500,
     inStock: true,

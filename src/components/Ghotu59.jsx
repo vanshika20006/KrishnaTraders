@@ -25,7 +25,7 @@ const products = [
     price: 4500,
     inStock: true,
     size: 36, // in inches
-    image: "/Chamber.png",
+    image: "/CPF9.jpg",
   },
    {
     id: 2,
@@ -33,7 +33,7 @@ const products = [
     price: 4500,
     inStock: true,
     size: 36, // in inches
-    image: "/Chamber.png",
+    image: "/CPF9.jpg",
   },
    {
     id: 3,
@@ -41,7 +41,7 @@ const products = [
     price: 4500,
     inStock: true,
     size: 36, // in inches
-    image: "/Chamber.png",
+    image: "/CPF9.jpg",
   },
    {
     id: 4,
@@ -49,7 +49,7 @@ const products = [
     price: 4500,
     inStock: true,
     size: 36, // in inches
-    image: "/Chamber.png",
+    image: "/CPF9.jpg",
   },
    {
     id: 5,
@@ -57,7 +57,7 @@ const products = [
     price: 4500,
     inStock: true,
     size: 36, // in inches
-    image: "/Chamber.png",
+    image: "/CPF9.jpg",
   },
    {
     id: 6,
@@ -65,7 +65,7 @@ const products = [
     price: 4500,
     inStock: true,
     size: 36, // in inches
-    image: "/Chamber.png",
+    image: "/spendle.jpg",
   }
 ];
 

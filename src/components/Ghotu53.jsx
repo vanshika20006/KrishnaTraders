@@ -23,7 +23,7 @@ const products = [
     price: 4500,
     inStock: true,
     size: 36, // in inches
-    image: "/Short-body-BREZZA.jpg",
+    image: "/medium9.jpg",
   }
 
 ];

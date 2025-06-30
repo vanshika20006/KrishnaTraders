@@ -19,35 +19,35 @@ const categories = [
 const products = [
  {
     id: 1,
-    name: "SMALL",
+    name: "SMALL 8MTR.",
     price: 4500,
     inStock: true,
-    size: 36, // in inches
-    image: "/Short-body-BREZZA.jpg",
+    size: "1/2", // in inches
+    image: "/teflonsm.jpg",
   },
   {
     id: 2,
-    name: "LARGE",
+    name: "LARGE 12MTR.",
     price: 4500,
     inStock: true,
-    size: 36, // in inches
-    image: "/Short-body-BREZZA.jpg",
+    size: "1/2", // in inches
+    image: "/teflonlr.jpg",
   },
   {
     id: 3,
-    name: "LARGE",
+    name: "LARGE 12MTR.",
     price: 4500,
     inStock: true,
-    size: 36, // in inches
-    image: "/Short-body-BREZZA.jpg",
+    size: "3/4", // in inches
+    image: "/teflonlr.jpg",
   },
   {
     id: 4,
-    name: "LARGE",
+    name: "LARGE 12MTR.",
     price: 4500,
     inStock: true,
-    size: 36, // in inches
-    image: "/Short-body-BREZZA.jpg",
+    size: "1", // in inches
+    image: "/teflonlr.jpg",
   }
 
 ];

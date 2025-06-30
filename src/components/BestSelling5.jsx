@@ -33,7 +33,7 @@ const products = [
     price: 4500,
     inStock: true,
     size: 36, // in inches
-    image: "/Chamber.png",
+    image: "/CPF1.jpg",
   },
   {
     id: 2,
@@ -41,7 +41,7 @@ const products = [
     price: 4500,
     inStock: true,
     size: 36, // in inches
-    image: "/Chamber.png",
+    image: "/CPF2.jpg",
   },
   {
     id: 3,
@@ -49,7 +49,7 @@ const products = [
     price: 4500,
     inStock: true,
     size: 36, // in inches
-    image: "/Chamber.png",
+    image: "/CPF3.jpg",
   },
   {
     id: 4,
@@ -57,7 +57,7 @@ const products = [
     price: 4500,
     inStock: true,
     size: 36, // in inches
-    image: "/Chamber.png",
+    image: "/CPF4.jpg",
   },
   
   {
@@ -66,7 +66,7 @@ const products = [
     price: 4500,
     inStock: true,
     size: 36, // in inches
-    image: "/Chamber.png",
+    image: "/CPF5.jpg",
   },
   {
     id: 6,
@@ -74,7 +74,7 @@ const products = [
     price: 4500,
     inStock: true,
     size: 36, // in inches
-    image: "/Chamber.png",
+    image: "/CPF6.jpg",
   },
   {
     id: 7,
@@ -82,7 +82,7 @@ const products = [
     price: 4500,
     inStock: true,
     size: 36, // in inches
-    image: "/Chamber.png",
+    image: "/CPF7.jpg",
   },
   {
     id: 8,
@@ -90,7 +90,7 @@ const products = [
     price: 4500,
     inStock: true,
     size: 36, // in inches
-    image: "/Chamber.png",
+    image: "/CPF8.jpg",
   },
   {
     id: 9,
@@ -98,7 +98,7 @@ const products = [
     price: 4500,
     inStock: true,
     size: 36, // in inches
-    image: "/Chamber.png",
+    image: "/CPF9.jpg",
   },
   
 ];

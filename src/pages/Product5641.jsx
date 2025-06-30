@@ -15,9 +15,8 @@ const Productcardfinal = () => {
   } = location.state || {};
 
   const defaultImages = [
-    { url: "Mixer-with-bend-JERRY-1st.jpg" },
-    { url: "Mixer-with-bend-JERRY-2nd.jpg" },
-    { url: "JERRY-MODEL-every-product-me-2nd-ya-3rd.jpg" },
+    { url: "lockingjali5.jpg" },
+    { url: "lockingjali5.jpg" }
   ];
 
   const imagesToShow = imageList || defaultImages;
