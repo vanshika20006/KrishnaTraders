@@ -22,7 +22,7 @@ const products = [
     name: "ROUND",
     price: 4500,
     inStock: true,
-    size: 36, // in inches
+    size: "Medium", // in inches
     image: "/Short-body-BREZZA.jpg",
   },
   {
@@ -30,7 +30,7 @@ const products = [
     name: "ROUND",
     price: 4500,
     inStock: true,
-    size: 36, // in inches
+    size: "Small", // in inches
     image: "/Short-body-BREZZA.jpg",
   },
   {
@@ -38,7 +38,7 @@ const products = [
     name: "ROUND",
     price: 4500,
     inStock: true,
-    size: 36, // in inches
+    size: "Heavy", // in inches
     image: "/Short-body-BREZZA.jpg",
   }
 

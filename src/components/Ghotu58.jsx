@@ -25,7 +25,7 @@ const products = [
     price: 4500,
     inStock: true,
     size: 36, // in inches
-    image: "/Chamber.png",
+    image: "/CPF8.jpg",
   },
   {
     id: 2,

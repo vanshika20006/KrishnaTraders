@@ -23,7 +23,7 @@ const products = [
     price: 4500,
     inStock: true,
     size: 36, // in inches
-    image: "/Short-body-BREZZA.jpg",
+    image: "/SANDWICH6.jpg",
   },
   {
     id: 2,
@@ -31,7 +31,7 @@ const products = [
     price: 4500,
     inStock: true,
     size: 36, // in inches
-    image: "/Short-body-BREZZA.jpg",
+    image: "/curve10.jpg",
   },
   {
     id: 3,
@@ -39,7 +39,7 @@ const products = [
     price: 4500,
     inStock: true,
     size: 36, // in inches
-    image: "/Short-body-BREZZA.jpg",
+    image: "/absshower3.jpg",
   },
   {
     id: 4,
@@ -47,7 +47,7 @@ const products = [
     price: 4500,
     inStock: true,
     size: 36, // in inches
-    image: "/Short-body-BREZZA.jpg",
+    image: "/ptmtshoower4.jpg",
   }
 
 ];

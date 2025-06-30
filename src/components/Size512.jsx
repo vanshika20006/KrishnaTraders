@@ -16,7 +16,7 @@ const products = [
     price: 0,
     inStock: true,
     size: "4",
-    image: "Curve4.jpg",
+    image: "curve4.jpg",
   },
   {
     id: 2,
@@ -24,7 +24,7 @@ const products = [
     price: 0,
     inStock: true,
     size: "6",
-    image: "Curve6.jpg",
+    image: "curve6.jpg",
   },
   {
     id: 3,
@@ -32,7 +32,7 @@ const products = [
     price: 0,
     inStock: true,
     size: "8",
-    image: "Curve8.jpg",
+    image: "curve8.jpg",
   },
   {
     id: 4,
@@ -40,7 +40,7 @@ const products = [
     price: 0,
     inStock: true,
     size: "10",
-    image: "Curve10.jpg",
+    image: "curve10.jpg",
   },
   {
     id: 5,
@@ -48,7 +48,7 @@ const products = [
     price: 0,
     inStock: true,
     size: "12",
-    image: "Curve12.jpg",
+    image: "curve10.jpg",
   }
 ];
 

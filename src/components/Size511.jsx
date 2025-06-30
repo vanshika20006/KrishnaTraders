@@ -16,7 +16,7 @@ const products = [
     price: 0,
     inStock: true,
     size: "4",
-    image: "FShortbody1.PNG",
+    image: "SANDWICH4.jpg",
   },
   {
     id: 2,
@@ -24,7 +24,7 @@ const products = [
     price: 0,
     inStock: true,
     size: "6",
-    image: "FLongbody1.jpg",
+    image: "SANDWICH6.jpg",
   },
   {
     id: 3,
@@ -32,7 +32,7 @@ const products = [
     price: 0,
     inStock: true,
     size: "8",
-    image: "FAnglecock1.jpg",
+    image: "SANDWICH8.jpg",
   },
   {
     id: 4,
@@ -40,7 +40,7 @@ const products = [
     price: 0,
     inStock: true,
     size: "10",
-    image: "FSinkcock2.jpg",
+    image: "SANDWICH10.jpg",
   },
   {
     id: 5,
@@ -48,7 +48,7 @@ const products = [
     price: 0,
     inStock: true,
     size: "12",
-    image: "FSwancock1.jpg",
+    image: "SANDWICH10.jpg",
   }
 ];
 

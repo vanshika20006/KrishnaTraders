@@ -14,7 +14,7 @@ const products = [
     price: 0,
     inStock: true,
     size: "3",
-    image: "ABS3.jpg",
+    image: "absshower3.jpg",
   },
   {
     id: 2,
@@ -22,7 +22,7 @@ const products = [
     price: 0,
     inStock: true,
     size: "4",
-    image: "ABS4.jpg",
+    image: "absshower3.jpg",
   }
 ];
 

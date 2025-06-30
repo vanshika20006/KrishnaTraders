@@ -56,7 +56,7 @@ const products = [
     price: 4500,
     inStock: true,
     size: "24X24",
-    image: "/Aqua24X24.jpg",
+    image: "/first1.jpg",
   },
   {
     id: 7,
@@ -72,7 +72,7 @@ const products = [
     price: 4500,
     inStock: true,
     size: "30X30",
-    image: "/Aqua24X24.jpg",
+    image: "/first1.jpg",
   },
   {
     id: 9,
@@ -80,7 +80,7 @@ const products = [
     price: 4500,
     inStock: true,
     size: "36X36",
-    image: "/Aqua24X24.jpg",
+    image: "/first1.jpg",
   }
 
 ];

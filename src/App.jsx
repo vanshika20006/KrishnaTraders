@@ -342,6 +342,26 @@ import Product505 from "./pages/Product505.jsx";
 import Product506 from "./pages/Product506.jsx";
 import Product507 from "./pages/Product507.jsx";
 import Product508 from "./pages/Product508.jsx";
+import Product511 from "./pages/Product511.jsx";
+import Product512 from "./pages/Product512.jsx";
+import Product513 from "./pages/Product513.jsx";
+import Product514 from "./pages/Product514.jsx";
+import Product515 from "./pages/Product515.jsx";
+
+
+
+
+import Product521 from "./pages/Product521.jsx";
+import Product522 from "./pages/Product522.jsx";
+import Product523 from "./pages/Product523.jsx";
+import Product524 from "./pages/Product524.jsx";
+import Product525 from "./pages/Product525.jsx";
+
+import Product531 from "./pages/Product531.jsx";
+import Product532 from "./pages/Product532.jsx";
+import Product541 from "./pages/Product541.jsx";
+import Product542 from "./pages/Product542.jsx";
+
 import Product5211 from "./pages/Product5211.jsx";
 import Product5212 from "./pages/Product5212.jsx";
 import Product5213 from "./pages/Product5213.jsx";
@@ -798,6 +818,25 @@ function App() {
         <Route path="/product506" element={<Product506 />} />
         <Route path="/product507" element={<Product507 />} />
         <Route path="/product508" element={<Product508 />} />
+        <Route path="/product511" element={<Product511 />} />
+        <Route path="/product512" element={<Product512 />} />
+        <Route path="/product513" element={<Product513 />} />
+        <Route path="/product514" element={<Product514 />} />
+        <Route path="/product515" element={<Product515 />} />
+
+
+
+        <Route path="/product521" element={<Product521 />} />
+        <Route path="/product522" element={<Product522 />} />
+        <Route path="/product523" element={<Product523 />} />
+        <Route path="/product524" element={<Product524 />} />
+        <Route path="/product525" element={<Product525 />} />
+        
+        <Route path="/product531" element={<Product531 />} />
+        <Route path="/product532" element={<Product532 />} />
+        <Route path="/product541" element={<Product541 />} />
+        <Route path="/product542" element={<Product542 />} />
+
         <Route path="/product5211" element={<Product5211 />} />
         <Route path="/product5212" element={<Product5212 />} />
         <Route path="/product5213" element={<Product5213 />} />
@@ -808,9 +847,9 @@ function App() {
         <Route path="/product5218" element={<Product5218 />} />
         <Route path="/product5219" element={<Product5219 />} />
         <Route path="/product5311" element={<Product5311 />} />
-        <Route path="/product5321" element={<Product5321 />} />
-        <Route path="/product5331" element={<Product5331 />} />
-        <Route path="/product5341" element={<Product5341 />} />
+        <Route path="/product5312" element={<Product5321 />} />
+        <Route path="/product5313" element={<Product5331 />} />
+        <Route path="/product5314" element={<Product5341 />} />
           <Route path="/product5411" element={<Product5411 />} />
         <Route path="/product5421" element={<Product5421 />} />
         <Route path="/product5431" element={<Product5431 />} />

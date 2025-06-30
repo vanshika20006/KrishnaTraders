@@ -14,7 +14,7 @@ const products = [
     price: 0,
     inStock: true,
     size: "1",
-    image: "FShortbody1.PNG",
+    image: "CPF8.jpg",
   }
 ];
 

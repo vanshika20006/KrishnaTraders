@@ -14,7 +14,7 @@ const products = [
     price: 0,
     inStock: true,
     size: "4",
-    image: "PTMT4.jpg",
+    image: "ptmtshoower4.jpg",
   },
   {
     id: 2,
@@ -22,7 +22,7 @@ const products = [
     price: 0,
     inStock: true,
     size: "5",
-    image: "PTMT5.jpg",
+    image: "ptmtshoower4.jpg",
   }
 ];
 
