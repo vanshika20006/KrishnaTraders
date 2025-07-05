@@ -1,8 +1,8 @@
-
-
+import Navbar from '../components/Navbar';
+// import Product from '../components/Productcardfinal21';
 import { useLocation } from "react-router-dom";
 import SimpleImageSlider from "react-simple-image-slider";
-import Navbar from '../components/Navbar';
+
 const Productcardfinal = () => {
   const location = useLocation();
   const {
@@ -15,8 +15,8 @@ const Productcardfinal = () => {
   } = location.state || {};
 
   const defaultImages = [
-    { url: "ssanglecock.jpg" },
-    { url: "ssanglecock.jpg" }
+    { url: "upvc118.jpg" },
+    { url: "upvc118.jpg" }
   ];
 
   const imagesToShow = imageList || defaultImages;
@@ -28,10 +28,10 @@ const Productcardfinal = () => {
       <div className="bg-[#112D4E] w-screen py-10 px-10 flex justify-between text-white">
         {/* Left Image & Pickup Info */}
         <div className=" ml-30 w-[45%] flex flex-col items-start">
-          <div className="product-image-slider w-[480px] h-[450px] bg-white rounded-md overflow-hidden flex items-center justify-center">
+          <div className="product-image-slider w-[500px] h-[500px] bg-white rounded-md overflow-hidden flex items-center justify-center">
             <SimpleImageSlider
-              width={480}
-              height={450}
+              width={500}
+              height={500}
               images={imagesToShow}
               showBullets={true}
               showNavs={true}
@@ -51,6 +51,7 @@ const Productcardfinal = () => {
         {/* Right Product Info */}
         <div className="w-[25%] mr-80 flex flex-col">
           <h4 className="text-[22px] font-semibold">{name || "Product Name"}</h4>
+          <h4 className="text-[18px] pt-1">{size || "Product Size"}</h4>
 
           <p className="text-gray-300 text-[15px] font-light pt-5 leading-relaxed">
             <span className="block">🔹 <strong>Weight:</strong> 25kg (approx)</span>
@@ -91,3 +92,16 @@ const Productcardfinal = () => {
 };
 
 export default Productcardfinal;
+
+  
+  // const HomePage = () => {
+  //   return (
+  //     <>
+        
+        
+  //       <Product />
+  //     </>
+  //   );
+  // };
+  
+  // export default HomePage;

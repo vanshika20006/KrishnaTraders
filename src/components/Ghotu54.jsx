@@ -23,7 +23,7 @@ const products = [
     price: 4500,
     inStock: true,
     size: "Medium", // in inches
-    image: "/Short-body-BREZZA.jpg",
+    image: "/mdhvfl.jpg",
   },
   {
     id: 2,
@@ -31,7 +31,7 @@ const products = [
     price: 4500,
     inStock: true,
     size: "Small", // in inches
-    image: "/Short-body-BREZZA.jpg",
+    image: "/smflanch.jpg",
   },
   {
     id: 3,
@@ -39,7 +39,7 @@ const products = [
     price: 4500,
     inStock: true,
     size: "Heavy", // in inches
-    image: "/Short-body-BREZZA.jpg",
+    image: "/mdhvfl.jpg",
   }
 
 

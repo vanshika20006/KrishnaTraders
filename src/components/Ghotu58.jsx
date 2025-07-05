@@ -33,7 +33,7 @@ const products = [
     price: 4500,
     inStock: true,
     size: 36, // in inches
-    image: "/Chamber.png",
+    image: "/ssanglecock.jpg",
   }
 ];
 

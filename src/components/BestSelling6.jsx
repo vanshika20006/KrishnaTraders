@@ -1,7 +1,31 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import ProductCard from "./ProductCard6";
 import { ChevronDown } from "lucide-react";
 
+const categories = [
+  
+  { image: "solvent.png", label: "Solvent", route: "/categories6" },
+  { image: "Chamber.png", label: "Chamber Cover", route: "/categories1" },
+  { image: "Kitchensink.png", label: "Kitchen Sink", route: "/categories2" },
+  { image: "CPVCfittingsandmore.png", label: "CP fittings and more", route: "/categories5" },
+  
+   { image: "Brass.png", label: "Brass faucets", route: "/categories4" },
+  
+  { image: "PVCtaps.png", label: "PVC Taps (Rolex)", route: "/categories3" },
+ 
+  { image: "Flush.png", label: "Flush Tank", route: "/categories7" },
+  { image: "chambercover.png", label: "Seat Cover", route: "/categories8" },
+  { image: "Connection.png", label: "Connection Pipe", route: "/categories9" },
+  { image: "PTMT.png", label: "PTMT Taps", route: "/categories10" },
+  { image: "sumolex.jpg", label: "Sumolex Pipe & Fittings", route: "/pdf" },
+  { image: "sumolex.jpg", label: "Sumolex PTMT Taps", route: "/pdf" },
+  { image: "UPVCPIPE.png", label: "UPVC Pipe", route: "/categories13" },
+  { image: "CPVCPIPE.png", label: "CPVC Pipe", route: "/categories4" },
+  { image: "UPVCFITTING.png", label: "UPVC Fittings", route: "/categories15" },
+  { image: "CPVCFITTING.png", label: "CPVC Fittings", route: "/categories16" },
+  { image: "BALL.png", label: "Ball Valve", route: "/categories17" },
+];
 // Sample product data with different images and properties
 const products = [
   {
@@ -10,23 +34,16 @@ const products = [
     price: 4500,
     inStock: true,
     size: 36, // in inches
-    image: "/Chamber.png",
+    image: "/upvc118.jpg",
   }
   
   
 ];
-
-const BestSelling = () => {
+const Ghotu = () => {
   const [showSort, setShowSort] = useState(false);
   const [items, setItems] = useState(products);
-  const [filters, setFilters] = useState({
-    minSize: "",
-    maxSize: "",
-    minPrice: "",
-    maxPrice: "",
-    sizeUnit: "Inch",
-    inStock: false,
-  });
+  const [discount, setDiscount] = useState(0);
+  const [selectedIndex, setSelectedIndex] = useState(0);
 
   const sortBy = (type) => {
     const sorted = [...items];
@@ -37,251 +54,104 @@ const BestSelling = () => {
     setShowSort(false);
   };
 
-  const applyFilters = () => {
-    let filtered = [...products];
-
-    // Size filter
-    if (filters.minSize || filters.maxSize) {
-      const minSize =
-        filters.sizeUnit === "Inch"
-          ? parseFloat(filters.minSize)
-          : parseFloat(filters.minSize) / 25.4;
-      const maxSize =
-        filters.sizeUnit === "Inch"
-          ? parseFloat(filters.maxSize)
-          : parseFloat(filters.maxSize) / 25.4;
-
-      filtered = filtered.filter((product) => {
-        const productSize =
-          filters.sizeUnit === "Inch" ? product.size : product.size * 25.4;
-        return (
-          (!minSize || productSize >= minSize) &&
-          (!maxSize || productSize <= maxSize)
-        );
-      });
-    }
-
-    // Price filter
-    if (filters.minPrice || filters.maxPrice) {
-      filtered = filtered.filter((product) => {
-        return (
-          (!filters.minPrice ||
-            product.price >= parseFloat(filters.minPrice)) &&
-          (!filters.maxPrice || product.price <= parseFloat(filters.maxPrice))
-        );
-      });
-    }
-
-    // Stock filter
-    if (filters.inStock) {
-      filtered = filtered.filter((product) => product.inStock);
-    }
-
-    setItems(filtered);
-  };
-
-  const handleFilterChange = (e) => {
-    const { name, value, type, checked } = e.target;
-    setFilters((prev) => ({
-      ...prev,
-      [name]: type === "checkbox" ? checked : value,
-    }));
-  };
-
-  const resetFilters = () => {
-    setFilters({
-      minSize: "",
-      maxSize: "",
-      minPrice: "",
-      maxPrice: "",
-      sizeUnit: "Inch",
-      inStock: false,
-    });
-    setItems(products);
-  };
-
   return (
-    <div className="w-full h-150vh flex overflow-hidden bg-[#f9f9e6]">
-      {/* Sidebar */}
-      <aside className="bg-[#183659] pt-5  text-white p-6 rounded-xl mt-53   ml-12 shadow-md w-[250px] h-[530px] flex flex-col gap-6  ">
-        <h3 className="text-lg font-semibold">Filters</h3>
-        <hr className="border-white/40" />
-        <div className="text-sm space-y-4">
-          <div>
-            <label>Sizes</label>
-            <div className="flex gap-2 mt-1">
-              <input
-                name="minSize"
-                value={filters.minSize}
-                onChange={handleFilterChange}
-                placeholder="From"
-                className="w-14 px-2 py-1 rounded bg-white text-[#183659]"
+    <div className="flex gap-x-6 w-full h-screen bg-[#f9f9e6] overflow-hidden px-6">
+      
+      {/* Left Sidebar Scrollable Categories */}
+      <div className="w-72 mt-35 p-4 bg-[#F8F8E1] border-r border-black overflow-y-auto max-h-screen">
+        {categories.map((cat, i) => (
+          <Link to={cat.route} key={i} onClick={() => setSelectedIndex(i)} style={{ textDecoration: "none" }}>
+            <div
+              className={`w-full max-w-[220px] p-4 rounded-2xl shadow-md mb-6 ${
+                i === selectedIndex ? "bg-[#0A2A4D] text-white" : "bg-white text-black"
+              } flex flex-col items-center mx-auto`}
+            >
+              <img
+                src={cat.image}
+                alt={cat.label}
+                className="w-full h-28 object-cover rounded-md mb-2"
               />
-              <select
-                name="sizeUnit"
-                value={filters.sizeUnit}
-                onChange={handleFilterChange}
-                className="px-2 py-1 rounded bg-white text-[#183659] text-sm"
-              >
-                <option>Inch</option>
-                <option>mm</option>
-              </select>
+              <h6 className="font-semibold text-sm text-center mb-1">{cat.label}</h6>
+              <p className="text-green-400 text-sm">In Stock</p>
             </div>
+          </Link>
+        ))}
+      </div>
+
+      {/* Main Right Side Product Area */}
+      <div className="flex-1 px-8 pt-15 pb-12">
+        
+        {/* Discount Box */}
+        <div className="ml-231 flex w-[215px] h-[50px] rounded-2xl overflow-hidden border-4 border-[#1b3554] mb-4">
+          <div className="flex-1 bg-[#f7933e] text-white flex items-center justify-center text-2xl font-bold">
+            Discount
+          </div>
+          <div className="flex-1 bg-[#9db7c0] flex items-center justify-center">
             <input
-              name="maxSize"
-              value={filters.maxSize}
-              onChange={handleFilterChange}
-              placeholder="To"
-              className="w-24 px-2 py-1 mt-1 rounded bg-white text-[#183659]"
+              type="number"
+              min="0"
+              max="100"
+              value={discount}
+              onChange={(e) => setDiscount(Number(e.target.value))}
+              placeholder="%"
+              className="w-16 px-2 py-1 text-black rounded text-center outline-none"
             />
           </div>
-          <hr className="border-white/40" />
-          <div>
-            <label>Price</label>
-            <div className="flex items-center gap-2 mt-1">
-              <span>Rs.</span>
-              <input
-                name="minPrice"
-                value={filters.minPrice}
-                onChange={handleFilterChange}
-                placeholder="From"
-                className="w-16 px-2 py-1 rounded bg-white text-[#183659]"
-              />
-            </div>
-            <div className="flex items-center gap-2 mt-1">
-              <span>Rs.</span>
-              <input
-                name="maxPrice"
-                value={filters.maxPrice}
-                onChange={handleFilterChange}
-                placeholder="To"
-                className="w-16 px-2 py-1 rounded bg-white text-[#183659]"
-              />
-            </div>
-          </div>
-          <hr className="border-white/40" />
-          <div className="flex items-center gap-2">
-            <input
-              type="checkbox"
-              name="inStock"
-              checked={filters.inStock}
-              onChange={handleFilterChange}
-              className="rounded"
-            />
-            <label>In Stock Only</label>
-          </div>
-        </div>
-        <div className="flex gap-2 mt-auto">
-          <button
-            onClick={resetFilters}
-            className="px-4 py-2 bg-gray-500 rounded hover:bg-gray-600 text-sm"
-          >
-            Reset
-          </button>
-          <button
-            onClick={applyFilters}
-            className="px-4 py-2 bg-blue-600 rounded hover:bg-blue-700 text-sm"
-          >
-            Apply
-          </button>
-        </div>
-      </aside>
-
-      {/* Main Content */}
-      <div className="flex-1 overflow-y-auto px-8 pt-10 pb-12 mt-8">
-        <div className="relative">
-          <div className="ml-225 flex w-[222px] h-[70px] rounded-2xl overflow-hidden border-4 border-[#1b3554]">
-            <div className="flex-1 bg-[#f7933e] text-white flex items-center justify-center text-2xl font-bold">
-              Discount
-            </div>  
-            <div className="flex-1 bg-[#9db7c0]"></div>
-          </div>
-          <div
-            className="flex items-center gap-2 cursor-pointer mb-4 ml-4"
-            onClick={() => setShowSort(!showSort)}
-          >
-            <h2 className="text-2xl font-semibold text-[#1a1f2c]">
-              Tandom Box
-            </h2>
-            <ChevronDown className="w-6 h-6 text-[#1a1f2c]" />
-          </div>
-
-          {showSort && (
-            <div className="absolute top-14 left-4 bg-white rounded shadow w-52 border z-10 text-sm">
-              <button
-                onClick={() => sortBy("low")}
-                className="w-full text-left px-4 py-2 hover :bg-gray-100"
-              >
-                Price: Low to High
-              </button>
-              <button
-                onClick={() => sortBy("high")}
-                className="w-full text-left px-4 py-2 hover:bg-gray-100"
-              >
-                Price: High to Low
-              </button>
-              <button
-                onClick={() => sortBy("newest")}
-                className="w-full text-left px-4 py-2 hover:bg-gray-100"
-              >
-                Newest First
-              </button>
-            </div>
-          )}
         </div>
 
-        <div className="bg-[#b5c8db] p-8 rounded-2xl relative min-h-[600px]">
-          <div
-            className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-9 "
-            style={{
-              overflowY: "auto",
-              scrollbarWidth: "thin",
-              scrollbarColor: "rgba(0,0,0,0.2) rgba(255,255,255,0.6)",
-            }}
-          >
-            {/* Custom scrollbar styling for WebKit browsers */}
-            <style>
-              {`
-                .grid::-webkit-scrollbar {
-                  width: 8px;
-                  height: 8px;
-                }
-                .grid::-webkit-scrollbar-track {
-                  background: rgba(255, 255, 255, 0.6);
-                  border-radius: 10px;
-                }
-                .grid::-webkit-scrollbar-thumb {
-                  background: rgba(0, 0, 0, 0.2);
-                  border-radius: 10px;
-                }
-                .grid::-webkit-scrollbar-thumb:hover {
-                  background: rgba(0, 0, 0, 0.3);
-                }
-              `}
-            </style>
+        {/* Sorting Dropdown */}
+        <div
+          className="flex items-center gap-2 cursor-pointer ml-4 mt-4"
+          onClick={() => setShowSort(!showSort)}
+        >
+          <h3 className="text-2xl  font-semibold text-[#1a1f2c]">
+           CP FITTINGS & MORE
+          </h3>
+          <ChevronDown className="w-6 h-6 text-[#1a1f2c]" />
+        </div>
 
-            {items.map((p) => (
-              <ProductCard
-                key={p.id}
-                id={p.id} // 👈 yeh zaroori hai for routing
-                name={p.name}
-                price={p.price}
-                image={p.image}
-                inStock={p.inStock}
-                size={`${p.size}"`}
-              />
+        {showSort && (
+          <div className="absolute top-32 left-4 bg-white rounded shadow w-52 border z-10 text-sm">
+            {['low', 'high', 'newest'].map((type) => (
+              <button
+                key={type}
+                onClick={() => sortBy(type)}
+                className="w-full text-left px-4 py-2 hover:bg-gray-100 capitalize"
+              >
+                {type === 'low' && 'Price: Low to High'}
+                {type === 'high' && 'Price: High to Low'}
+                {type === 'newest' && 'Newest First'}
+              </button>
             ))}
           </div>
+        )}
 
-          {items.length === 0 && (
-            <div className="text-center py-16 text-gray-600">
-              No products match your filters. Try adjusting your criteria.
+        {/* Product Grid */}
+        <div className="bg-[#b5c8db] p-8 rounded-2xl">
+          <div className="max-h-[500px] overflow-y-auto custom-scrollbar">
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-8">
+              {items.map((p) => {
+                const discountedPrice = p.price - (p.price * discount) / 100;
+                return (
+                  <ProductCard
+  key={p.id}
+  id={p.id}
+  name={p.name}
+  price={p.price}
+  image={p.image}
+  inStock={p.inStock}
+  size={`${p.size || ""}"`}
+  discountPercentage={discount}
+/>
+
+                );
+              })}
             </div>
-          )}
+          </div>
         </div>
       </div>
     </div>
   );
 };
 
-export default BestSelling;
+export default Ghotu;

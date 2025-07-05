@@ -1,23 +1,56 @@
 import React, { useState } from "react";
-import ProductCard from "./PC572";
+import ProductCard from "./PC002";
 import { ChevronDown } from "lucide-react";
 import { Link } from "react-router-dom";
 
 const categories = [
-  { image: "ANGLECOCKVIVO.jpg", label: "EXTENSION NIPPLE", route: "/Size501" }
+  { image: "Aqua18X18.jpg", label: "AQUA BLU (5TON)", route: "/Size1" },
+  { image: "FRP36X36.jpg", label: "SIMATIK FRP", route: "/Size2" },
+  
 ];
 
 const products = [
-  { 
+  {
     id: 1,
-    name: "SS ANGLE COCK",
+    name: "U.P.V.C. SOLVENT",
     price: 0,
     inStock: true,
-    size: "1",
-    image: "ssanglecock.jpg",
+    size: "10ML TUBE",
+    image: "/pvcupvc1025.jpg",
+  },
+  {
+    id: 2,
+    name: "U.P.V.C. SOLVENT",
+    price: 0,
+    inStock: true,
+    size: "25ML TUBE",
+    image: "/pvcupvc1025.jpg",
+  },
+  {
+    id: 3,
+    name: "U.P.V.C. SOLVENT",
+    price: 0,
+    inStock: true,
+    size: "59ML TIN",
+    image: "/upvc59.jpg",
+  },
+  {
+    id: 4,
+    name: "U.P.V.C. SOLVENT",
+    price: 0,
+    inStock: true,
+    size: "118ML TIN",
+    image: "/upvc118.jpg",
+  },
+  {
+    id: 5,
+    name: "U.P.V.C. SOLVENT",
+    price: 0,
+    inStock: true,
+    size: "237ML TIN",
+    image: "/upvc273.jpg",
   }
 ];
-
 
 const Ghotu = () => {
   const [showSort, setShowSort] = useState(false);
@@ -85,7 +118,7 @@ const Ghotu = () => {
           onClick={() => setShowSort(!showSort)}
         >
           <h3 className="text-2xl  font-semibold text-[#1a1f2c]">
-           RADO MODEL
+           BREZZA MODEL
           </h3>
           <ChevronDown className="w-6 h-6 text-[#1a1f2c]" />
         </div>

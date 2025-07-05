@@ -1,20 +1,62 @@
 import React, { useState } from "react";
-import ProductCard from "./PC572";
+import ProductCard from "./PC003";
 import { ChevronDown } from "lucide-react";
 import { Link } from "react-router-dom";
 
 const categories = [
-  { image: "ANGLECOCKVIVO.jpg", label: "EXTENSION NIPPLE", route: "/Size501" }
+  { image: "Aqua18X18.jpg", label: "AQUA BLU (5TON)", route: "/Size1" },
+  { image: "FRP36X36.jpg", label: "SIMATIK FRP", route: "/Size2" },
+  
 ];
 
 const products = [
-  { 
+  {
     id: 1,
-    name: "SS ANGLE COCK",
+    name: "P.V.C. SOLVENT",
     price: 0,
     inStock: true,
-    size: "1",
-    image: "ssanglecock.jpg",
+    size: "10ML TUBE",
+    image: "/pvcupvc1025.jpg",
+  },
+  {
+    id: 2,
+    name: "P.V.C. SOLVENT",
+    price: 0,
+    inStock: true,
+    size: "25ML TUBE",
+    image: "/pvcupvc1025.jpg",
+  },
+  {
+    id: 3,
+    name: "P.V.C. SOLVENT",
+    price: 0,
+    inStock: true,
+    size: "59ML TIN",
+    image: "/pvc59.jpg",
+  },
+  {
+    id: 4,
+    name: "P.V.C. SOLVENT",
+    price: 0,
+    inStock: true,
+    size: "118ML TIN",
+    image: "/pvc118.jpg",
+  },
+  {
+    id: 5,
+    name: "P.V.C. SOLVENT",
+    price: 0,
+    inStock: true,
+    size: "237ML TIN",
+    image: "/pvc237.jpg",
+  },
+  {
+    id: 6,
+    name: "P.V.C. SOLVENT",
+    price: 0,
+    inStock: true,
+    size: "500ML TIN",
+    image: "/pvc500.jpg",
   }
 ];
 
@@ -85,7 +127,7 @@ const Ghotu = () => {
           onClick={() => setShowSort(!showSort)}
         >
           <h3 className="text-2xl  font-semibold text-[#1a1f2c]">
-           RADO MODEL
+           BREZZA MODEL
           </h3>
           <ChevronDown className="w-6 h-6 text-[#1a1f2c]" />
         </div>
