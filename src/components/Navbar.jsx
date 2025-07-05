@@ -64,12 +64,12 @@ const Navbar = ({ onSearch }) => {
             >
               <button className="flex text-black items-center px-3 py-1 border border-gray-400 rounded">
                 <img src="/whats.png" className="h-5 w-5 mr-2" alt="WhatsApp" />
-                Contact Us
+                Contact
               </button>
             </a>
             <Link to="/about">
               <button className="hover:bg-blue-500 hover:text-black px-3 text-black py-1 border border-gray-400 rounded">
-                About Us
+                About 
               </button>
             </Link>
           </div>
