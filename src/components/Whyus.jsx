@@ -19,26 +19,31 @@ const MobileWhyExpertTutor = () => {
         />
 
         {/* Left Cards */}
-        <div className="absolute top-1/2 left-2 transform -translate-y-1/2 flex flex-col gap-4 z-10">
-          <div className="bg-[#163A6B] text-white rounded-xl pl-4 shadow-md w-[150px] flex items-center gap-3">
-            <Hammer size={30} />
-            <span className="text-left text-sm font-medium">Wide Range of Hand Tools</span>
-          </div>
+       <div className="absolute top-1/2 left-2 transform -translate-y-1/2 flex flex-col gap-4 z-10 ml-3">
+  <div className="bg-[#163A6B] text-white rounded-xl p-4 shadow-md w-[150px] flex items-center gap-3">
+    <Hammer size={30} />
+    <span className="text-left text-sm font-medium">
+      Wide Range of Hand Tools
+    </span>
+  </div>
 
-          <div className="bg-[#163A6B] text-white rounded-xl pl-4 shadow-md w-[150px] flex items-center gap-3">
-            <HardHat size={30} />
-            <span className="text-left text-sm font-medium">Safety Certified Equipment</span>
-          </div>
-        </div>
+  <div className="bg-[#163A6B] text-white rounded-xl p-4 shadow-md w-[150px] flex items-center gap-3">
+    <HardHat size={30} />
+    <span className="text-left text-sm font-medium">
+      Safety Certified Equipment
+    </span>
+  </div>
+</div>
+
 
         {/* Right Cards */}
         <div className="absolute top-1/2 right-2 transform -translate-y-1/2 flex flex-col gap-4 z-10">
-          <div className="bg-[#163A6B] text-white rounded-xl pr-4 shadow-md w-[150px] flex items-center gap-3">
+          <div className="bg-[#163A6B] text-white rounded-xl p-4 shadow-md w-[150px] flex items-center gap-3">
             <Truck size={30} />
             <span className="text-left text-sm font-medium">Fast & Reliable Delivery</span>
           </div>
 
-          <div className="bg-[#163A6B] text-white rounded-xl pr-4 shadow-md w-[150px] flex items-center gap-3">
+          <div className="bg-[#163A6B] text-white rounded-xl p-4 shadow-md w-[150px] flex items-center gap-3">
             <ShieldCheck size={30} />
             <span className="text-left text-sm font-medium">100% Quality Assurance</span>
           </div>
