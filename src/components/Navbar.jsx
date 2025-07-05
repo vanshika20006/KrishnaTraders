@@ -102,7 +102,7 @@ const Navbar = ({ onSearch }) => {
     <img src="/kT-final-logo.png" alt="Logo" className="h-20 w-20" />
 
     {/* Search */}
-    <div className="flex items-center border-4 border-[#3F72AF] rounded-lg w-full max-w-[300px]">
+    <div className="flex items-center border-4 border-[#3F72AF] rounded-lg w-full max-w-[200px]">
       <input
         type="text"
         placeholder="Search..."
@@ -134,34 +134,36 @@ const Navbar = ({ onSearch }) => {
 
     {/* Navigation */}
     <div className="flex flex-wrap justify-center gap-3 mt-2">
-      <Link
-        to="/home"
-        className="bg-[#3F72AF] text-white px-3 py-1 text-xs rounded flex items-center justify-center"
-      >
-        Home
-      </Link>
+  <Link
+    to="/home"
+    className="bg-[#3F72AF] text-white px-3 py-1 text-xs rounded flex items-center justify-center min-w-[80px]"
+  >
+    Home
+  </Link>
 
-      <button className="border border-gray-400 text-xs px-3 py-1 rounded">
-        Brands
-      </button>
+  <button className="border border-gray-400 text-xs px-3 py-1 rounded flex items-center justify-center text-black min-w-[80px]">
+    Brands
+  </button>
 
-      <a
-        href="https://wa.me/919981689326?text=Hello..."
-        target="_blank"
-        rel="noopener noreferrer"
-        className="border border-gray-400 text-xs px-3 py-1 rounded flex items-center justify-center text-black"
-      >
-        <img src="/whats.png" className="h-4 w-4 mr-1" alt="WhatsApp" />
-        Contact
-      </a>
+  <a
+    href="https://wa.me/919981689326?text=Hello..."
+    target="_blank"
+    rel="noopener noreferrer"
+    className="border border-gray-400 text-xs px-3 py-1 rounded flex items-center justify-center text-black min-w-[90px]"
+  >
+    <img src="/whats.png" className="h-4 w-4 mr-1" alt="WhatsApp" />
+    Contact
+  </a>
 
-      <Link
-        to="/about"
-        className="border border-gray-400 text-xs px-3 py-1 rounded flex items-center justify-center text-black"
-      >
-        About
-      </Link>
-    </div>
+  <Link
+    to="/about"
+    className="border border-gray-400 text-xs px-3 py-1 rounded flex items-center justify-center text-black min-w-[80px]"
+  >
+    About
+  </Link>
+</div>
+
+
 
     {/* Products & Offers */}
     <div className="flex gap-3 mt-4">
