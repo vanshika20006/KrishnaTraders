@@ -8,9 +8,10 @@ import { Link } from "react-router-dom";
 
 
 const categories = [
+  
+  { image: "PVCtaps.png", label: "PVC Taps (Rolex)", route: "/varients3" },
   { image: "Chamber.png", label: "Chamber Cover", route: "/categories1" },
   { image: "Kitchensink.png", label: "Kitchen Sink", route: "/categories2" },
-  { image: "PVCtaps.png", label: "PVC Taps (Rolex)", route: "/varients3" },
   { image: "Brass.png", label: "Brass faucets", route: "/categories4" },
   { image: "CPVCfittingsandmore.png", label: "CP fittings and more", route: "/categories5" },
   { image: "solvent.png", label: "Solvent", route: "/categories6" },

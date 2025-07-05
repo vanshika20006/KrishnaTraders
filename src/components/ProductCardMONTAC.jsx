@@ -13,11 +13,11 @@ const ProductCard = ({ id, name, price, discountedPrice, image, inStock, size })
       className="cursor-pointer rounded-xl overflow-hidden shadow-md hover:shadow-lg transition-all bg-white"
     >
       {/* Image Section */}
-      <div className="w-full h-48">
+      <div className="w-full h-55">
         <img
           src={image}
           alt={name}
-          className="w-full h-full object-content"
+          className="w-full h-full object-cover"
         />
       </div>
 

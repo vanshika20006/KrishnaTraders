@@ -5,17 +5,16 @@ import { ChevronDown } from "lucide-react";
 
 const categories = [
   
-  { image: "CPVCfittingsandmore.png", label: "CP fittings and more", route: "/categories5" },
-  { image: "Kitchensink.png", label: "Kitchen Sink", route: "/categories2" },
-   { image: "Brass.png", label: "Brass faucets", route: "/categories4" },
-  { image: "Chamber.png", label: "Chamber Cover", route: "/categories1" },
+   { image: "CPF9.jpg", label: "SPENDLE DISC", route: "/varients59" },
+  { image: "CPF1.jpg", label: "SS EXTENSION NIPPLE", route: "/varients51" },
+  { image: "SANDWICH6.jpg", label: "SS(304) SHOWER", route: "/varients52" },
+  { image: "medium9.jpg", label: "SHOWER ROD ", route: "/varients53" },
+  { image: "mdhvfl.jpg", label: "CP FLANCH", route: "/varients54" },
+  { image: "pvccp.jpg", label: "HEALTH FAUCET", route: "/varients55" },
+  { image: "teflonsm.jpg", label: "TEFLON TAPE", route: "/varients56" },
+  { image: "normal3.jpg", label: "SS JALI", route: "/varients57" },
+  { image: "CPF8.jpg", label: "ANGLE COCK", route: "/varients58" },
   
-  { image: "PVCtaps.png", label: "PVC Taps (Rolex)", route: "/categories3" },
- 
-  { image: "solvent.png", label: "Solvent", route: "/categories6" },
-  { image: "Flush.png", label: "Flush Tank", route: "/categories7" },
-  { image: "chambercover.png", label: "Seat Cover", route: "/categories8" },
-  { image: "Connection.png", label: "Connection Pipe", route: "/categories9" },
 ];
 // Sample product data with different images and properties
 const products = [
@@ -24,7 +23,7 @@ const products = [
     name: "SPENDLE DISC",
     price: 4500,
     inStock: true,
-    size: 36, // in inches
+    size: "MEDIUM", // in inches
     image: "/CPF9.jpg",
   },
    {
@@ -32,7 +31,7 @@ const products = [
     name: "SPENDLE DISC",
     price: 4500,
     inStock: true,
-    size: 36, // in inches
+     size: "HEAVY", // in inches
     image: "/CPF9.jpg",
   },
    {
@@ -40,7 +39,7 @@ const products = [
     name: "SPENDLE DISC",
     price: 4500,
     inStock: true,
-    size: 36, // in inches
+     size: "NO 1", // in inches
     image: "/CPF9.jpg",
   },
    {
@@ -48,7 +47,7 @@ const products = [
     name: "SPENDLE DISC",
     price: 4500,
     inStock: true,
-    size: 36, // in inches
+     size: "NO 2", // in inches
     image: "/CPF9.jpg",
   },
    {
@@ -56,7 +55,7 @@ const products = [
     name: "SPENDLE DISC",
     price: 4500,
     inStock: true,
-    size: 36, // in inches
+     size: "NO 3", // in inches
     image: "/CPF9.jpg",
   },
    {
@@ -64,7 +63,7 @@ const products = [
     name: "SPENDLE DISC",
     price: 4500,
     inStock: true,
-    size: 36, // in inches
+     size: "CONCEALED VALVE", // in inches
     image: "/spendle.jpg",
   }
 ];
@@ -135,7 +134,7 @@ const Ghotu = () => {
           onClick={() => setShowSort(!showSort)}
         >
           <h3 className="text-2xl  font-semibold text-[#1a1f2c]">
-           CP FITTINGS & MORE
+         SPENDLE DISC
           </h3>
           <ChevronDown className="w-6 h-6 text-[#1a1f2c]" />
         </div>

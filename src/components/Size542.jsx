@@ -4,7 +4,10 @@ import { ChevronDown } from "lucide-react";
 import { Link } from "react-router-dom";
 
 const categories = [
-  { image: "ANGLECOCKVIVO.jpg", label: "EXTENSION NIPPLE", route: "/Size501" }
+  
+  { image: "mhindra1.jpg", label: "BRASS HEALTH FAUCET", route: "/Size542" },
+  { image: "pvccp.jpg", label: "PVC C.P. HEALTH FAUCET", route: "/Size541" },
+  { image: "PTMTGUN1MTRhy2.jpg", label: "PTMT HEALTH FAUCET", route: "/Size543" }
 ];
 
 const products = [
@@ -93,7 +96,7 @@ const Ghotu = () => {
           onClick={() => setShowSort(!showSort)}
         >
           <h3 className="text-2xl  font-semibold text-[#1a1f2c]">
-           RADO MODEL
+           BRASS HEALTH FAUCET
           </h3>
           <ChevronDown className="w-6 h-6 text-[#1a1f2c]" />
         </div>

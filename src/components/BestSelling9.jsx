@@ -100,7 +100,7 @@ const Ghotu = () => {
           className="flex items-center gap-2 cursor-pointer mb-4"
           onClick={() => setShowSort(!showSort)}
         >
-          <h2 className="text-2xl font-semibold text-[#1a1f2c]">SEAT COVER</h2>
+          <h2 className="text-2xl font-semibold text-[#1a1f2c]">CONNECTION PIPE</h2>
           <ChevronDown className="w-6 h-6 text-[#1a1f2c]" />
         </div>
 

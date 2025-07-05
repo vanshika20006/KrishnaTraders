@@ -8,7 +8,7 @@ import { ChevronDown } from "lucide-react";
 import ProductCard from "./ProductCardSHREEJAL";
 
 const categories = [
-  { image: "BrassImageDP.png", label: "MONTAC BRAND", route: "/Ghotu41" },
+  { image: "DShortbody1.PNG", label: "SPARSH BRAND", route: "/Ghotu41" },
   
 ];
 const products = [

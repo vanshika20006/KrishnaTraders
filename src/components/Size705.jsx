@@ -5,12 +5,12 @@ import { Link } from "react-router-dom";
 
 const categories = [
   
-  { image: "Singletoppushbutton2.jpg", label: "WHITE & IVORY & MORE", route: "/Size705" },
-  { image: "Sidehandle1.jpg", label: "WHITE & IVORY", route: "/Size701" },
-  { image: "Sidehandle2.jpg", label: "WHITE & IVORY & MORE", route: "/Size702" },
-  { image: "Sidehandle3.jpg", label: "WHITE & IVORY & MORE", route: "/Size703" },
-  { image: "Singletoppushbutton1.jpg", label: "WHITE & IVORY", route: "/Size704" },
-  { image: "Singletoppushbutton3.jpg", label: "COLOURFULL PRINT", route: "/Size706" },
+  { image: "Singletoppushbutton2.jpg", label: "SINGLE FRONT PUSH", route: "/Size705" },
+  { image: "Sidehandle1.jpg", label: "SIDE HANDLE", route: "/Size701" },
+  { image: "Sidehandle2.jpg", label: "SINGLE TOP PUSH BUTTON", route: "/Size702" },
+  { image: "Sidehandle3.jpg", label: "DOUBLE TOP PUSH BUTTON", route: "/Size703" },
+  { image: "Singletoppushbutton1.jpg", label: "ULTRA SLIM BODY", route: "/Size704" },
+  { image: "Singletoppushbutton3.jpg", label: "DIGITAL PRINT DUAL", route: "/Size706" },
 ];
 
 
@@ -20,7 +20,7 @@ const products = [
     name: "WHITE & IVORY & MORE",
     price: 0,
     inStock: true,
-    size: "",
+    size: "8 Ltr",
     image: "Singletoppushbutton2.jpg",
   }
 ];
@@ -92,7 +92,7 @@ const Ghotu = () => {
           onClick={() => setShowSort(!showSort)}
         >
           <h3 className="text-2xl  font-semibold text-[#1a1f2c]">
-           FRANKY MODEL
+       SINGLE FRONT PUSH 
           </h3>
           <ChevronDown className="w-6 h-6 text-[#1a1f2c]" />
         </div>

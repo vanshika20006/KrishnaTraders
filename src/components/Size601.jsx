@@ -4,11 +4,8 @@ import { ChevronDown } from "lucide-react";
 import { Link } from "react-router-dom";
 
 const categories = [
-  { image: "ANGLECOCKVIVO.jpg", label: "VIVO MODEL", route: "/Size404" },
-  { image: "Sink-cock-JERRY.jpg", label: "JERRY MODEL", route: "/Size403" },
-  { image: "Short-body-BREZZA.jpg", label: "BREZZA MODEL", route: "/Size401" },
-  { image: "Arya-head-TABLE.jpg", label: "ARYA HEAD", route: "/Size402" },
-  
+  { image: "FShortbody1.PNG", label: "RADO MODEL", route: "/Size601" },
+  { image: "DShortbody1.PNG", label: "FRANKY MODEL", route: "/Size602" }
  
 ];
 

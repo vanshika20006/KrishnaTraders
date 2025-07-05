@@ -38,7 +38,7 @@ const ProductCard = ({
     >
       {/* Image Section */}
       <div className="w-full h-48">
-        <img src={image} alt={name} className="w-full h-full object-content" />
+        <img src={image} alt={name} className="w-full h-full object-cover" />
       </div>
 
       {/* Details Section */}
@@ -53,10 +53,7 @@ const ProductCard = ({
         ) : (
           <p className="text-blue-700 font-bold">₹{price}</p>
         )}
-        <div className="flex justify-center gap-2 m-2">
-  <span className="w-3 h-3 rounded-full bg-white border border-gray-400"></span>
-  <span className="w-3 h-3 rounded-full bg-gray-400 border border-gray-600"></span>
-</div>
+        
 
 
         <p className={`text-xs ${inStock ? "text-green-600" : "text-red-600"}`}>

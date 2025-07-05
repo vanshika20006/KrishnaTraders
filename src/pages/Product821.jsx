@@ -29,7 +29,7 @@ const Productcardfinal = () => {
         <div className=" ml-30 w-[45%] flex flex-col items-start">
           <div className="product-image-slider w-[480px] h-[450px] bg-white rounded-md overflow-hidden flex items-center justify-center">
             <SimpleImageSlider
-              width={480}
+              width={530}
               height={450}
               images={imagesToShow}
               showBullets={true}

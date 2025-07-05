@@ -6,17 +6,8 @@ import { Link } from "react-router-dom";
 
 const categories = [
   
-  { image: "CPVCfittingsandmore.png", label: "CP fittings and more", route: "/categories5" },
-  { image: "Kitchensink.png", label: "Kitchen Sink", route: "/categories2" },
-   { image: "Brass.png", label: "Brass faucets", route: "/categories4" },
-  { image: "Chamber.png", label: "Chamber Cover", route: "/categories1" },
-  
-  { image: "PVCtaps.png", label: "PVC Taps (Rolex)", route: "/categories3" },
- 
-  { image: "solvent.png", label: "Solvent", route: "/categories6" },
-  { image: "Flush.png", label: "Flush Tank", route: "/categories7" },
-  { image: "chambercover.png", label: "Seat Cover", route: "/categories8" },
-  { image: "Connection.png", label: "Connection Pipe", route: "/categories9" },
+  { image: "upvc118.jpg", label: "FITON BRAND", route: "/varients61" },
+
 ];
 // Sample product data with different images and properties
 const products = [
@@ -114,7 +105,7 @@ const Ghotu = () => {
           onClick={() => setShowSort(!showSort)}
         >
           <h3 className="text-2xl  font-semibold text-[#1a1f2c]">
-           CP FITTINGS & MORE
+           FITON BRAND
           </h3>
           <ChevronDown className="w-6 h-6 text-[#1a1f2c]" />
         </div>

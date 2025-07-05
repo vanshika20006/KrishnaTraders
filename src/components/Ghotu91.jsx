@@ -1,5 +1,5 @@
 
-import ProductCard from "./ProductCardPTMT";
+import ProductCard from "./ProductCardPTWMT";
 import React, { useState } from "react";
 import { ChevronDown } from "lucide-react";
 import { Link } from "react-router-dom";
@@ -82,7 +82,7 @@ const Ghotu = () => {
           className="flex items-center gap-2 cursor-pointer mb-4"
           onClick={() => setShowSort(!showSort)}
         >
-          <h2 className="text-2xl font-semibold text-[#1a1f2c]">BRANDS</h2>
+          <h2 className="text-2xl font-semibold text-[#1a1f2c]">PTMT</h2>
           <ChevronDown className="w-6 h-6 text-[#1a1f2c]" />
         </div>
 

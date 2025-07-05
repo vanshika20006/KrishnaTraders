@@ -45,6 +45,7 @@ const ProductCard = ({
       {/* Details Section */}
       <div className="bg-white p-4 text-center">
         <h6 className="font-semibold">{name}</h6>
+        <p className="text-sm text-gray-600">Size: {size}</p>
         {discountedPrice ? (
           <div>
             <p className="text-red-600 font-bold">₹{discountedPrice}</p>
@@ -53,10 +54,7 @@ const ProductCard = ({
         ) : (
           <p className="text-blue-700 font-bold">₹{price}</p>
         )}
-        <div className="flex justify-center gap-2 m-2">
-  <span className="w-3 h-3 rounded-full bg-white border border-gray-400"></span>
-  <span className="w-3 h-3 rounded-full bg-gray-400 border border-gray-600"></span>
-</div>
+        
 
 
         <p className={`text-xs ${inStock ? "text-green-600" : "text-red-600"}`}>

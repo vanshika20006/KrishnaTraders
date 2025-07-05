@@ -4,15 +4,16 @@ import { ChevronDown } from "lucide-react";
 
 import { Link } from "react-router-dom";
 const categories = [
-  { image: "BrassImageDP.png", label: "SS EXTENSION NIPPLE", route: "/Ghotu51" },
-  { image: "BrassImageDP.png", label: "SS(304) SHOWER", route: "/Ghotu52" },
-  { image: "BrassImageDP.png", label: "ABS SHOWER ", route: "/Ghotu53" },
-  { image: "BrassImageDP.png", label: "SHOWER ROD", route: "/Ghotu54" },
-  { image: "BrassImageDP.png", label: "CP FLANCH", route: "/Ghotu55" },
-  { image: "BrassImageDP.png", label: "HEALTH FAUCET", route: "/Ghotu56" },
-  { image: "BrassImageDP.png", label: "TEFLON TAPE", route: "/Ghotu57" },
-  { image: "BrassImageDP.png", label: "ANGLE COCK", route: "/Ghotu58" },
-  { image: "BrassImageDP.png", label: "SPENDLE DISC", route: "/Ghotu59" },
+  
+  { image: "teflonsm.jpg", label: "TEFLON TAPE", route: "/varients56" },
+  { image: "CPF1.jpg", label: "SS EXTENSION NIPPLE", route: "/varients51" },
+  { image: "SANDWICH6.jpg", label: "SS(304) SHOWER", route: "/varients52" },
+  { image: "medium9.jpg", label: "SHOWER ROD ", route: "/varients53" },
+  { image: "mdhvfl.jpg", label: "CP FLANCH", route: "/varients54" },
+  { image: "pvccp.jpg", label: "HEALTH FAUCET", route: "/varients55" },
+  { image: "normal3.jpg", label: "SS JALI", route: "/varients57" },
+  { image: "CPF8.jpg", label: "ANGLE COCK", route: "/varients58" },
+   { image: "CPF9.jpg", label: "SPENDLE DISC", route: "/varients59" },
   
 ];
 // Sample product data with different images and properties
@@ -119,7 +120,7 @@ const Ghotu = () => {
           onClick={() => setShowSort(!showSort)}
         >
           <h3 className="text-2xl  font-semibold text-[#1a1f2c]">
-           CP FITTINGS & MORE
+           TEFLON TAPE
           </h3>
           <ChevronDown className="w-6 h-6 text-[#1a1f2c]" />
         </div>

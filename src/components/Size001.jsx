@@ -4,9 +4,11 @@ import { ChevronDown } from "lucide-react";
 import { Link } from "react-router-dom";
 
 const categories = [
-  { image: "Aqua18X18.jpg", label: "AQUA BLU (5TON)", route: "/Size1" },
-  { image: "FRP36X36.jpg", label: "SIMATIK FRP", route: "/Size2" },
   
+  { image: "upvc118.jpg", label: "C.P.V.C. SOLVENT", route: "/size001" },
+  { image: "upvc118.jpg", label: "U.P.V.C.  SOLVENT", route: "/size002" },
+  { image: "upvc118.jpg", label: "P.V.C. SOLVENT ", route: "/size003" },
+
 ];
 
 const products = [
@@ -118,7 +120,7 @@ const Ghotu = () => {
           onClick={() => setShowSort(!showSort)}
         >
           <h3 className="text-2xl  font-semibold text-[#1a1f2c]">
-           BREZZA MODEL
+          C.P.V.C. SOLVENT
           </h3>
           <ChevronDown className="w-6 h-6 text-[#1a1f2c]" />
         </div>
