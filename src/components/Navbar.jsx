@@ -76,11 +76,19 @@ const Navbar = ({ onSearch }) => {
 
           <div className="flex gap-8 w-3/5 justify-end">
             <button className="flex items-center bg-[#3F72AF] text-white font-medium px-4 py-1 rounded">
-              <img src="/in_store_products.svg" className="h-5 w-5 mr-2" alt="Products" />
+              <img
+                src="/in_store_products.svg"
+                className="h-5 w-5 mr-2"
+                alt="Products"
+              />
               In-Store Products
             </button>
             <button className="flex items-center bg-[#3F72AF] text-white font-medium px-4 py-1 rounded">
-              <img src="/in_store_offers.svg" className="h-5 w-5 mr-2" alt="Offers" />
+              <img
+                src="/in_store_offers.svg"
+                className="h-5 w-5 mr-2"
+                alt="Offers"
+              />
               In-Store Offers
             </button>
           </div>
@@ -88,86 +96,100 @@ const Navbar = ({ onSearch }) => {
       </div>
 
       {/* -------------------- MOBILE NAVBAR -------------------- */}
-      <div className="block md:hidden px-4 py-4">
-        <div className="flex flex-col items-center gap-4">
-          <img src="/kT-final-logo.png" alt="Logo" className="h-20 w-20" />
+<div className="block md:hidden px-4 py-4">
+  <div className="flex flex-col items-center gap-4">
+    {/* Logo */}
+    <img src="/kT-final-logo.png" alt="Logo" className="h-20 w-20" />
 
-          <div className="flex items-center border-4 border-[#3F72AF] rounded-lg w-full max-w-[300px]">
-            <input
-              type="text"
-              placeholder="Search..."
-              className="h-10 w-full pl-3 text-sm outline-none bg-[#fdfce9]"
-              value={query}
-              onChange={(e) => setQuery(e.target.value)}
-            />
-            <button onClick={handleSearchClick}>
-              <img
-                src="/search_icon.svg"
-                alt="Search"
-                className="h-10 w-10 bg-[#3F72AF] p-2 rounded-r-lg"
-              />
-            </button>
-          </div>
+    {/* Search */}
+    <div className="flex items-center border-4 border-[#3F72AF] rounded-lg w-full max-w-[300px]">
+      <input
+        type="text"
+        placeholder="Search..."
+        className="h-10 w-full pl-3 text-sm outline-none bg-[#fdfce9]"
+        value={query}
+        onChange={(e) => setQuery(e.target.value)}
+      />
+      <button onClick={handleSearchClick}>
+        <img
+          src="/search_icon.svg"
+          alt="Search"
+          className="h-10 w-10 bg-[#3F72AF] p-2 rounded-r-lg"
+        />
+      </button>
+    </div>
 
-          <a
-            href="https://www.google.com/maps/place/Devi+Ahilya..."
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <button className="flex items-center gap-2 bg-[#3F72AF] text-white px-3 py-2 rounded text-sm">
-              <img src="/showroom.png" className="h-4 w-4" alt="Showroom" />
-              Showroom
-            </button>
-          </a>
-
-          <div className="flex flex-wrap justify-center gap-3 mt-2">
-            <Link to="/home">
-              <button className="bg-[#3F72AF] text-white px-3 py-1 text-xs rounded">
-                Home
-              </button>
-            </Link>
-            <button className="border border-gray-400 text-xs px-3 py-1 rounded">
-              Brands
-            </button>
-            <a
-              href="https://wa.me/919981689326?text=Hello..."
-              target="_blank"
-              rel="noopener noreferrer"
-              className="[text-decoration:none]"
-            >
-              <button className="flex items-center border border-gray-400 text-xs px-3 py-1 rounded">
-                <img src="/whats.png" className="h-4 w-4 mr-1" alt="WhatsApp" />
-                Contact
-              </button>
-            </a>
-            <Link to="/about">
-              <button className="border border-gray-400 text-xs px-3 py-1 rounded">
-                About
-              </button>
-            </Link>
-          </div>
-
-          <div className="flex gap-3 mt-4">
-            <button className="flex items-center bg-[#3F72AF] text-white px-3 py-1 text-xs rounded">
-              <img src="/in_store_products.svg" className="h-4 w-4 mr-1" alt="Products" />
-              Products
-            </button>
-            <button className="flex items-center bg-[#3F72AF] text-white px-3 py-1 text-xs rounded">
-              <img src="/in_store_offers.svg" className="h-4 w-4 mr-1" alt="Offers" />
-              Offers
-            </button>
-          </div>
-        </div>
+    {/* Showroom */}
+    <a
+      href="https://www.google.com/maps/place/Devi+Ahilya..."
+      target="_blank"
+      rel="noopener noreferrer"
+      className="no-underline"
+    >
+      <div className="flex items-center gap-2 bg-[#3F72AF] text-white px-3 py-2 rounded text-sm">
+        <img src="/showroom.png" className="h-4 w-4" alt="Showroom" />
+        Showroom
       </div>
+    </a>
+
+    {/* Navigation */}
+    <div className="flex flex-wrap justify-center gap-3 mt-2">
+      <Link
+        to="/home"
+        className="bg-[#3F72AF] text-white px-3 py-1 text-xs rounded flex items-center justify-center"
+      >
+        Home
+      </Link>
+
+      <button className="border border-gray-400 text-xs px-3 py-1 rounded">
+        Brands
+      </button>
+
+      <a
+        href="https://wa.me/919981689326?text=Hello..."
+        target="_blank"
+        rel="noopener noreferrer"
+        className="border border-gray-400 text-xs px-3 py-1 rounded flex items-center justify-center text-black"
+      >
+        <img src="/whats.png" className="h-4 w-4 mr-1" alt="WhatsApp" />
+        Contact
+      </a>
+
+      <Link
+        to="/about"
+        className="border border-gray-400 text-xs px-3 py-1 rounded flex items-center justify-center text-black"
+      >
+        About
+      </Link>
+    </div>
+
+    {/* Products & Offers */}
+    <div className="flex gap-3 mt-4">
+      <button className="flex items-center bg-[#3F72AF] text-white px-3 py-1 text-xs rounded">
+        <img
+          src="/in_store_products.svg"
+          className="h-4 w-4 mr-1"
+          alt="Products"
+        />
+        Products
+      </button>
+      <button className="flex items-center bg-[#3F72AF] text-white px-3 py-1 text-xs rounded">
+        <img
+          src="/in_store_offers.svg"
+          className="h-4 w-4 mr-1"
+          alt="Offers"
+        />
+        Offers
+      </button>
+    </div>
+  </div>
+</div>
+
     </header>
   );
 };
 
 export default Navbar;
-
-
-
-
 
 // import React, { useState } from "react";
 // import { Link } from "react-router-dom";
