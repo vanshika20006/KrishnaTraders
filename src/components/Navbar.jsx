@@ -53,20 +53,23 @@ const Navbar = ({ onSearch }) => {
                 Home
               </button>
             </Link>
-            <button className="hover:bg-blue-500 hover:text-black px-3 text-black py-1 border border-gray-400 rounded">
-              Brands
-            </button>
-            <a
-              href="https://wa.me/919981689326?text=Hello..."
-              target="_blank"
-              rel="noopener noreferrer"
-              className="[text-decoration:none]"
-            >
-              <button className="flex text-black items-center px-3 py-1 border border-gray-400 rounded">
-                <img src="/whats.png" className="h-5 w-5 mr-2" alt="WhatsApp" />
-                Contact
+            <Link to="/about">
+              <button className="hover:bg-blue-500 hover:text-black px-3 text-black py-1 border border-gray-400 rounded">
+                Brand 
               </button>
-            </a>
+            </Link>
+           <a
+  href="https://wa.me/919981689326?text=Hello..."
+  target="_blank"
+  rel="noopener noreferrer"
+  className="[text-decoration:none]"
+>
+  <button className="flex text-black items-center px-3 py-1 border border-gray-400 rounded max-md:text-[11px] max-md:px-2 max-md:gap-1">
+    <img src="/whats.png" className="h-4 w-4 mr-1" alt="WhatsApp" />
+    Contact
+  </button>
+</a>
+
             <Link to="/about">
               <button className="hover:bg-blue-500 hover:text-black px-3 text-black py-1 border border-gray-400 rounded">
                 About 
