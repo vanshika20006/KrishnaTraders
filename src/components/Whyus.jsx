@@ -9,54 +9,45 @@ const MobileWhyExpertTutor = () => {
         WHY KRISHNA TRADERS?
       </h1>
 
-      {/* BG image container */}
-      <div
-        className="relative bg-no-repeat bg-center bg-contain py-10"
-        style={{
-          backgroundImage: "url('question_mark.jpg')",
-          backgroundSize: "220px", // smaller size for mobile
-          minHeight: "400px",
-        }}
-      >
-        <div className="flex justify-between items-start relative z-10 px-2">
-          {/* Left 2 Cards */}
-          <div className="flex flex-col gap-6">
-            <div className="bg-[#163A6B] text-white rounded-xl p-4 shadow-md w-[150px] flex items-center gap-3">
-              <Hammer size={30} />
-              <span className="text-left text-sm font-medium">
-                Tools
-              </span>
-            </div>
+      {/* BG image + Overlapping Cards */}
+      <div className="relative h-[380px]">
+        {/* Image */}
+        <img
+          src="question_mark.jpg"
+          alt="question"
+          className="mx-auto h-[200px] mt-8"
+        />
 
-            <div className="bg-[#163A6B] text-white rounded-xl p-4 shadow-md w-[150px] flex items-center gap-3">
-              <HardHat size={30} />
-              <span className="text-left text-sm font-medium">
-                Safety
-              </span>
-            </div>
+        {/* Left Cards */}
+        <div className="absolute top-1/2 left-2 transform -translate-y-1/2 flex flex-col gap-4 z-10">
+          <div className="bg-[#163A6B] text-white rounded-xl p-4 shadow-md w-[150px] flex items-center gap-3">
+            <Hammer size={30} />
+            <span className="text-left text-sm font-medium">Tools</span>
           </div>
 
-          {/* Right 2 Cards */}
-          <div className="flex flex-col gap-6">
-            <div className="bg-[#163A6B] text-white rounded-xl p-4 shadow-md w-[150px] flex items-center gap-3">
-              <Truck size={30} />
-              <span className="text-left text-sm font-medium">
-                Delivery
-              </span>
-            </div>
+          <div className="bg-[#163A6B] text-white rounded-xl p-4 shadow-md w-[150px] flex items-center gap-3">
+            <HardHat size={30} />
+            <span className="text-left text-sm font-medium">Safety</span>
+          </div>
+        </div>
 
-            <div className="bg-[#163A6B] text-white rounded-xl p-4 shadow-md w-[150px] flex items-center gap-3">
-              <ShieldCheck size={30} />
-              <span className="text-left text-sm font-medium">
-                Quality
-              </span>
-            </div>
+        {/* Right Cards */}
+        <div className="absolute top-1/2 right-2 transform -translate-y-1/2 flex flex-col gap-4 z-10">
+          <div className="bg-[#163A6B] text-white rounded-xl p-4 shadow-md w-[150px] flex items-center gap-3">
+            <Truck size={30} />
+            <span className="text-left text-sm font-medium">Delivery</span>
+          </div>
+
+          <div className="bg-[#163A6B] text-white rounded-xl p-4 shadow-md w-[150px] flex items-center gap-3">
+            <ShieldCheck size={30} />
+            <span className="text-left text-sm font-medium">Quality</span>
           </div>
         </div>
       </div>
     </section>
   );
 };
+
 
 
 
