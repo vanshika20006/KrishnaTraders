@@ -64,7 +64,7 @@ const Navbar = ({ onSearch }) => {
   rel="noopener noreferrer"
   className="[text-decoration:none]"
 >
-  <button className="flex text-black items-center px-2 py-1 border border-gray-400 rounded max-md:text-[11px] max-md:px-2 max-md:gap-1">
+  <button className="flex text-black items-center px-4 py-1 border border-gray-400 rounded max-md:text-[11px] max-md:px-2 max-md:gap-1">
     <img src="/whats.png" className="h-4 w-4 mr-1" alt="WhatsApp" />
     Contact
   </button>
