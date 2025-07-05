@@ -149,12 +149,12 @@ const CategorySection = ({ searchQuery = "" }) => {
                           }}
                         >
                           {/* Image Section (Large + Full) */}
-                          <div className="h-40 w-full">
+                          <div className="h-45 w-full">
                             {prod.image ? (
                               <img
                                 src={prod.image}
                                 alt={prod.label}
-                                className="w-full h-full object-content"
+                                className="w-full h-full object-cover"
                               />
                             ) : (
                               <div className="w-full h-full bg-gray-200 flex items-center justify-center text-gray-500">
