@@ -27,3 +27,6 @@
 .product-image-slider img.react-simple-image-slider__image {
   object-fit: contain !important;
 }
+a {
+  text-decoration: none !important;
+}
