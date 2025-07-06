@@ -14,8 +14,7 @@ const Productcardfinal = () => {
 
   const defaultImages = [
     { url: "LOCK24X24.jpg" },
-    { url: "LOCK21X21.jpg" },
-    { url: "LOCK18X24.jpg" },
+    { url: "LOCK24X24.jpg" },
   ];
 
   const imagesToShow = imageList || defaultImages;
@@ -29,7 +28,7 @@ const Productcardfinal = () => {
         <div className=" ml-30 w-[45%] flex flex-col items-start">
           <div className="product-image-slider w-[480px] h-[450px] bg-white rounded-md overflow-hidden flex items-center justify-center">
             <SimpleImageSlider
-              width={480}
+              width={490}
               height={450}
               images={imagesToShow}
               showBullets={true}

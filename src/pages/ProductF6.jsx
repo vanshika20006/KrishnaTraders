@@ -14,8 +14,8 @@ const Productcardfinal = () => {
 
   const defaultImages = [
     { url: "FRP36X36.jpg" },
-    { url: "FRP24X36.jpg" },
-    { url: "AquaBack.jpg" },
+    { url: "FRP36X36.jpg" },
+
   ];
 
   const imagesToShow = imageList || defaultImages;

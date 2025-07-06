@@ -34,7 +34,7 @@ const Navbar = ({ onSearch }) => {
           </div>
 
           <a
-            href="https://www.google.com/maps/place/Devi+Ahilya..."
+            href="https://www.google.com/maps/dir//827,+New+Loha+Mandi+Rd,+Loha+Mandi,+Indore,+Madhya+Pradesh+452001/@22.7049378,75.7814677,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x3962fd000eade62b:0x36a60fe415005d6b!2m2!1d75.86387!2d22.7049568?hl=en-in&entry=ttu&g_ep=EgoyMDI1MDYzMC4wIKXMDSoASAFQAw%3D%3D"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -59,7 +59,7 @@ const Navbar = ({ onSearch }) => {
               </button>
             </Link>
            <a
-  href="https://wa.me/919981689326?text=Hello..."
+  href="https://wa.me/918962075300?text=Hello..."
   target="_blank"
   rel="noopener noreferrer"
   className="[text-decoration:none]"

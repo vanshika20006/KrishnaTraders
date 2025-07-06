@@ -17,7 +17,6 @@ const Productcardfinal = () => {
   const defaultImages = [
     { url: "CLASSIC18X24.jpg" },
     { url: "CLASSIC21X21.jpg" },
-    { url: "AquaBack.jpg" },
   ];
 
   const imagesToShow = imageList || defaultImages;

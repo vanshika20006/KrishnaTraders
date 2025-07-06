@@ -16,8 +16,8 @@ const Productcardfinal = () => {
 
   const defaultImages = [
     { url: "FRP18X36.jpg" },
-    { url: "FRP24X36.jpg" },
-    { url: "AquaBack.jpg" },
+    { url: "FRP18X36.jpg" },
+
   ];
 
   const imagesToShow = imageList || defaultImages;
@@ -32,7 +32,7 @@ const Productcardfinal = () => {
           <div className="product-image-slider w-[480px] h-[450px] bg-white rounded-md overflow-hidden flex items-center justify-center">
             <SimpleImageSlider
               width={480}
-              height={450}
+              height={480}
               images={imagesToShow}
               showBullets={true}
               showNavs={true}

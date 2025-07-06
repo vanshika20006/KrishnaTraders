@@ -14,8 +14,7 @@ const Productcardfinal = () => {
 
   const defaultImages = [
     { url: "LOCK18X24.jpg" },
-    { url: "LOCK21X21.jpg" },
-    { url: "LOCK24X24.jpg" },
+    { url: "LOCK18X24.jpg" },
   ];
 
   const imagesToShow = imageList || defaultImages;

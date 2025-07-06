@@ -17,8 +17,8 @@ const Productcardfinal = () => {
 
   const defaultImages = [
     { url: "LDPE30X30.jpg" },
-    { url: "LDPE12X12.jpg" },
-    { url: "AquaBack.jpg" },
+    { url: "LDPE30X30.jpg" },
+
   ];
 
   const imagesToShow = imageList || defaultImages;
