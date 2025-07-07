@@ -3,39 +3,75 @@ import { Link, useNavigate } from "react-router-dom";
 
 const Navbar = () => {
   const [query, setQuery] = useState("");
+  const [showSuggestions, setShowSuggestions] = useState(false);
   const navigate = useNavigate();
 
-  const products = [
-    {
-      id: 1,
-      name: "AQUA BLU(5T) 12X12",
-      size: "12X12",
-      slug: "1"
-    },
-    {
-      id: 2,
-      name: "PVC Solvent 200ml",
-      size: "200ml",
-      slug: "pvc-solvent-200ml"
-    },
-    {
-      id: 3,
-      name: "CPVC Solvent 50ml",
-      size: "50ml",
-      slug: "cpvc-solvent-50ml"
-    }
-    // aur bhi products yahan add karo...
-  ];
+ const products = [
+  {
+    id: 1,
+    name: "AQUA BLU(5T)",
+    size: "12X12",
+    slug: "1"
+  },
+  {
+    id: 2,
+    name: "AQUA BLU(5T)",
+    size: "15X15",
+    slug: "2"
+  },
+  {
+    id: 3,
+    name: "AQUA BLU(5T)",
+    size: "18X18",
+    slug: "3"
+  },
+  {
+    id: 4,
+    name: "AQUA BLU(5T)",
+    size: "18X24",
+    slug: "4"
+  },
+  {
+    id: 5,
+    name: "AQUA BLU(5T)",
+    size: "21X21",
+    slug: "5"
+  },
+  {
+    id: 6,
+    name: "AQUA BLU(5T)",
+    size: "24X24",
+    slug: "6"
+  },
+  {
+    id: 7,
+    name: "AQUA BLU(5T)",
+    size: "28X28",
+    slug: "7"
+  },
+  {
+    id: 8,
+    name: "AQUA BLU(5T)",
+    size: "30X30",
+    slug: "8"
+  },
+  {
+    id: 9,
+    name: "AQUA BLU(5T)",
+    size: "36X36",
+    slug: "9"
+  }
+];
+
+
 
   const handleSearchClick = () => {
     const searchQuery = query.toLowerCase().trim();
-
     const found = products.find(
       (p) =>
         p.name.toLowerCase().includes(searchQuery) ||
         p.size.toLowerCase().includes(searchQuery)
     );
-
     if (found) {
       navigate(`/product${found.slug}`, { state: found });
     } else {
@@ -43,30 +79,68 @@ const Navbar = () => {
     }
   };
 
+  const filteredSuggestions = products.filter((p) =>
+    p.name.toLowerCase().includes(query.toLowerCase()) ||
+    p.size.toLowerCase().includes(query.toLowerCase())
+  );
+
+  const renderSearchInput = (widthClass = "w-[480px]") => (
+    <div className="relative">
+      <div className={`flex items-center border-4 border-[#3F72AF] rounded-lg ${widthClass}`}>
+        <input
+          type="text"
+          placeholder="What are you Looking for ?"
+          className="h-10 pl-4 outline-none bg-[#fdfce9] w-full"
+          value={query}
+          onChange={(e) => {
+            setQuery(e.target.value);
+            setShowSuggestions(true);
+          }}
+          onBlur={() => setTimeout(() => setShowSuggestions(false), 200)}
+          onFocus={() => setShowSuggestions(true)}
+        />
+        <button onClick={handleSearchClick}>
+          <img
+            src="/search_icon.svg"
+            alt="Search"
+            className="h-10 w-12 bg-[#3F72AF] p-2 rounded-r-lg"
+          />
+        </button>
+      </div>
+
+      {showSuggestions && query && (
+  <ul className="absolute top-12 w-full max-h-60 overflow-y-auto bg-[#fdfce9]/10 backdrop-blur-md border border-gray-300 rounded shadow z-50">
+    
+    {filteredSuggestions.length === 0 && (
+      <li className="px-4 py-2 text-gray-500">No matching products</li>
+    )}
+
+    {filteredSuggestions.map((item) => (
+      <li
+        key={item.id}
+        className="px-4 py-2 hover:bg-gray-100 cursor-pointer"
+        onClick={() => {
+          setQuery(item.name);
+          navigate(`/product${item.slug}`, { state: item });
+          setShowSuggestions(false);
+        }}
+      >
+        {item.name} ({item.size})
+      </li>
+    ))}
+  </ul>
+)}
+
+    </div>
+  );
+
   return (
     <header className="bg-[#f9f9e6] w-full pb-4">
       {/* Desktop Navbar */}
       <div className="hidden md:block">
         <div className="flex items-center justify-between px-10 py-4">
           <img src="/kT-final-logo.png" alt="Logo" className="h-28 w-28" />
-
-          <div className="flex items-center border-4 border-[#3F72AF] rounded-lg">
-            <input
-              type="text"
-              placeholder="What are you Looking for ?"
-              className="h-10 w-[480px] pl-4 outline-none bg-[#fdfce9]"
-              value={query}
-              onChange={(e) => setQuery(e.target.value)}
-            />
-            <button onClick={handleSearchClick}>
-              <img
-                src="/search_icon.svg"
-                alt="Search"
-                className="h-10 w-12 bg-[#3F72AF] p-2 rounded-r-lg"
-              />
-            </button>
-          </div>
-
+          {renderSearchInput()}
           <a
             href="https://www.google.com/maps/dir//827,+New+Loha+Mandi..."
             target="_blank"
@@ -109,19 +183,11 @@ const Navbar = () => {
 
           <div className="flex gap-8 w-3/5 justify-end">
             <button className="flex items-center bg-[#3F72AF] text-white font-medium px-4 py-1 rounded">
-              <img
-                src="/in_store_products.svg"
-                className="h-5 w-5 mr-2"
-                alt="Products"
-              />
+              <img src="/in_store_products.svg" className="h-5 w-5 mr-2" alt="Products" />
               In-Store Products
             </button>
             <button className="flex items-center bg-[#3F72AF] text-white font-medium px-4 py-1 rounded">
-              <img
-                src="/in_store_offers.svg"
-                className="h-5 w-5 mr-2"
-                alt="Offers"
-              />
+              <img src="/in_store_offers.svg" className="h-5 w-5 mr-2" alt="Offers" />
               In-Store Offers
             </button>
           </div>
@@ -132,23 +198,7 @@ const Navbar = () => {
       <div className="block md:hidden px-4 py-4">
         <div className="flex flex-col items-center gap-4">
           <img src="/kT-final-logo.png" alt="Logo" className="h-20 w-20" />
-
-          <div className="flex items-center border-4 border-[#3F72AF] rounded-lg w-full max-w-[200px]">
-            <input
-              type="text"
-              placeholder="Search..."
-              className="h-10 w-full pl-3 text-sm outline-none bg-[#fdfce9]"
-              value={query}
-              onChange={(e) => setQuery(e.target.value)}
-            />
-            <button onClick={handleSearchClick}>
-              <img
-                src="/search_icon.svg"
-                alt="Search"
-                className="h-10 w-10 bg-[#3F72AF] p-2 rounded-r-lg"
-              />
-            </button>
-          </div>
+          {renderSearchInput("w-full max-w-[200px]")}
 
           <a
             href="https://www.google.com/maps/place/Devi+Ahilya..."
@@ -185,19 +235,11 @@ const Navbar = () => {
 
           <div className="flex gap-3 mt-4">
             <button className="flex items-center bg-[#3F72AF] text-white px-3 py-1 text-xs rounded">
-              <img
-                src="/in_store_products.svg"
-                className="h-4 w-4 mr-1"
-                alt="Products"
-              />
+              <img src="/in_store_products.svg" className="h-4 w-4 mr-1" alt="Products" />
               Products
             </button>
             <button className="flex items-center bg-[#3F72AF] text-white px-3 py-1 text-xs rounded">
-              <img
-                src="/in_store_offers.svg"
-                className="h-4 w-4 mr-1"
-                alt="Offers"
-              />
+              <img src="/in_store_offers.svg" className="h-4 w-4 mr-1" alt="Offers" />
               Offers
             </button>
           </div>
