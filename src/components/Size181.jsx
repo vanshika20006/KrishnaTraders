@@ -18,7 +18,7 @@ const products = [
     price: 4.00,
     inStock: true,
     size: "3/8",
-    image: "/HOSECLIP1.jpg",
+    image: "/HOSECLIP2.jpg",
   },
   {
     id: 2,
@@ -26,7 +26,7 @@ const products = [
     price: 4.00,
     inStock: true,
     size: "1/2",
-    image: "/HOSECLIP1.jpg",
+    image: "/HOSECLIP2.jpg",
   },
   {
     id: 3,
@@ -34,7 +34,7 @@ const products = [
     price: 4.00,
     inStock: true,
     size: "3/4",
-    image: "/HOSECLIP1.jpg",
+    image: "/HOSECLIP2.jpg",
   },
   {
     id: 4,
@@ -42,7 +42,7 @@ const products = [
     price: 4.00,
     inStock: true,
     size: "1",
-    image: "/HOSECLIP1.jpg",
+    image: "/HOSECLIP2.jpg",
   },
   {
     id: 5,
@@ -50,7 +50,7 @@ const products = [
     price: 4.85,
     inStock: true,
     size: "1-1/4",
-    image: "/HOSECLIP1.jpg",
+    image: "/HOSECLIP2.jpg",
   },
   {
     id: 6,
@@ -58,7 +58,7 @@ const products = [
     price: 4.85,
     inStock: true,
     size: "1-1/2",
-    image: "/HOSECLIP1.jpg",
+    image: "/HOSECLIP2.jpg",
   },
   {
     id: 7,
@@ -66,7 +66,7 @@ const products = [
     price: "",
     inStock: true,
     size: "2",
-    image: "/HOSECLIP1.jpg",
+    image: "/HOSECLIP2.jpg",
   }
 ];
 

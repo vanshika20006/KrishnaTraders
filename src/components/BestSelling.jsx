@@ -2,58 +2,119 @@ import React, { useState } from "react";
 import ProductCard from "./ProductCard";
 import { ChevronDown } from "lucide-react";
 
-// Sample product data with different images and properties
+// 🟡 Empty product list — you can add your own manually below
 const products = [
   {
     id: 1,
     name: "Classic Wooden Door",
+    slug: "1",
     price: 4500,
     inStock: true,
-    size: 36, // in inches
-    image: "/door.png",
+    size: 36,
+    image: "/Aqua12X12.jpg",
   },
   {
     id: 2,
     name: "Modern Glass Panel Door",
+    slug: "2",
     price: 6200,
     inStock: true,
     size: 32,
-    image: "glassdoor.png",
+    image: "Aqua15X15.jpg",
   },
   {
     id: 3,
     name: "Rustic Barn Door",
+    slug: "rustic-barn",
     price: 3800,
     inStock: false,
     size: 42,
-    image: "rustdoor.png",
+    image: "Aqua18X18.jpg",
   },
   {
     id: 4,
     name: "French Patio Door",
+    slug: "french-patio",
     price: 7800,
     inStock: true,
     size: 60,
-    image: "french.png",
+    image: "Aqua18X24.jpg",
+  },
+   {
+    id: 1,
+    name: "Classic Wooden Door",
+    slug: "classic-wooden",
+    price: 4500,
+    inStock: true,
+    size: 36,
+    image: "/Aqua2-21X21.jpg",
   },
   {
-    id: 5,
+    id: 2,
+    name: "Modern Glass Panel Door",
+    slug: "modern-glass",
+    price: 6200,
+    inStock: true,
+    size: 32,
+    image: "first1.jpg",
+  },
+  {
+    id: 3,
+    name: "Rustic Barn Door",
+    slug: "rustic-barn",
+    price: 3800,
+    inStock: false,
+    size: 42,
+    image: "Aqua24X24.jpg",
+  },
+  {
+    id: 4,
     name: "French Patio Door",
+    slug: "french-patio",
     price: 7800,
     inStock: true,
     size: 60,
-    image: "french.png",
+    image: "first1.jpg",
   },
-  // Add more products with different images
-  ...Array.from({ length: 5 }).map((_, i) => ({
-    id: i + 5,
-    name: `Door Model #${i + 5}`,
-    price: Math.floor(Math.random() * 7000) + 2000,
-    inStock: Math.random() > 0.3,
-    size: Math.floor(Math.random() * 30) + 24,
-    image: `french.png,${i}`, // Different random door images
-  })),
+   {
+    id: 1,
+    name: "Classic Wooden Door",
+    slug: "classic-wooden",
+    price: 4500,
+    inStock: true,
+    size: 36,
+    image: "/first1.jpg",
+  },
+  {
+    id: 2,
+    name: "Modern Glass Panel Door",
+    slug: "modern-glass",
+    price: 6200,
+    inStock: true,
+    size: 32,
+    image: "first1.jpg",
+  },
+  {
+    id: 3,
+    name: "Rustic Barn Door",
+    slug: "rustic-barn",
+    price: 3800,
+    inStock: false,
+    size: 42,
+    image: "first1.jpg",
+  },
+  {
+    id: 4,
+    name: "French Patio Door",
+    slug: "french-patio",
+    price: 7800,
+    inStock: true,
+    size: 60,
+    image: "first1.jpg",
+  },
 ];
+
+
 
 const BestSelling = () => {
   const [showSort, setShowSort] = useState(false);
@@ -79,20 +140,18 @@ const BestSelling = () => {
   const applyFilters = () => {
     let filtered = [...products];
 
-    // Size filter
     if (filters.minSize || filters.maxSize) {
-      const minSize =
-        filters.sizeUnit === "Inch"
-          ? parseFloat(filters.minSize)
-          : parseFloat(filters.minSize) / 25.4;
-      const maxSize =
-        filters.sizeUnit === "Inch"
-          ? parseFloat(filters.maxSize)
-          : parseFloat(filters.maxSize) / 25.4;
+      const minSize = filters.sizeUnit === "Inch"
+        ? parseFloat(filters.minSize)
+        : parseFloat(filters.minSize) / 25.4;
+      const maxSize = filters.sizeUnit === "Inch"
+        ? parseFloat(filters.maxSize)
+        : parseFloat(filters.maxSize) / 25.4;
 
       filtered = filtered.filter((product) => {
-        const productSize =
-          filters.sizeUnit === "Inch" ? product.size : product.size * 25.4;
+        const productSize = filters.sizeUnit === "Inch"
+          ? product.size
+          : product.size * 25.4;
         return (
           (!minSize || productSize >= minSize) &&
           (!maxSize || productSize <= maxSize)
@@ -100,18 +159,15 @@ const BestSelling = () => {
       });
     }
 
-    // Price filter
     if (filters.minPrice || filters.maxPrice) {
       filtered = filtered.filter((product) => {
         return (
-          (!filters.minPrice ||
-            product.price >= parseFloat(filters.minPrice)) &&
+          (!filters.minPrice || product.price >= parseFloat(filters.minPrice)) &&
           (!filters.maxPrice || product.price <= parseFloat(filters.maxPrice))
         );
       });
     }
 
-    // Stock filter
     if (filters.inStock) {
       filtered = filtered.filter((product) => product.inStock);
     }
@@ -147,7 +203,6 @@ const BestSelling = () => {
         <hr className="border-white/40" />
 
         <div className="text-sm space-y-4 ">
-          {/* Sizes Section */}
           <div className="space-y-2">
             <label>Sizes</label>
             <div className="flex gap-2">
@@ -179,7 +234,6 @@ const BestSelling = () => {
 
           <hr className="border-white/40" />
 
-          {/* Price Section */}
           <div className="space-y-2">
             <label>Price</label>
             <div className="flex items-center gap-2">
@@ -206,7 +260,6 @@ const BestSelling = () => {
 
           <hr className="border-white/40" />
 
-          {/* In Stock */}
           <div className="flex items-center gap-2">
             <input
               type="checkbox"
@@ -219,7 +272,6 @@ const BestSelling = () => {
           </div>
         </div>
 
-        {/* Buttons */}
         <div className="flex gap-2 mt-auto">
           <button
             onClick={resetFilters}
@@ -282,7 +334,6 @@ const BestSelling = () => {
               scrollbarColor: "rgba(0,0,0,0.2) rgba(255,255,255,0.6)",
             }}
           >
-            {/* Custom scrollbar styling for WebKit browsers */}
             <style>
               {`
                 .grid::-webkit-scrollbar {
@@ -311,6 +362,7 @@ const BestSelling = () => {
                 image={p.image}
                 inStock={p.inStock}
                 size={`${p.size}"`}
+                slug={p.slug}
               />
             ))}
           </div>
