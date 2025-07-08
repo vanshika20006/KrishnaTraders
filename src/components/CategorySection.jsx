@@ -12,7 +12,7 @@ const categories = [
     title: "Plumbing and Sanitary",
     expanded: true,
     products: [
-      { image: "Chamber.png", label: "Chamber Cover", route: "/categories1" },
+      { image: "cham2.png", label: "Chamber Cover", route: "/categories1" },
       {
         image: "Kitchensink.png",
         label: "Kitchen Sink",
@@ -154,7 +154,7 @@ const CategorySection = ({ searchQuery = "" }) => {
                               <img
                                 src={prod.image}
                                 alt={prod.label}
-                                className="w-full h-full object-cover"
+                                className="w-full h-full object-content"
                               />
                             ) : (
                               <div className="w-full h-full bg-gray-200 flex items-center justify-center text-gray-500">

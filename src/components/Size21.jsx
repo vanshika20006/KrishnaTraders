@@ -42,6 +42,14 @@ const products = [
     inStock: true,
     size: "21X21",
     image: "/CLASSIC21X21.jpg",
+  },
+  {
+    id: 5,
+    name: "CLASSIC ",
+    price: 4500,
+    inStock: true,
+    size: "24X24",
+    image: "/CLASSIC21X21.jpg",
   }
 
 ];
