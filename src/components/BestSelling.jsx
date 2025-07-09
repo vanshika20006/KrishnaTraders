@@ -123,7 +123,7 @@ const products = [
   },
   {
     id: 14,
-    name: "UPVC Pipe",
+    name: "UPVC Pipe 1 inch",
     slug: "13013",
     price: 160,
     inStock: true,
@@ -132,7 +132,7 @@ const products = [
   },
   {
     id: 15,
-    name: "UPVC Pipe ",
+    name: "UPVC Pipe 1/2 inch",
     slug: "13011",
     price: 100,
     inStock: true,
@@ -141,7 +141,7 @@ const products = [
   },
   {
     id: 16,
-    name: "CPVC Pipe",
+    name: "CPVC Pipe 3/4 inch",
     slug: "14011",
     price: 120,
     inStock: true,
@@ -150,7 +150,7 @@ const products = [
   },
   {
     id: 17,
-    name: "CPVC Pipe",
+    name: "CPVC Pipe 1 inch",
     slug: "14012",
     price: 170,
     inStock: true,

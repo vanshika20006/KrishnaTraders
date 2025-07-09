@@ -13,13 +13,24 @@ const ProductCard = ({ image, name, inStock, price, size, slug }) => {
   return (
     <div
       onClick={handleClick}
-      className="bg-white rounded-xl shadow-md px-5 py-6 flex flex-col items-center mb-0 transition-shadow hover:shadow-lg min-w-[160px] max-w-[180px] cursor-pointer h-full"
+      className="cursor-pointer rounded-xl overflow-hidden shadow-md hover:shadow-lg transition-all bg-white"
     >
-      <div className="w-28 h-28 flex items-center justify-center mb-3">
-        <img src={image} alt={name} className="object-contain w-full h-full rounded-lg" />
+      {/* Image Section - full width/height top part */}
+      <div className="w-full h-48">
+        <img
+          src={image}
+          alt={name}
+          className="w-full h-full object-content"
+        />
       </div>
-      <div className="text-gray-800 text-base font-medium text-center">{name}</div>
-      <div className="text-green-600 text-sm mt-1">{inStock ? "In Stock" : "Out of Stock"}</div>
+
+      {/* Details Section */}
+      <div className="bg-white p-4 text-center">
+        <h6 className="font-semibold">{name}</h6>
+        <p className={`text-xs ${inStock ? "text-green-600" : "text-red-600"}`}>
+          {inStock ? "In Stock" : "Out of Stock"}
+        </p>
+      </div>
     </div>
   );
 };
