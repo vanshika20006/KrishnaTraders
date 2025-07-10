@@ -2,7 +2,7 @@ import React from 'react';
 
 const Pdf = () => {
   const handleOpenPDF = () => {
-    window.open('/resume.pdf', '_blank');
+    window.open('/CPVCFITTINGS.pdf', '_blank');
   };
 
   return (

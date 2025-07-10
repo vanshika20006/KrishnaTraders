@@ -23,6 +23,10 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./pages/HomePage";
 import About from "./pages/AboutPage";
 import PDF from "./pages/pdfPage";
+import PDF1 from "./pages/pdfPage1";
+import PDF2 from "./pages/pdfPage2";
+import PDF3 from "./pages/pdfPage3";
+import PDF4 from "./pages/pdfPage4";
 
 import Category1 from "./pages/Category1";
 import Category2 from "./pages/Category2";
@@ -550,6 +554,10 @@ function App() {
         <Route path="/home" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/pdf" element={<PDF />} />
+        <Route path="/pdf1" element={<PDF1 />} />
+        <Route path="/pdf2" element={<PDF2 />} />
+        <Route path="/pdf3" element={<PDF3 />} />
+        <Route path="/pdf4" element={<PDF4 />} />
         <Route path="/categories1" element={<Category1 />} />
         <Route path="/categories2" element={<Category2 />} />
         <Route path="/categories3" element={<Category3 />} />
