@@ -1050,39 +1050,623 @@ const Navbar = () => {
   name: "CP FLANCH ROUND",
   size: "Heavy",
   slug: "5313"
+},
+{
+  id: 170,
+  name: "PVC GUN 1.5MTR",
+  size: "1",
+  slug: "5411"
+},
+{
+  id: 171,
+  name: "MAHINDRA 1.5MTR",
+  size: "1",
+  slug: "5421"
+},
+{
+  id: 172,
+  name: "DOLPHIN 1.5MTR",
+  size: "1",
+  slug: "5422"
+},
+{
+  id: 173,
+  name: "PTMT GUN 1MTR",
+  size: "1",
+  slug: "5431"
+},
+{
+  id: 174,
+  name: "PTMT (HY) GUN 1MTR",
+  size: "1",
+  slug: "5432"
+},
+{
+  id: 175,
+  name: "TEFLON TAPE SMALL 8MTR.",
+  size: "1/2",
+  slug: "5511"
+},
+{
+  id: 176,
+  name: "TEFLON TAPE LARGE 12MTR.",
+  size: "1/2",
+  slug: "5512"
+},
+{
+  id: 177,
+  name: "TEFLON TAPE LARGE 12MTR.",
+  size: "3/4",
+  slug: "5513"
+},
+{
+  id: 178,
+  name: "TEFLON TAPE LARGE 12MTR.",
+  size: "1",
+  slug: "5514"
+},
+{
+  id: 179,
+  name: "SS JALI NORMAL",
+  size: 36,
+  slug: "5611"
+},
+{
+  id: 180,
+  name: "SS JALI NORMAL",
+  size: 36,
+  slug: "5612"
+},
+{
+  id: 181,
+  name: "SS JALI NORMAL",
+  size: 36,
+  slug: "5613"
+},
+{
+  id: 182,
+  name: "SS JALI LOCKING JALI",
+  size: 36,
+  slug: "5614"
+},
+{
+  id: 183,
+  name: "SS JALI HOLE JALI",
+  size: 36,
+  slug: "5615"
+},
+{
+  id: 184,
+  name: "SS JALI LOCKING HOLE",
+  size: 36,
+  slug: "5616"
+},
+{
+  id: 185,
+  name: "SS JALI KABJA JALI",
+  size: 36,
+  slug: "5617"
+},
+{
+  id: 186,
+  name: "SS JALI COCKROACH JALI",
+  size: 36,
+  slug: "5618"
+},
+{
+  id: 187,
+  name: "ANGLE COCK CHINA",
+  size: "1",
+  slug: "5711"
+},
+{
+  id: 188,
+  name: "SS ANGLE COCK",
+  size: "1",
+  slug: "5721"
+},
+{
+    id: 189,
+    name: "SPENDLE DISC MEDIUM",
+    size: "MEDIUM",
+    slug: "5811"
+  },
+  {
+    id: 190,
+    name: "SPENDLE DISC HEAVY",
+    size: "HEAVY",
+    slug: "5812"
+  },
+  {
+    id: 191,
+    name: "SPENDLE DISC NO 1",
+    size: "NO 1",
+    slug: "5813"
+  },
+  {
+    id: 192,
+    name: "SPENDLE DISC NO 2",
+    size: "NO 2",
+    slug: "5814"
+  },
+  {
+    id: 193,
+    name: "SPENDLE DISC NO 3",
+    size: "NO 3",
+    slug: "5815"
+  },
+  {
+    id: 194,
+    name: "SPENDLE DISC CONCEALED VALVE",
+    size: "CONCEALED VALVE",
+    slug: "5816"
+  },
+ 
+  {
+    id: 195,
+    name: "C.P.V.C. SOLVENT 10ML TUBE",
+    size: "10ML TUBE",
+    slug: "0011"
+  },
+  {
+    id: 196,
+    name: "C.P.V.C. SOLVENT 25ML TUBE",
+    size: "25ML TUBE",
+    slug: "0012"
+  },
+  {
+    id: 197,
+    name: "C.P.V.C. SOLVENT 59ML TIN",
+    size: "59ML TIN",
+    slug: "0013"
+  },
+  {
+    id: 198,
+    name: "C.P.V.C. SOLVENT 118ML TIN",
+    size: "118ML TIN",
+    slug: "0014"
+  },
+  {
+    id: 199,
+    name: "C.P.V.C. SOLVENT 237ML TIN",
+    size: "237ML TIN",
+    slug: "0015"
+  },
+  {
+  id: 200,
+  name: "U.P.V.C. SOLVENT 10ML TUBE",
+  size: "10ML TUBE",
+  slug: "0021"
+},
+{
+  id: 201,
+  name: "U.P.V.C. SOLVENT 25ML TUBE",
+  size: "25ML TUBE",
+  slug: "0022"
+},
+{
+  id: 202,
+  name: "U.P.V.C. SOLVENT 59ML TIN",
+  size: "59ML TIN",
+  slug: "0023"
+},
+{
+  id: 203,
+  name: "U.P.V.C. SOLVENT 118ML TIN",
+  size: "118ML TIN",
+  slug: "0024"
+},
+{
+  id: 204,
+  name: "U.P.V.C. SOLVENT 237ML TIN",
+  size: "237ML TIN",
+  slug: "0025"
+},
+{
+  id: 205,
+  name: "P.V.C. SOLVENT 10ML TUBE",
+  size: "10ML TUBE",
+  slug: "0031"
+},
+{
+  id: 206,
+  name: "P.V.C. SOLVENT 25ML TUBE",
+  size: "25ML TUBE",
+  slug: "0032"
+},
+{
+  id: 207,
+  name: "P.V.C. SOLVENT 59ML TIN",
+  size: "59ML TIN",
+  slug: "0033"
+},
+{
+  id: 208,
+  name: "P.V.C. SOLVENT 118ML TIN",
+  size: "118ML TIN",
+  slug: "0034"
+},
+{
+  id: 209,
+  name: "P.V.C. SOLVENT 237ML TIN",
+  size: "237ML TIN",
+  slug: "0035"
+},
+{
+  id: 210,
+  name: "P.V.C. SOLVENT 500ML TIN",
+  size: "500ML TIN",
+  slug: "0036"
+},
+{
+  id: 211,
+  name: "FLUSH TANK SIDE HANDLE",
+  size: "36",
+  slug: "701"
+},
+{
+  id: 212,
+  name: "FLUSH TANK SINGLE TOP PUSH BUTTON",
+  size: "42",
+  slug: "711"
+},
+{
+  id: 213,
+  name: "FLUSH TANK DOUBLE TOP PUSH BUTTON",
+  size: "48",
+  slug: "721"
+},
+{
+  id: 214,
+  name: "FLUSH TANK ULTRA SLIM BODY",
+  size: "36",
+  slug: "731"
+},
+{
+  id: 215,
+  name: "FLUSH TANK SINGLE FRONT PUSH",
+  size: "42",
+  slug: "741"
+},
+{
+  id: 216,
+  name: "FLUSH TANK DIGITAL PRINT DUAL",
+  size: "48",
+  slug: "751"
+},
+{
+  id: 217,
+  name: "SEAT COVER EWC SEAT COVER",
+  size: "36",
+  slug: "801"
+},
+{
+  id: 218,
+  name: "SEAT COVER ANGLO INDIAN",
+  size: "42",
+  slug: "811"
+},
+{
+  id: 219,
+  name: "SEAT COVER EWC SEAT COVER WITH JET",
+  size: "48",
+  slug: "821"
+},
+{
+  id: 220,
+  name: "SEAT COVER SOFT CLOSE (ROUND)",
+  size: "36",
+  slug: "831"
+},
+{
+  id: 221,
+  name: "SEAT COVER SOFT CLOSE (SQUARE)",
+  size: "42",
+  slug: "841"
+},
+{
+  id: 222,
+  name: "PTMT CONNECTION 18\"",
+  size: "18",
+  slug: "901"
+},
+{
+  id: 223,
+  name: "PTMT CONNECTION 24\"",
+  size: "24",
+  slug: "902"
+},
+{
+  id: 224,
+  name: "PTMT CONNECTION 30\"",
+  size: "30",
+  slug: "903"
+},
+{
+  id: 225,
+  name: "PTMT CONNECTION 36\"",
+  size: "36",
+  slug: "904"
+},
+{
+  id: 226,
+  name: "SS CONNECTION 18\"",
+  size: "18",
+  slug: "911"
+},
+{
+  id: 227,
+  name: "SS CONNECTION 24\"",
+  size: "24",
+  slug: "912"
+},
+{
+  id: 228,
+  name: "SS CONNECTION 30\"",
+  size: "30",
+  slug: "913"
+},
+{
+  id: 229,
+  name: "SS CONNECTION 36\"",
+  size: "36",
+  slug: "914"
+},
+{
+  id: 230,
+  name: "HOSE CLIP 3/8",
+  size: "3/8",
+  slug: "181"
+},
+{
+  id: 231,
+  name: "HOSE CLIP 1/2",
+  size: "1/2",
+  slug: "182"
+},
+{
+  id: 232,
+  name: "HOSE CLIP 3/4",
+  size: "3/4",
+  slug: "183"
+},
+{
+  id: 233,
+  name: "HOSE CLIP 1",
+  size: "1",
+  slug: "184"
+},
+{
+  id: 234,
+  name: "HOSE CLIP 1-1/4",
+  size: "1-1/4",
+  slug: "185"
+},
+{
+  id: 235,
+  name: "HOSE CLIP 1-1/2",
+  size: "1-1/2",
+  slug: "186"
+},
+{
+  id: 236,
+  name: "HOSE CLIP 2",
+  size: "2",
+  slug: "187"
+},
+{
+  id: 237,
+  name: "CHINA CLIP 3/4",
+  size: "3/4",
+  slug: "1811"
+},
+{
+  id: 238,
+  name: "CHINA CLIP 1/2",
+  size: "1/2",
+  slug: "1812"
+},
+{
+  id: 239,
+  name: "CHINA CLIP 3/4",
+  size: "3/4",
+  slug: "1813"
+},
+{
+  id: 240,
+  name: "CHINA CLIP 1",
+  size: "1",
+  slug: "1814"
+},
+{
+  id: 241,
+  name: "CHINA CLIP 5/8",
+  size: "5/8",
+  slug: "1815"
+},
+{
+  id: 242,
+  name: "CHINA CLIP 1-1/4",
+  size: "1-1/4",
+  slug: "1816"
+},
+{
+  id: 243,
+  name: "CHINA CLIP 1-1/2",
+  size: "1-1/2",
+  slug: "1817"
+},
+{
+  id: 244,
+  name: "CHINA CLIP 1-3/4",
+  size: "1-3/4",
+  slug: "1818"
+},
+{
+  id: 245,
+  name: "CHINA CLIP WITH KEY 3/4",
+  size: "3/4",
+  slug: "1819"
+},
+{
+  id: 246,
+  name: "CHINA CLIP WITH KEY 1",
+  size: "1",
+  slug: "1820"
+},
+{
+  id: 247,
+  name: "CHINA CLIP WITH KEY 1-1/4",
+  size: "1-1/4",
+  slug: "1821"
+},
+{
+  id: 248,
+  name: "U CLIP(PIPE CLIP-PATTI) 1/2",
+  size: "1/2",
+  slug: "1822"
+},
+{
+  id: 249,
+  name: "U CLIP(PIPE CLIP-PATTI) 3/4",
+  size: "3/4",
+  slug: "1823"
+},
+{
+  id: 250,
+  name: "U CLIP(PIPE CLIP-PATTI) 1",
+  size: "1",
+  slug: "1824"
+},
+{
+  id: 251,
+  name: "U CLIP(PIPE CLIP-PATTI) 1-1/4",
+  size: "1-1/4",
+  slug: "1825"
+},
+{
+  id: 252,
+  name: "U CLIP(PIPE CLIP-PATTI) 1-1/2",
+  size: "1-1/2",
+  slug: "1826"
+},
+{
+  id: 253,
+  name: "U CLIP(PIPE CLIP-PATTI) 2",
+  size: "2",
+  slug: "1827"
+},
+{
+  id: 254,
+  name: "U CLIP(PIPE CLIP-PATTI) 2.1/2",
+  size: "2.1/2",
+  slug: "1828"
+},
+{
+  id: 255,
+  name: "U CLIP(PIPE CLIP-PATTI) 3",
+  size: "3",
+  slug: "1829"
+},
+{
+  id: 256,
+  name: "U CLIP(PIPE CLIP-PATTI) 4",
+  size: "4",
+  slug: "1830"
+},
+{
+  id: 257,
+  name: "UPVC NAIL CLAMP 1/2",
+  size: "1/2",
+  slug: "1831"
+},
+{
+  id: 258,
+  name: "UPVC NAIL CLAMP 3/4",
+  size: "3/4",
+  slug: "1832"
+},
+{
+  id: 259,
+  name: "UPVC NAIL CLAMP 1",
+  size: "1",
+  slug: "1833"
+},
+{
+  id: 260,
+  name: "UPVC NAIL CLAMP 1-1/4",
+  size: "1-1/4",
+  slug: "1834"
+},
+{
+  id: 261,
+  name: "UPVC NAIL CLAMP 1-1/2",
+  size: "1-1/2",
+  slug: "1835"
+},
+{
+  id: 262,
+  name: "UPVC NAIL CLAMP 2",
+  size: "2",
+  slug: "1836"
+},
+{
+  id: 263,
+  name: "CPVC NAIL CLAMP 3/4",
+  size: "3/4",
+  slug: "1841"
+},
+{
+  id: 264,
+  name: "CPVC NAIL CLAMP 1",
+  size: "1",
+  slug: "1842"
+},
+{
+  id: 265,
+  name: "CPVC NAIL CLAMP 1-1/4",
+  size: "1-1/4",
+  slug: "1843"
+},
+{
+  id: 266,
+  name: "CPVC NAIL CLAMP 1-1/2",
+  size: "1-1/2",
+  slug: "1844"
+},
+{
+  id: 267,
+  name: "CPVC NAIL CLAMP 2",
+  size: "2",
+  slug: "1845"
 }
-
-
-
-
-
-
-
-
-
 
 ];
 
-
-
   const handleSearchClick = () => {
-    const searchQuery = query.toLowerCase().trim();
-    const found = products.find(
-      (p) =>
-        p.name.toLowerCase().includes(searchQuery) ||
-        p.size.toLowerCase().includes(searchQuery)
-    );
-    if (found) {
-      navigate(`/product${found.slug}`, { state: found });
-    } else {
-      alert("Product not found");
-    }
-  };
+  const searchQuery = query?.toLowerCase()?.trim() || "";
+  const found = products?.find((p) => {
+    const name = p?.name?.toLowerCase() || "";
+    const size = p?.size?.toLowerCase() || "";
+    return name.includes(searchQuery) || size.includes(searchQuery);
+  });
 
-  const filteredSuggestions = products.filter((p) =>
-    p.name.toLowerCase().includes(query.toLowerCase()) ||
-    p.size.toLowerCase().includes(query.toLowerCase())
-  );
+  if (found && found.slug) {
+    navigate(`/product${found.slug}`, { state: found });
+  } else {
+    alert("Product not found");
+  }
+};
+
+
+  const filteredSuggestions = products?.filter((p) => {
+  const name = p?.name?.toString().toLowerCase() || "";
+  const size = p?.size?.toString().toLowerCase() || "";
+  const queryText = query?.toLowerCase() || "";
+  return name.includes(queryText) || size.includes(queryText);
+}) || [];
+
+
 
   const renderSearchInput = (widthClass = "w-[480px]") => (
     <div className="relative">
@@ -1116,20 +1700,24 @@ const Navbar = () => {
       <li className="px-4 py-2 text-gray-500">No matching products</li>
     )}
 
-    {filteredSuggestions.map((item) => (
-  <li
-    key={item.id}
-    className="px-4 py-2 hover:bg-gray-100 cursor-pointer"
-    onMouseDown={(e) => e.preventDefault()} // 👈 this prevents input blur
-    onClick={() => {
-      setQuery(item.name);
-      navigate(`/product${item.slug}`, { state: item }); // ✅ Fixed URL
-      setShowSuggestions(false);
-    }}
-  >
-    {item.name} ({item.size})
-  </li>
+    {Array.isArray(filteredSuggestions) &&
+  filteredSuggestions.map((item) => (
+    item?.name && item?.size && item?.slug && (
+      <li
+        key={item.id}
+        className="px-4 py-2 hover:bg-gray-100 cursor-pointer"
+        onMouseDown={(e) => e.preventDefault()}
+        onClick={() => {
+          setQuery(item.name);
+          navigate(`/product${item.slug}`, { state: item });
+          setShowSuggestions(false);
+        }}
+      >
+        {item.name} ({item.size})
+      </li>
+    )
 ))}
+
 
   </ul>
 )}
