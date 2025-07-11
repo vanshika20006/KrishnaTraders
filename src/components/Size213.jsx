@@ -14,7 +14,7 @@ const products = [
  {
   id: 1,
   name: "ALL COLOUR",
-  price: 4500,
+  price: 8600,
   inStock: true,
   size: "37X18",
   image: "/drainboardf.jpg",

@@ -14,7 +14,7 @@ const products = [
   {
     id: 1,
     name: "CLASSIC",
-    price: 4500,
+    price: 180,
     inStock: true,
     size: "12X12",
     image: "/CLASSIC12X12.jpg",
@@ -22,7 +22,7 @@ const products = [
   {
     id: 2,
     name: "CLASSIC ",
-    price: 6200,
+    price: 370,
     inStock: true,
     size: "15X15",
     image: "/CLASSIC15X15.jpg",
@@ -30,7 +30,7 @@ const products = [
   {
     id: 3,
     name: "CLASSIC ",
-    price: 6200,
+    price: 620,
     inStock: true,
     size: "18X24",
     image: "/CLASSIC18X24.jpg",
@@ -38,7 +38,7 @@ const products = [
   {
     id: 4,
     name: "CLASSIC ",
-    price: 4500,
+    price: 660,
     inStock: true,
     size: "21X21",
     image: "/CLASSIC21X21.jpg",
@@ -46,7 +46,7 @@ const products = [
   {
     id: 5,
     name: "CLASSIC ",
-    price: 4500,
+    price: 920,
     inStock: true,
     size: "24X24",
     image: "/CLASSIC21X21.jpg",

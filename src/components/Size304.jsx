@@ -18,7 +18,7 @@ const products = [
   {
     id: 1,
     name: "SHORT BODY",
-    price: 6200,
+    price: 64,
     inStock: true,
     size: "24X24",
     image: "/RANDOMSHORTBODY.jpg",
@@ -26,7 +26,7 @@ const products = [
   {
     id: 2,
     name: "ITALIAN PILLAR",
-    price: 6200,
+    price: 140,
     inStock: true,
     size: "18X24",
     image: "/RANDOMITALIANPILLAR.jpg",

@@ -13,7 +13,7 @@ const products = [
   {
     id: 1,
     name: "HANDMADE SINK",
-    price: 6200,
+    price: 2500,
     inStock: true,
     size: "18X16X10",
     image: "/HANDMADE_SINK_1.PNG",
@@ -21,7 +21,7 @@ const products = [
   {
     id: 2,
     name: "HANDMADE SINK",
-    price: 4500,
+    price: 2500,
     inStock: true,
     size: "24X18X10",
     image: "/HANDMADE_SINK_1.PNG",
@@ -29,7 +29,7 @@ const products = [
   {
     id: 3,
     name: "HANDMADE GLOSSY",
-    price: 6200,
+    price: 3600,
     inStock: true,
     size: "24X18X10",
     image: "/HANDMADE_GLOSSY.PNG",
@@ -37,7 +37,7 @@ const products = [
   {
     id: 4,
     name: "HANDMADE GOLD",
-    price: 6200,
+    price: 3600,
     inStock: true,
     size: "24X18X10",
     image: "/HANDMADE_GOLD.PNG",
@@ -45,7 +45,7 @@ const products = [
   {
     id: 5,
     name: "HANDMADE ROSEGOLD",
-    price: 6200,
+    price: 3600,
     inStock: true,
     size: "24X18X10",
     image: "/HANDMADE_ROSEGOLD.PNG",
@@ -53,7 +53,7 @@ const products = [
   {
     id: 6,
     name: "HANDMADE BLACK",
-    price: 6200,
+    price: 3600,
     inStock: true,
     size: "24X18X10",
     image: "/HANDMADE_BLACK.jpg",
@@ -61,7 +61,7 @@ const products = [
   {
     id: 7,
     name: "DOUBLE BOWL BLACK",
-    price: 6200,
+    price: 7200,
     inStock: true,
     size: "37X18X10",
     image: "/DOUBLE_BOWL_BLACKh.PNG",
@@ -69,7 +69,7 @@ const products = [
   {
     id: 8,
     name: "DOUBLE BOWL",
-    price: 6200,
+    price: 5800,
     inStock: true,
     size: "37X18X10",
     image: "/DOUBLE_BOWL_1.PNG",
@@ -77,7 +77,7 @@ const products = [
   {
     id: 9,
     name: "DOUBLE BOWL",
-    price: 4500,
+    price: 6600,
     inStock: true,
     size: "45X20X10",
     image: "/DOUBLE_BOWL_2.PNG",
@@ -85,7 +85,7 @@ const products = [
   {
     id: 10,
     name: "DOUBLE BOWL",
-    price: 6200,
+    price: 6600,
     inStock: true,
     size: "32X18X10",
     image: "/DOUBLE_BOWL_3.PNG",
@@ -93,7 +93,7 @@ const products = [
   {
     id: 11,
     name: "DRAIN BOARD",
-    price: 6200,
+    price: 5800,
     inStock: true,
     size: "37X18X10",
     image: "/HANDMADE_DRAIN_BOARDh.jpg",

@@ -1639,6 +1639,222 @@ const Navbar = () => {
   name: "CPVC NAIL CLAMP 2",
   size: "2",
   slug: "1845"
+},
+{
+  id: 268,
+  name: "BALL VALVE 1/2",
+  size: "1/2",
+  slug: "17011"
+},
+{
+  id: 269,
+  name: "BALL VALVE 3/4",
+  size: "3/4",
+  slug: "17012"
+},
+{
+  id: 270,
+  name: "BALL VALVE 1",
+  size: "1",
+  slug: "17013"
+},
+{
+  id: 271,
+  name: "BALL VALVE 1-1/4",
+  size: "1-1/4",
+  slug: "17014"
+},
+{
+  id: 272,
+  name: "BALL VALVE 1-1/2",
+  size: "1-1/2",
+  slug: "17015"
+},
+{
+  id: 273,
+  name: "BALL VALVE 2",
+  size: "2",
+  slug: "17016"
+},
+{
+  id: 274,
+  name: "THREAD BALL VALVE 1/2",
+  size: "1/2",
+  slug: "17021"
+},
+{
+  id: 275,
+  name: "THREAD BALL VALVE 1",
+  size: "1",
+  slug: "17022"
+},
+{
+  id: 276,
+  name: "THREE WAY BALL VALVE 1",
+  size: "1",
+  slug: "17031"
+},
+{
+  id: 277,
+  name: "CPVC PIPE 3/4",
+  size: "3/4",
+  slug: "14011"
+},
+{
+  id: 278,
+  name: "CPVC PIPE 1",
+  size: "1",
+  slug: "14012"
+},
+{
+  id: 279,
+  name: "UPVC PIPE 1/2",
+  size: "1/2",
+  slug: "13011"
+},
+{
+  id: 280,
+  name: "UPVC PIPE 3/4",
+  size: "3/4",
+  slug: "13012"
+},
+{
+  id: 281,
+  name: "UPVC PIPE 1",
+  size: "1",
+  slug: "13013"
+},
+{
+  id: 282,
+  name: "RADO MODEL SHORT BODY",
+  size: "",
+  slug: "601"
+},
+{
+  id: 283,
+  name: "RADO MODEL LONG BODY",
+  size: "",
+  slug: "602"
+},
+{
+  id: 284,
+  name: "RADO MODEL ANGLE COCK",
+  size: "",
+  slug: "603"
+},
+{
+  id: 285,
+  name: "RADO MODEL SHORT SINK COCK",
+  size: "",
+  slug: "604"
+},
+{
+  id: 286,
+  name: "RADO MODEL SHORT SWAN COCK",
+  size: "",
+  slug: "605"
+},
+{
+  id: 287,
+  name: "RADO MODEL TWO WAY BIB COCK",
+  size: "",
+  slug: "606"
+},
+{
+  id: 288,
+  name: "RADO MODEL TWO WAY ANGLE",
+  size: "",
+  slug: "607"
+},
+{
+  id: 289,
+  name: "RADO MODEL LONG SINK COCK",
+  size: "",
+  slug: "608"
+},
+{
+  id: 290,
+  name: "RADO MODEL LONG SWAN COCK",
+  size: "",
+  slug: "609"
+},
+{
+  id: 291,
+  name: "RADO MODEL PILLAR COCK",
+  size: "",
+  slug: "6010"
+},
+{
+  id: 292,
+  name: "RADO MODEL NOZZLE COCK",
+  size: "",
+  slug: "6011"
+},
+{
+  id: 293,
+  name: "RADO MODEL WASHING MACHINE",
+  size: "",
+  slug: "6012"
+},
+{
+  id: 294,
+  name: "FRANKY MODEL SHORT BODY",
+  size: "",
+  slug: "611"
+},
+{
+  id: 295,
+  name: "FRANKY MODEL LONG BODY",
+  size: "",
+  slug: "612"
+},
+{
+  id: 296,
+  name: "FRANKY MODEL ANGLE COCK",
+  size: "",
+  slug: "613"
+},
+{
+  id: 297,
+  name: "FRANKY MODEL SHORT SINK COCK",
+  size: "",
+  slug: "614"
+},
+{
+  id: 298,
+  name: "FRANKY MODEL SHORT SWAN COCK",
+  size: "",
+  slug: "615"
+},
+{
+  id: 299,
+  name: "FRANKY MODEL TWO WAY BIB COCK",
+  size: "",
+  slug: "616"
+},
+{
+  id: 300,
+  name: "FRANKY MODEL TWO WAY ANGLE",
+  size: "",
+  slug: "617"
+},
+{
+  id: 301,
+  name: "FRANKY MODEL MIXER WITH BEND",
+  size: "",
+  slug: "618"
+},
+{
+  id: 302,
+  name: "FRANKY MODEL PILLAR COCK",
+  size: "",
+  slug: "619"
+},
+{
+  id: 303,
+  name: "FRANKY MODEL NOZZLE COCK",
+  size: "",
+  slug: "620"
 }
 
 ];

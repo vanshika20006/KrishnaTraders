@@ -15,7 +15,7 @@ const products = [
   {
     id: 1,
     name: "SHORT BODY",
-    price: 4500,
+    price: 480,
     inStock: true,
     size: "18X18",
     image: "/Short-body-JERRY.jpg",
@@ -23,7 +23,7 @@ const products = [
   {
     id: 2,
     name: "LONG BODY",
-    price: 6200,
+    price: 510,
     inStock: true,
     size: "24X24",
     image: "/Long-body-JERRY-1st.jpg",
@@ -31,7 +31,7 @@ const products = [
   {
     id: 3,
     name: "ANGLE COCK",
-    price: 6200,
+    price: 390,
     inStock: true,
     size: "18X24",
     image: "/Angle-cock-JERRY.jpg",
@@ -39,7 +39,7 @@ const products = [
   {
     id: 4,
     name: "SINK COCK",
-    price: 4500,
+    price: 700,
     inStock: true,
     size: "27X27",
     image: "/Sink-cock-JERRY.jpg",
@@ -47,7 +47,7 @@ const products = [
   {
     id: 5,
     name: " SWAN COCK",
-    price: 6200,
+    price: 740,
     inStock: true,
     size: "30X30",
     image: "/Swan-cock-JERRY.jpg",
@@ -55,7 +55,7 @@ const products = [
   {
     id: 6,
     name: "TWO WAY BIB COCK",
-    price: 4500,
+    price: 800,
     inStock: true,
     size: "18X18",
     image: "/Two-way-bib-cock-JERRY.jpg",
@@ -63,7 +63,7 @@ const products = [
   {
     id: 7,
     name: "TWO WAY ANGLE",
-    price: 6200,
+    price: 760,
     inStock: true,
     size: "24X24",
     image: "/Two-way-angle-cock-JERRY.jpg",
@@ -71,7 +71,7 @@ const products = [
   {
     id: 8,
     name: "PILLAR COCK",
-    price: 6200,
+    price: 540,
     inStock: true,
     size: "18X24",
     image: "/Pillar-cock-JERRY.jpg",
@@ -79,7 +79,7 @@ const products = [
   {
     id: 9,
     name: "PILLAR COCK 6",
-    price: 4500,
+    price: 780,
     inStock: true,
     size: "27X27",
     image: "/Pillar-cock-6-JERRY.jpg",
@@ -87,7 +87,7 @@ const products = [
   {
     id: 10,
     name: "NOZZLE COCK",
-    price: 6200,
+    price: 420,
     inStock: true,
     size: "30X30",
     image: "/Nozzle-cock-JERRY.jpg",
@@ -95,7 +95,7 @@ const products = [
   {
     id: 11,
     name: "MIXER WITH BEND",
-    price: 4500,
+    price: 2500,
     inStock: true,
     size: "18X18",
     image: "/Mixer-with-bend-JERRY-1st.jpg",

@@ -17,7 +17,7 @@ const products = [
   {
     id: 1,
     name: "SHORT BODY",
-    price: 4500,
+    price: 80,
     inStock: true,
     size: "18X18",
     image: "/CRYSTALSHORTBODY.jpg",
@@ -25,7 +25,7 @@ const products = [
   {
     id: 2,
     name: "LONG BODY",
-    price: 6200,
+    price: 84,
     inStock: true,
     size: "24X24",
     image: "/CRYSTALLONGBODY.jpg",
@@ -33,7 +33,7 @@ const products = [
   {
     id: 3,
     name: "ANGLE COCK",
-    price: 6200,
+    price: 80,
     inStock: true,
     size: "18X24",
     image: "/CRYSTALANGLECOCK.jpg",
@@ -41,7 +41,7 @@ const products = [
   {
     id: 4,
     name: "SINK COCK",
-    price: 4500,
+    price: 250,
     inStock: true,
     size: "27X27",
     image: "/CRYSTALSINKCOCK.jpg",
@@ -49,7 +49,7 @@ const products = [
   {
     id: 5,
     name: " SWAN COCK",
-    price: 6200,
+    price: 250,
     inStock: true,
     size: "30X30",
     image: "/CRYSTALSWANCOCK.jpg",
@@ -57,7 +57,7 @@ const products = [
   {
     id: 6,
     name: "TWO WAY BIB COCK",
-    price: 4500,
+    price: 170,
     inStock: true,
     size: "18X18",
     image: "/CRYSTALTWOWAYBIBCLOCK.jpg",
@@ -65,7 +65,7 @@ const products = [
   {
     id: 7,
     name: "TWO WAY ANGLE",
-    price: 6200,
+    price: 170,
     inStock: true,
     size: "24X24",
     image: "/CRYSTALTWOWAYANGLECOCK.jpg",
@@ -73,7 +73,7 @@ const products = [
   {
     id: 8,
     name: "FOAM FLOW S/B",
-    price: 6200,
+    price: 84,
     inStock: true,
     size: "18X24",
     image: "/CRYSTALFOAMFLOWSHORT.jpg",
@@ -81,7 +81,7 @@ const products = [
   {
     id: 9,
     name: "FOAM FLOW L/B",
-    price: 6200,
+    price: 88,
     inStock: true,
     size: "24X24",
     image: "/Two-way-angle-clock-Brezza.jpg",
@@ -89,7 +89,7 @@ const products = [
   {
     id: 10,
     name: "PILLAR COCK",
-    price: 6200,
+    price: 100,
     inStock: true,
     size: "18X24",
     image: "/CRYSTALPILLARCOCK.jpg",

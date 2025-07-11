@@ -214,7 +214,7 @@ import ProductF3 from "./pages/ProductF3.jsx";
 import ProductF4 from "./pages/ProductF4.jsx";
 import ProductF5 from "./pages/ProductF5.jsx";
 import ProductF6 from "./pages/ProductF6.jsx";
-
+import ProductF7 from "./pages/ProductF7.jsx";
 import Product21 from "./pages/Product21.jsx";
 import Product22 from "./pages/Product22.jsx";
 import Product23 from "./pages/Product23.jsx";
@@ -738,6 +738,7 @@ function App() {
         <Route path="/productF4" element={<ProductF4 />} />
         <Route path="/productF5" element={<ProductF5 />} />
         <Route path="/productF6" element={<ProductF6 />} />
+        <Route path="/productF7" element={<ProductF7 />} />
         <Route path="/product21" element={<Product21 />} />
         <Route path="/product22" element={<Product22 />} />
         <Route path="/product23" element={<Product23 />} />

@@ -14,7 +14,7 @@ const products = [
   {
     id: 1,
     name: "FRP (5T)",
-    price: 4500,
+    price: 3400,
     inStock: true,
     size: "18X36",
     image: "/FRP18X36.jpg",
@@ -22,7 +22,7 @@ const products = [
   {
     id: 2,
     name: "FRP (5T)",
-    price: 6200,
+    price: 2050,
     inStock: true,
     size: "24X24",
     image: "/FRP24X24.jpg",
@@ -30,7 +30,7 @@ const products = [
   {
     id: 3,
     name: "FRP (5T)",
-    price: 6200,
+    price: 3800,
     inStock: true,
     size: "24X30",
     image: "/FRP24X30.jpg",
@@ -38,15 +38,16 @@ const products = [
   {
     id: 4,
     name: "FRP (5T)",
-    price: 4500,
+    price: 4000,
     inStock: true,
     size: "24X36",
     image: "/FRP24X36.jpg",
   },
+  
   {
     id: 5,
     name: "FRP (5T)",
-    price: 6200,
+    price: 4000,
     inStock: true,
     size: "30X30",
     image: "/FRP30X30.jpg",
@@ -54,11 +55,19 @@ const products = [
   {
     id: 6,
     name: "FRP (5T)",
-    price: 4500,
+    price: 5600,
     inStock: true,
     size: "36X36",
     image: "/FRP36X36.jpg",
-  }
+  },
+   {
+    id: 7,
+    name: "FRP (5T)",
+    price: 3200,
+    inStock: true,
+    size: "28X28",
+    image: "/FRP30X30.jpg",
+  },
 
 ];
 

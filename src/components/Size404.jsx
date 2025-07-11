@@ -16,7 +16,7 @@ const products = [
   {
     id: 1,
     name: "CONCEALED VALVE VIVO",
-    price: 4500,
+    price: 460,
     inStock: true,
     size: "18X18",
     image: "/concealedVIVO.jpg",
@@ -24,7 +24,7 @@ const products = [
   {
     id: 2,
     name: "ANGLE COCK VIVO",
-    price: 6200,
+    price: 300,
     inStock: true,
     size: "24X24",
     image: "/ANGLEVIVO.jpg",
@@ -32,7 +32,7 @@ const products = [
   {
     id: 3,
     name: "FLUSH COCK VIVO",
-    price: 6200,
+    price: 700,
     inStock: true,
     size: "18X24",
     image: "/Angle-cock-JERRY.jpg",

@@ -12,7 +12,7 @@ const products = [
   {
     id: 1,
     name: "HDP",
-    price: 4500,
+    price: 900,
     inStock: true,
     size: "18X18",
     image: "/HDP18X18.jpg",
@@ -20,7 +20,7 @@ const products = [
   {
     id: 2,
     name: "HDP",
-    price: 6200,
+    price: 1250,
     inStock: true,
     size: "24X24",
     image: "/HDP18X18.jpg",
@@ -28,7 +28,7 @@ const products = [
   {
     id: 3,
     name: "HDP",
-    price: 6200,
+    price: 1000,
     inStock: true,
     size: "18X24",
     image: "/HDP18X24.jpg",
@@ -36,7 +36,7 @@ const products = [
   {
     id: 4,
     name: "HDP",
-    price: 4500,
+    price: 1600,
     inStock: true,
     size: "27X27",
     image: "/HDP27X27.jpg",
@@ -44,7 +44,7 @@ const products = [
   {
     id: 5,
     name: "HDP",
-    price: 6200,
+    price: 2500,
     inStock: true,
     size: "30X30",
     image: "/HDP27X27.jpg",

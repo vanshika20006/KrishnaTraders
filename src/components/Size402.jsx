@@ -15,7 +15,7 @@ const products = [
   {
     id: 1,
     name: "DIVERTOR WITH PLATE",
-    price: 4500,
+    price: 4800,
     inStock: true,
     size: "18X18",
     image: "/DIVERTOR-WITH-PLATE-1st.jpg",
@@ -23,7 +23,7 @@ const products = [
   {
     id: 2,
     name: "TABLE TOP 13",
-    price: 4500,
+    price: 1900,
     inStock: true,
     size: "18X18",
     image: "/Arya-head-TABLE.jpg",
@@ -31,7 +31,7 @@ const products = [
   {
     id: 3,
     name: "Spout M",
-    price: 4500,
+    price: 620,
     inStock: true,
     size: "18X18",
     image: "/ARYASPOUTM.jpg",
@@ -39,7 +39,7 @@ const products = [
   {
     id: 4,
     name: "Spout HY",
-    price: 4500,
+    price: 840,
     inStock: true,
     size: "18X18",
     image: "/ARYASPOUTHY.jpg",

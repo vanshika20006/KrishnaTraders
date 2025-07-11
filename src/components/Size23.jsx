@@ -15,7 +15,7 @@ const products = [
   {
     id: 1,
     name: "HEAVY (1T)",
-    price: 4500,
+    price: 1300,
     inStock: true,
     size: "18X24",
     image: "/LOCK18X24.jpg",
@@ -31,7 +31,7 @@ const products = [
   {
     id: 3,
     name: "HEAVY (1T)",
-    price: 6200,
+    price: 1520,
     inStock: true,
     size: "24X24",
     image: "/LOCK24X24.jpg",

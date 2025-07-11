@@ -15,7 +15,7 @@ const products = [
   {
     id: 1,
     name: "LOCK",
-    price: 4500,
+    price: 960,
     inStock: true,
     size: "18X24",
     image: "/LOCK18X24.jpg",
@@ -23,7 +23,7 @@ const products = [
   {
     id: 2,
     name: "LOCK",
-    price: 6200,
+    price: 960,
     inStock: true,
     size: "21X21",
     image: "/LOCK21X21.jpg",
@@ -31,7 +31,7 @@ const products = [
   {
     id: 3,
     name: "LOCK",
-    price: 6200,
+    price: 1200,
     inStock: true,
     size: "24X24",
     image: "/LOCK24X24.jpg",

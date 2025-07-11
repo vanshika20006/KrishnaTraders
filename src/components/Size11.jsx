@@ -13,7 +13,7 @@ const products = [
   {
     id: 1,
     name: "AQUA BLU(5T)",
-    price: 4500,
+    price: 700,
     inStock: true,
     size: "12X12",
     image: "/Aqua12X12.jpg",
@@ -21,7 +21,7 @@ const products = [
   {
     id: 2,
     name: "AQUA BLU(5T)",
-    price: 6200,
+    price: 1050,
     inStock: true,
     size: "15X15",
     image: "/Aqua15X15.jpg",
@@ -29,7 +29,7 @@ const products = [
   {
     id: 3,
     name: "AQUA BLU(5T)",
-    price: 6200,
+    price: 1300,
     inStock: true,
     size: "18X18",
     image: "/Aqua18X18.jpg",
@@ -37,7 +37,7 @@ const products = [
   {
     id: 4,
     name: "AQUA BLU(5T)",
-    price: 4500,
+    price: 1800,
     inStock: true,
     size: "18X24",
     image: "/Aqua18X24.jpg",
@@ -45,7 +45,7 @@ const products = [
   {
     id: 5,
     name: "AQUA BLU(5T)",
-    price: 6200,
+    price: 1900,
     inStock: true,
     size: "21X21",
     image: "/Aqua2-21X21.jpg",
@@ -53,7 +53,7 @@ const products = [
   {
     id: 6,
     name: "AQUA BLU(5T)",
-    price: 4500,
+    price: 2150,
     inStock: true,
     size: "24X24",
     image: "/first1.jpg",
@@ -61,7 +61,7 @@ const products = [
   {
     id: 7,
     name: "AQUA BLU(5T)",
-    price: 4500,
+    price: 3800,
     inStock: true,
     size: "28X28",
     image: "/Aqua24X24.jpg",
@@ -69,7 +69,7 @@ const products = [
    {
     id: 8,
     name: "AQUA BLU(5T)",
-    price: 4500,
+    price: 4400,
     inStock: true,
     size: "30X30",
     image: "/first1.jpg",
@@ -77,7 +77,7 @@ const products = [
   {
     id: 9,
     name: "AQUA BLU(5T)",
-    price: 4500,
+    price: 9000,
     inStock: true,
     size: "36X36",
     image: "/first1.jpg",

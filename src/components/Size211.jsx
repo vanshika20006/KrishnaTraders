@@ -14,7 +14,7 @@ const products = [
  {
   id: 1,
   name: "WHITE",
-  price: 6500,
+  price: 3300,
   inStock: true,
   size: "18X24",
   image: "/QUARTZ_WHITE.PNG",
@@ -22,7 +22,7 @@ const products = [
 {
   id: 2,
   name: "BROWN",
-  price: 6500,
+  price: 3300,
   inStock: true,
   size: "18X24",
   image: "/QUARTZ_BROWN.PNG",
@@ -30,7 +30,7 @@ const products = [
 {
   id: 3,
   name: "GREY",
-  price: 6500,
+  price: 3300,
   inStock: true,
   size: "24X18",
   image: "/QUARTZ_GREY.PNG",
@@ -38,7 +38,7 @@ const products = [
 {
   id: 4,
   name: "BLACK",
-  price: 6500,
+  price: 3300,
   inStock: true,
   size: "24X18",
   image: "/QUARTZ_BLACK.PNG",
@@ -46,7 +46,7 @@ const products = [
 {
   id: 5,
   name: "GREY STONE",
-  price: 6800,
+  price: 3300,
   inStock: true,
   size: "24X18",
   image: "/QUARTZ_GREY_STONE.PNG",
@@ -54,7 +54,7 @@ const products = [
 {
   id: 6,
   name: "PEACH IVORY",
-  price: 6800,
+  price: 3300,
   inStock: true,
   size: "24X18",
   image: "/QUARTZ_PEACH_IVORY.PNG",
@@ -62,7 +62,7 @@ const products = [
 {
   id: 7,
   name: "IVORY SAND",
-  price: 6800,
+  price: 3300,
   inStock: true,
   size: "24X18",
   image: "/QUARTZ_IVORY_SAND.PNG",
@@ -70,7 +70,7 @@ const products = [
 {
   id: 8,
   name: "SNOW SAND",
-  price: 6800,
+  price: 3300,
   inStock: true,
   size: "24X18",
   image: "/QUARTZ_SNOW_SAND.PNG",

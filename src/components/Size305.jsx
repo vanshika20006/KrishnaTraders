@@ -17,7 +17,7 @@ const products = [
   {
     id: 1,
     name: "SHORT BODY",
-    price: 4500,
+    price: 56,
     inStock: true,
     size: "18X18",
     image: "/MOSCOWSHORTBODY.jpg",
@@ -25,7 +25,7 @@ const products = [
   {
     id: 2,
     name: "LONG BODY",
-    price: 6200,
+    price: 60,
     inStock: true,
     size: "24X24",
     image: "/MOSCOWLONGBODY.jpg",

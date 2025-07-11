@@ -12,7 +12,7 @@ const products = [
   {
     id: 1,
     name: "LDPE COVER",
-    price: 4500,
+    price: 440,
     inStock: true,
     size: "12X12",
     image: "/LDPE12X12.jpg",
@@ -20,7 +20,7 @@ const products = [
   {
     id: 2,
     name: "LDPE COVER",
-    price: 6200,
+    price: 1000,
     inStock: true,
     size: "18X18",
     image: "/LDPE18X18.jpg",
@@ -28,7 +28,7 @@ const products = [
   {
     id: 3,
     name: "LDPE COVER",
-    price: 6200,
+    price: 1200,
     inStock: true,
     size: "18X24",
     image: "/LDPE18X24.jpg",
@@ -36,7 +36,7 @@ const products = [
   {
     id: 4,
     name: "LDPE COVER",
-    price: 4500,
+    price: 1450,
     inStock: true,
     size: "24X24",
     image: "/LDPE24X24.jpg",
@@ -44,7 +44,7 @@ const products = [
   {
     id: 5,
     name: "LDPE COVER",
-    price: 6200,
+    price: 1860,
     inStock: true,
     size: "27X27",
     image: "/LDPE27X27.jpg",
@@ -52,7 +52,7 @@ const products = [
   {
     id: 6,
     name: "LDPE COVER",
-    price: 4500,
+    price: 2700,
     inStock: true,
     size: "30X30",
     image: "/LDPE30X30.jpg",

@@ -13,7 +13,7 @@ const products = [
  {
   id: 1,
   name: "CLASSIC",
-  price: 4500,
+  price: 960,
   inStock: true,
   size: "16X18",
   image: "/CLAASSICF18X16.jpg",
@@ -21,7 +21,7 @@ const products = [
 {
   id: 2,
   name: "CLASSIC",
-  price: 6200,
+  price: 1160,
   inStock: true,
   size: "18X24",
   image: "/CLASSIC18X24F.jpg",
@@ -29,7 +29,7 @@ const products = [
 {
   id: 3,
   name: "SILVER",
-  price: 6200,
+  price: 1240,
   inStock: true,
   size: "18X16",
   image: "/Silver18X16.jpg",
@@ -37,7 +37,7 @@ const products = [
 {
   id: 4,
   name: "SILVER",
-  price: 4500,
+  price: 1500,
   inStock: true,
   size: "18X24",
   image: "/silver18x24F.jpg",
@@ -45,7 +45,7 @@ const products = [
 {
   id: 5,
   name: "GOLD",
-  price: 6200,
+  price: 1360,
   inStock: true,
   size: "18X16",
   image: "/GOLD18X16F.jpg",
@@ -53,7 +53,7 @@ const products = [
 {
   id: 6,
   name: "GOLD",
-  price: 4500,
+  price: 1700,
   inStock: true,
   size: "18X24",
   image: "/GOLD18X24F.jpg",
@@ -61,7 +61,7 @@ const products = [
 {
   id: 7,
   name: "MIRROR",
-  price: 6200,
+  price: 1500,
   inStock: true,
   size: "18X16",
   image: "/MIRROR18X16FF.jpg",
@@ -69,7 +69,7 @@ const products = [
 {
   id: 8,
   name: "MIRROR",
-  price: 4500,
+  price: 1900,
   inStock: true,
   size: "18X24",
   image: "/MIRROR18X24F.jpg",
@@ -77,7 +77,7 @@ const products = [
 {
   id: 9,
   name: "PRISM",
-  price: 6200,
+  price: 1650,
   inStock: true,
   size: "18X16",
   image: "/18x16prism.PNG",
@@ -85,7 +85,7 @@ const products = [
 {
   id: 10,
   name: "PRISM",
-  price: 4500,
+  price: 2100,
   inStock: true,
   size: "18X24",
   image: "/18x24Prism.PNG",
@@ -93,7 +93,7 @@ const products = [
 {
   id: 11,
   name: "DOLLAR",
-  price: 6200,
+  price: 2600,
   inStock: true,
   size: "24X24",
   image: "/DOLLARF.jpg",
@@ -101,7 +101,7 @@ const products = [
 {
   id: 12,
   name: "SQUARE",
-  price: 6200,
+  price: 1700,
   inStock: true,
   size: "18X16",
   image: "/SQUARE18X16F.jpg",
@@ -109,7 +109,7 @@ const products = [
 {
   id: 13,
   name: "SQUARE",
-  price: 4500,
+  price: 2200,
   inStock: true,
   size: "18X24",
   image: "/18x24square.PNG",
@@ -117,7 +117,7 @@ const products = [
 {
   id: 14,
   name: "SILVER",
-  price: 6200,
+  price: 960,
   inStock: true,
   size: "12X12",
   image: "/SILVERNEXT.jpg",
@@ -125,7 +125,7 @@ const products = [
 {
   id: 15,
   name: "SILVER",
-  price: 4500,
+  price: 960,
   inStock: true,
   size: "14X16",
   image: "/SILVERNEXT.jpg",
@@ -133,7 +133,7 @@ const products = [
 {
   id: 16,
   name: "SILVER",
-  price: 4500,
+  price: 960,
   inStock: true,
   size: "12X15",
   image: "/SILVERNEXT.jpg",
@@ -141,7 +141,7 @@ const products = [
 {
   id: 17,
   name: "DOUBLE BOWL SS",
-  price: 6200,
+  price: 3600,
   inStock: true,
   size: "37X18",
   image: "/STEEL_DOUBLE_BOWL_SS.jpg",
@@ -149,7 +149,7 @@ const products = [
 {
   id: 18,
   name: "DRAIN BOARD SS",
-  price: 6200,
+  price: 3600,
   inStock: true,
   size: "37X18",
   image: "/STEEL_DRAIN_BOARD_SS.jpg",

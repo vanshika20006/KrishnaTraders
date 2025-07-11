@@ -16,7 +16,7 @@ const products = [
   {
     id: 1,
     name: "SHORT BODY",
-    price: 4500,
+    price: 56,
     inStock: true,
     size: "18X18",
     image: "/POLOSHORTBODY.jpg",
@@ -24,7 +24,7 @@ const products = [
   {
     id: 2,
     name: "LONG BODY",
-    price: 6200,
+    price: 60,
     inStock: true,
     size: "24X24",
     image: "/POLOLONGBODY.jpg",
@@ -32,7 +32,7 @@ const products = [
   {
     id: 3,
     name: "ANGLE COCK",
-    price: 6200,
+    price: 56,
     inStock: true,
     size: "18X24",
     image: "/POLOANGLECOCK.jpg",
@@ -40,7 +40,7 @@ const products = [
   {
     id: 4,
     name: "SINK COCK",
-    price: 4500,
+    price: 220,
     inStock: true,
     size: "27X27",
     image: "/POLOSINKCOCK.jpg",
@@ -48,7 +48,7 @@ const products = [
   {
     id: 5,
     name: " SWAN COCK",
-    price: 6200,
+    price: 220,
     inStock: true,
     size: "30X30",
     image: "/POLOSWANCOCK.jpg",
@@ -56,7 +56,7 @@ const products = [
   {
     id: 6,
     name: "TWO WAY BIB COCK",
-    price: 4500,
+    price: 150,
     inStock: true,
     size: "18X18",
     image: "/POLOTWOWAYBIBCOCK.jpg",
@@ -64,7 +64,7 @@ const products = [
   {
     id: 7,
     name: "TWO WAY ANGLE",
-    price: 6200,
+    price: 150,
     inStock: true,
     size: "24X24",
     image: "/POLOTWOWAYANGLECOCK.jpg",
