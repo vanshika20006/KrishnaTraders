@@ -13,7 +13,7 @@ const products = [
   {
     id: 1,
     name: "PVC GUN 1.5MTR",
-    price: 0,
+    price: 320,
     inStock: true,
     size: "1",
     image: "pvccp.jpg",

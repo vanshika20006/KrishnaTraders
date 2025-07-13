@@ -12,7 +12,7 @@ const products = [
   {
     id: 1,
     name: "A/C CHINA",
-    price: 0,
+    price: 70,
     inStock: true,
     size: "1",
     image: "CPF8.jpg",

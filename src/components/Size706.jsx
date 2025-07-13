@@ -18,7 +18,7 @@ const products = [
  {
     id: 1,
     name: "COLOURFULL PRINT",
-    price: 0,
+    price: "",
     inStock: true,
     size: "8 Ltr",
     image: "Singletoppushbutton3.jpg",

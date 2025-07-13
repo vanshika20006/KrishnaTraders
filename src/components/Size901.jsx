@@ -12,7 +12,7 @@ const products = [
   {
     id: 1,
     name: "PTMT CONNECTION",
-    price: 0,
+    price: 70,
     inStock: true,
     size: "18",
     image: "EVERYPTMT.jpg",
@@ -20,7 +20,7 @@ const products = [
   {
     id: 2,
     name: "PTMT CONNECTION",
-    price: 0,
+    price: 80,
     inStock: true,
     size: "24",
     image: "EVERYPTMT.jpg",
@@ -28,7 +28,7 @@ const products = [
   {
     id: 3,
     name: "PTMT CONNECTION",
-    price: 0,
+    price: 90,
     inStock: true,
     size: "30",
     image: "EVERYPTMT.jpg",
@@ -36,7 +36,7 @@ const products = [
   {
     id: 4,
     name: "PTMT CONNECTION",
-    price: 0,
+    price: 100,
     inStock: true,
     size: "36",
     image: "EVERYPTMT.jpg",

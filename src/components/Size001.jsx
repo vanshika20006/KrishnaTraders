@@ -15,7 +15,7 @@ const products = [
   {
     id: 1,
     name: "C.P.V.C. SOLVENT",
-    price: 0,
+    price: 24,
     inStock: true,
     size: "10ML TUBE",
     image: "/cpvc10.jpg",
@@ -23,7 +23,7 @@ const products = [
   {
     id: 2,
     name: "C.P.V.C. SOLVENT",
-    price: 0,
+    price: 36,
     inStock: true,
     size: "25ML TUBE",
     image: "/cpvc10.jpg",
@@ -31,7 +31,7 @@ const products = [
   {
     id: 3,
     name: "C.P.V.C. SOLVENT",
-    price: 0,
+    price: 84,
     inStock: true,
     size: "59ML TIN",
     image: "/cpvc59.jpg",
@@ -39,7 +39,7 @@ const products = [
   {
     id: 4,
     name: "C.P.V.C. SOLVENT",
-    price: 0,
+    price: 150,
     inStock: true,
     size: "118ML TIN",
     image: "/cpvc118.jpg",
@@ -47,7 +47,7 @@ const products = [
   {
     id: 5,
     name: "C.P.V.C. SOLVENT",
-    price: 0,
+    price: 240,
     inStock: true,
     size: "237ML TIN",
     image: "/237cpvc.jpg",

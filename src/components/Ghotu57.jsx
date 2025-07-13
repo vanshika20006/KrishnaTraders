@@ -21,7 +21,7 @@ const products = [
  {
     id: 1,
     name: "NORMAL",
-    price: 4500,
+    price: 32,
     inStock: true,
     size: 36, // in inches
     image: "/normal3.jpg",
@@ -29,7 +29,7 @@ const products = [
   {
     id: 2,
     name: "NORMAL",
-    price: 4500,
+    price: 34,
     inStock: true,
     size: 36, // in inches
     image: "/normal4.jpg",
@@ -37,7 +37,7 @@ const products = [
   {
     id: 3,
     name: "NORMAL",
-    price: 4500,
+    price: 39,
     inStock: true,
     size: 36, // in inches
     image: "/normal5.jpg",
@@ -45,7 +45,7 @@ const products = [
   {
     id: 4,
     name: "LOCKING JALI",
-    price: 4500,
+    price: 56,
     inStock: true,
     size: 36, // in inches
     image: "/lockingjali5.jpg",
@@ -54,7 +54,7 @@ const products = [
 {
     id: 5,
     name: "HOLE JALI",
-    price: 4500,
+    price: 39,
     inStock: true,
     size: 36, // in inches
     image: "/holejali5.jpg",
@@ -62,7 +62,7 @@ const products = [
   {
     id: 6,
     name: "LOCKING HOLE",
-    price: 4500,
+    price: 56,
     inStock: true,
     size: 36, // in inches
     image: "/lockinhhole5.jpg",
@@ -70,7 +70,7 @@ const products = [
   {
     id: 7,
     name: "KABJA JALI",
-    price: 4500,
+    price: 68,
     inStock: true,
     size: 36, // in inches
     image: "/kabjajali.jpg",
@@ -78,7 +78,7 @@ const products = [
   {
     id: 8,
     name: "COCKROACH JALI",
-    price: 4500,
+    price: 160,
     inStock: true,
     size: 36, // in inches
     image: "/cockroachjali.jpg",

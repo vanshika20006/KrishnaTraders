@@ -27,7 +27,7 @@ const products = [
   {
     id: 1,
     name: "WHITE & IVORY",
-    price: 0,
+    price: 370,
     inStock: true,
     size: "",
     image: "EWCSEATCOVER1.jpg",

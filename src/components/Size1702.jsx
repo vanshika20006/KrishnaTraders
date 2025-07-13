@@ -15,7 +15,7 @@ const products = [
   {
     id: 1,
     name: "THREAD BALL VALVE",
-    price: 0,
+    price: 50,
     inStock: true,
     size: "1/2",
     image: "THREADBALL.jpg",
@@ -23,7 +23,7 @@ const products = [
   {
     id: 2,
     name: "THREAD BALL VALVE",
-    price: 0,
+    price: 70,
     inStock: true,
     size: "1",
     image: "THREADBALL.jpg",

@@ -12,7 +12,7 @@ const products = [
   {
     id: 1,
     name: "UPVC PIPE",
-    price: 0,
+    price: 155,
     inStock: true,
     size: "1/2",
     image: "UPVCF.jpg",
@@ -20,7 +20,7 @@ const products = [
   {
     id: 2,
     name: "UPVC PIPE",
-    price: 0,
+    price: 200,
     inStock: true,
     size: "3/4",
     image: "UPVCF.jpg",
@@ -28,7 +28,7 @@ const products = [
   {
     id: 3,
     name: "UPVC PIPE",
-    price: 0,
+    price: 290,
     inStock: true,
     size: "1",
     image: "UPVCF.jpg",

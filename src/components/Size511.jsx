@@ -16,7 +16,7 @@ const products = [
   {
     id: 1,
     name: "SHOWER",
-    price: 0,
+    price: 220,
     inStock: true,
     size: "4",
     image: "SANDWICH4.jpg",
@@ -24,7 +24,7 @@ const products = [
   {
     id: 2,
     name: "SHOWER",
-    price: 0,
+    price: 310,
     inStock: true,
     size: "6",
     image: "SANDWICH6.jpg",
@@ -32,7 +32,7 @@ const products = [
   {
     id: 3,
     name: "SHOWER",
-    price: 0,
+    price: 660,
     inStock: true,
     size: "8",
     image: "SANDWICH8.jpg",

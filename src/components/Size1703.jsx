@@ -15,7 +15,7 @@ const products = [
   {
     id: 1,
     name: "THREE WAY BALL VALVE",
-    price: 0,
+    price: 100,
     inStock: true,
     size: "1",
     image: "THREEWAYBALL.jpg",

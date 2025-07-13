@@ -14,7 +14,7 @@ const products = [
   {
     id: 1,
     name: "PTMT GUN 1MTR ",
-    price: 0,
+    price: 300,
     inStock: true,
     size: "1",
     image: "PTMTGUN1MTR.jpg",
@@ -22,7 +22,7 @@ const products = [
   {
     id: 2,
     name: "PTMT (HY) GUN 1MTR",
-    price: 0,
+    price: 340,
     inStock: true,
     size: "1",
     image: "PTMTGUN1MTRhy.jpg",

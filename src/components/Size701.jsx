@@ -16,7 +16,7 @@ const products = [
  {
     id: 1,
     name: "WHITE & IVORY",
-    price: 0,
+    price: 770,
     inStock: true,
     size: "8 Ltr",
     image: "Sidehandle1.jpg",

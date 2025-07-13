@@ -14,7 +14,7 @@ const products = [
   {
     id: 1,
     name: "MAHINDRA 1.5MTR",
-    price: 0,
+    price: 620,
     inStock: true,
     size: "1",
     image: "mhindra1.jpg",
@@ -22,7 +22,7 @@ const products = [
   {
     id: 2,
     name: "DOLPHIN 1.5MTR",
-    price: 0,
+    price: 760,
     inStock: true,
     size: "1",
     image: "",

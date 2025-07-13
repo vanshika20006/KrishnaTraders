@@ -11,7 +11,7 @@ const products = [
   {
     id: 1,
     name: "MEDIUM",
-    price: 0,
+    price: 120,
     inStock: true,
     size: "9",
     image: "medium9.jpg",
@@ -19,7 +19,7 @@ const products = [
   {
     id: 2,
     name: "HEAVY",
-    price: 0,
+    price: 160,
     inStock: true,
     size: "9",
     image: "Heavy9.jpg",
@@ -27,7 +27,7 @@ const products = [
   {
     id: 3,
     name: "MEDIUM",
-    price: 0,
+    price: 150,
     inStock: true,
     size: "12",
     image: "Medium12.jpg",
@@ -35,7 +35,7 @@ const products = [
   {
     id: 4,
     name: "HEAVY",
-    price: 0,
+    price: 180,
     inStock: true,
     size: "12",
     image: "Heavy12.jpg",
@@ -43,7 +43,7 @@ const products = [
   {
     id: 5,
     name: "MEDIUM",
-    price: 0,
+    price: 280,
     inStock: true,
     size: "15",
     image: "Medium15.jpg",
@@ -51,7 +51,7 @@ const products = [
   {
     id: 6,
     name: "HEAVY",
-    price: 0,
+    price: 320,
     inStock: true,
     size: "15",
     image: "Heavy15.jpg",
@@ -59,7 +59,7 @@ const products = [
   {
     id: 7,
     name: "MEDIUM",
-    price: 0,
+    price: 400,
     inStock: true,
     size: "18",
     image: "Medium18.jpg",
@@ -67,7 +67,7 @@ const products = [
   {
     id: 8,
     name: "HEAVY",
-    price: 0,
+    price: 450,
     inStock: true,
     size: "18",
     image: "Heavy18.jpg",
@@ -75,7 +75,7 @@ const products = [
   {
     id: 9,
     name: "HEAVY",
-    price: 0,
+    price: 700,
     inStock: true,
     size: "24",
     image: "Heavy24.jpg",

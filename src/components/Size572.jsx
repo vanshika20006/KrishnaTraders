@@ -14,7 +14,7 @@ const products = [
   { 
     id: 1,
     name: "SS ANGLE COCK",
-    price: 0,
+    price: 200,
     inStock: true,
     size: "1",
     image: "ssanglecock.jpg",

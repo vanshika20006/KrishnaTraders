@@ -12,7 +12,7 @@ const products = [
   {
     id: 1,
     name: "CPVC PIPE",
-    price: 0,
+    price: 240,
     inStock: true,
     size: "3/4",
     image: "CPVCF.jpg",
@@ -20,7 +20,7 @@ const products = [
   {
     id: 2,
     name: "CPVC PIPE",
-    price: 0,
+    price: 370,
     inStock: true,
     size: "1",
     image: "CPVCF.jpg",

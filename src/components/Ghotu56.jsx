@@ -21,7 +21,7 @@ const products = [
  {
     id: 1,
     name: "SMALL 8MTR.",
-    price: 4500,
+    price: 9,
     inStock: true,
     size: "1/2", // in inches
     image: "/teflonsm.jpg",
@@ -29,7 +29,7 @@ const products = [
   {
     id: 2,
     name: "LARGE 12MTR.",
-    price: 4500,
+    price: 17,
     inStock: true,
     size: "1/2", // in inches
     image: "/teflonlr.jpg",
@@ -37,7 +37,7 @@ const products = [
   {
     id: 3,
     name: "LARGE 12MTR.",
-    price: 4500,
+    price: 30,
     inStock: true,
     size: "3/4", // in inches
     image: "/teflonlr.jpg",
@@ -45,7 +45,7 @@ const products = [
   {
     id: 4,
     name: "LARGE 12MTR.",
-    price: 4500,
+    price: 50,
     inStock: true,
     size: "1", // in inches
     image: "/teflonlr.jpg",

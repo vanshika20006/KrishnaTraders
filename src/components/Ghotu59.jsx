@@ -21,7 +21,7 @@ const products = [
   {
     id: 1,
     name: "SPENDLE DISC",
-    price: 4500,
+    price: 70,
     inStock: true,
     size: "MEDIUM", // in inches
     image: "/CPF9.jpg",
@@ -29,7 +29,7 @@ const products = [
    {
     id: 2,
     name: "SPENDLE DISC",
-    price: 4500,
+    price: 90,
     inStock: true,
      size: "HEAVY", // in inches
     image: "/CPF9.jpg",
@@ -37,7 +37,7 @@ const products = [
    {
     id: 3,
     name: "SPENDLE DISC",
-    price: 4500,
+    price: 86,
     inStock: true,
      size: "NO 1", // in inches
     image: "/CPF9.jpg",
@@ -45,7 +45,7 @@ const products = [
    {
     id: 4,
     name: "SPENDLE DISC",
-    price: 4500,
+    price: 98,
     inStock: true,
      size: "NO 2", // in inches
     image: "/CPF9.jpg",
@@ -53,7 +53,7 @@ const products = [
    {
     id: 5,
     name: "SPENDLE DISC",
-    price: 4500,
+    price: 112,
     inStock: true,
      size: "NO 3", // in inches
     image: "/CPF9.jpg",
@@ -61,7 +61,7 @@ const products = [
    {
     id: 6,
     name: "SPENDLE DISC",
-    price: 4500,
+    price: 200,
     inStock: true,
      size: "CONCEALED VALVE", // in inches
     image: "/spendle.jpg",

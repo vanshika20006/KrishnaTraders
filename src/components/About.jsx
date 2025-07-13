@@ -10,7 +10,7 @@ const About = () => {
       
 
       {/* Vision & Mission */}
-      <div className="bg-[#163A6B] text-center py-12 px-4">
+      {/* <div className="bg-[#163A6B] text-center py-12 px-4">
         <h3 className="text-2xl font-bold mb-5">Our Vision and Mission</h3>
         <p className="text-lg max-w-[80%] mx-auto">
           At [Your Company Name], we believe that building something great starts with the right tools and trusted materials...
@@ -23,7 +23,57 @@ const About = () => {
           </div>
         ))}
       </div>
-      </div>
+      </div> */}
+      <div className="bg-[#163A6B] text-white py-12 px-4">
+  <h3 className="text-3xl font-bold text-center mb-12 border p-4 mb-5 ">Meet the Team</h3>
+
+  {/* TEAM MEMBER 1 */}
+  <div className="flex flex-col md:flex-row items-center justify-center gap-10 mb-16">
+    <img src=".jpg" alt="Ishan Wadhwani" className="w-[280px] h-[280px] object-cover rounded-[15px] shadow-lg" />
+    <div className="max-w-xl">
+      <h4 className="text-xl font-bold mb-2">Ishan Wadhwani</h4>
+      <p className="text-sm mb-1">Owner</p>
+      <p className="text-base">
+        Ishan Wadhwani champions a bold new standard in education.
+        He built Konnect Tutor to be more than a tutoring service—here, mentors truly
+        understand each student’s academic and emotional needs. Guided by his pillars of
+        Empathy, Excellence, and Equity, he fosters a flat, collaborative culture where
+        every voice matters. Under his leadership, hundreds of learners worldwide unlock
+        their potential and thrive as confident, lifelong achievers.
+      </p>
+    </div>
+  </div>
+
+  {/* TEAM MEMBER 2 */}
+  <div className="flex flex-col-reverse md:flex-row items-center justify-center gap-10 mb-16">
+    <div className="max-w-xl text-right md:text-left">
+      <h4 className="text-xl font-bold mb-2">Kashish Varlani</h4>
+      <p className="text-sm mb-1">Owner</p>
+      <p className="text-base">
+        Kashish brings his edTech expertise
+        to make learning feel personal and powerful. He uses AI and digital tools to create
+        learning experiences that actually adapt to how each student thinks. Jai believes the
+        best technology should feel human. When not coding, he's into traveling, self-help books,
+        and deep conversations. His motto? "We learn better together."
+      </p>
+    </div>
+    <img src=".jpg" alt="Kashish" className="w-[280px] h-[280px] object-cover rounded-[15px] shadow-lg" />
+  </div>
+
+  {/* TEAM MEMBER 3 */}
+  <div className="flex flex-col md:flex-row items-center justify-center gap-10">
+    <img src="yourImage3.jpg" alt="Third Member" className="w-[280px] h-[280px] object-cover rounded-[15px] shadow-lg" />
+    <div className="max-w-xl">
+      <h4 className="text-xl font-bold mb-2">[Name]</h4>
+      <p className="text-sm mb-1">[Role]</p>
+      <p className="text-base">
+        [Write a short bio here similar to others—around 5–6 lines. It should reflect their role,
+        values, and how they contribute to the team. Mention personal interests or beliefs if needed.]
+      </p>
+    </div>
+  </div>
+</div>
+
 
       
 <div className="w-full bg-[#F8F8E1] h-80 text-black pt-3 ">

@@ -12,7 +12,7 @@ const products = [
   {
     id: 1,
     name: "HEAVY BALL VALVE",
-    price: 0,
+    price: "",
     inStock: true,
     size: "1/2",
     image: "HEAVYCPVCBALL.jpg",
@@ -20,7 +20,7 @@ const products = [
   {
     id: 2,
     name: "HEAVY BALL VALVE",
-    price: 0,
+    price: 110,
     inStock: true,
     size: "3/4",
     image: "HEAVYCPVCBALL.jpg",
@@ -28,7 +28,7 @@ const products = [
   {
     id: 3,
     name: "HEAVY BALL VALVE",
-    price: 0,
+    price: 150,
     inStock: true,
     size: "1",
     image: "HEAVYCPVCBALL.jpg",
@@ -36,7 +36,7 @@ const products = [
   {
     id: 4,
     name: "HEAVY BALL VALVE",
-    price: 0,
+    price: 300,
     inStock: true,
     size: "1-1/4",
     image: "HEAVYCPVCBALL.jpg",
@@ -44,7 +44,7 @@ const products = [
   {
     id: 5,
     name: "HEAVY BALL VALVE",
-    price: 0,
+    price: 380,
     inStock: true,
     size: "1-1/2",
     image: "HEAVYCPVCBALL.jpg",
@@ -52,7 +52,7 @@ const products = [
   {
     id: 6,
     name: "HEAVY BALL VALVE",
-    price: 0,
+    price: 500,
     inStock: true,
     size: "2",
     image: "HEAVYCPVCBALL.jpg",

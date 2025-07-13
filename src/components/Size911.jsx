@@ -12,7 +12,7 @@ const products = [
   {
     id: 1,
     name: "SS CONNECTION",
-    price: 0,
+    price: 90,
     inStock: true,
     size: "18",
     image: "EVERYSS.jpg",
@@ -20,7 +20,7 @@ const products = [
   {
     id: 2,
     name: "SS CONNECTION",
-    price: 0,
+    price: 110,
     inStock: true,
     size: "24",
     image: "EVERYSS.jpg",
@@ -28,7 +28,7 @@ const products = [
   {
     id: 3,
     name: "SS CONNECTION",
-    price: 0,
+    price: 130,
     inStock: true,
     size: "30",
     image: "EVERYSS.jpg",
@@ -36,7 +36,7 @@ const products = [
   {
     id: 4,
     name: "SS CONNECTION",
-    price: 0,
+    price: 150,
     inStock: true,
     size: "36",
     image: "EVERYSS.jpg",

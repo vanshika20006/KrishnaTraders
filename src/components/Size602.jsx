@@ -14,7 +14,7 @@ const products = [
  {
     id: 1,
     name: "SHORT BODY",
-    price: 0,
+    price: 140,
     inStock: true,
     size: "",
     image: "DShortbody1.PNG",
@@ -22,7 +22,7 @@ const products = [
   {
     id: 2,
     name: "LONG BODY",
-    price: 0,
+    price: 160,
     inStock: true,
     size: "",
     image: "DLongbody1.PNG",
@@ -30,7 +30,7 @@ const products = [
   {
     id: 3,
     name: "ANGLE COCK",
-    price: 0,
+    price: 140,
     inStock: true,
     size: "",
     image: "DAnglecock1.PNG",
@@ -38,7 +38,7 @@ const products = [
   {
     id: 4,
     name: "SHORT SINK COCK",
-    price: 0,
+    price: 370,
     inStock: true,
     size: "",
     image: ".PNG",
@@ -46,7 +46,7 @@ const products = [
   {
     id: 5,
     name: "SHORT SWAN COCK",
-    price: 0,
+    price: 370,
     inStock: true,
     size: "",
     image: "DSwancock.PNG",
@@ -54,7 +54,7 @@ const products = [
   {
     id: 6,
     name: "TWO WAY BIB COCK",
-    price: 0,
+    price: 320,
     inStock: true,
     size: "",
     image: "DTwowaybibcock.PNG",
@@ -62,7 +62,7 @@ const products = [
   {
     id: 7,
     name: "TWO WAY ANGLE",
-    price: 0,
+    price: 320,
     inStock: true,
     size: "",
     image: ".PNG",
@@ -71,7 +71,7 @@ const products = [
   {
     id: 8,
     name: "MIXER WITH BEND",
-    price: 0,
+    price: 2000,
     inStock: true,
     size: "",
     image: ".PNG",
@@ -79,7 +79,7 @@ const products = [
   {
     id: 9,
     name: "PILLAR COCK",
-    price: 0,
+    price: 180,
     inStock: true,
     size: "",
     image: ".PNG",
@@ -87,7 +87,7 @@ const products = [
   {
     id: 10,
     name: "NOZZLE COCK",
-    price: 0,
+    price: 180,
     inStock: true,
     size: "",
     image: ".PNG",

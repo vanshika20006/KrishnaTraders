@@ -18,7 +18,7 @@ const products = [
  {
     id: 1,
     name: "WHITE & IVORY & MORE",
-    price: 0,
+    price: 1020,
     inStock: true,
     size: "8 Ltr",
     image: "Singletoppushbutton2.jpg",

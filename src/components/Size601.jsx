@@ -13,7 +13,7 @@ const products = [
   {
     id: 1,
     name: "SHORT BODY",
-    price: 0,
+    price: 110,
     inStock: true,
     size: "",
     image: "FShortbody1.PNG",
@@ -21,7 +21,7 @@ const products = [
   {
     id: 2,
     name: "LONG BODY",
-    price: 0,
+    price: 130,
     inStock: true,
     size: "",
     image: "FLongbody1.jpg",
@@ -29,7 +29,7 @@ const products = [
   {
     id: 3,
     name: "ANGLE COCK",
-    price: 0,
+    price: 110,
     inStock: true,
     size: "",
     image: "FAnglecock1.jpg",
@@ -37,7 +37,7 @@ const products = [
   {
     id: 4,
     name: "SHORT SINK COCK",
-    price: 0,
+    price: 270,
     inStock: true,
     size: "",
     image: "FSinkcock2.jpg",
@@ -45,7 +45,7 @@ const products = [
   {
     id: 5,
     name: "SHORT SWAN COCK",
-    price: 0,
+    price: 270,
     inStock: true,
     size: "",
     image: "FSwancock1.jpg",
@@ -53,7 +53,7 @@ const products = [
   {
     id: 6,
     name: "TWO WAY BIB COCK",
-    price: 0,
+    price: 250,
     inStock: true,
     size: "",
     image: "FTwowaybibcock1.jpg",
@@ -61,7 +61,7 @@ const products = [
   {
     id: 7,
     name: "TWO WAY ANGLE",
-    price: 0,
+    price: 250,
     inStock: true,
     size: "",
     image: "FTwowayanglcock.jpg",
@@ -69,7 +69,7 @@ const products = [
   {
     id: 8,
     name: "LONG SINK COCK",
-    price: 0,
+    price: 310,
     inStock: true,
     size: "",
     image: "FLongsinkcock.PNG",
@@ -77,7 +77,7 @@ const products = [
   {
     id: 9,
     name: "LONG SWAN COCK",
-    price: 0,
+    price: 310,
     inStock: true,
     size: "",
     image: "FSwancock1.jpg",
@@ -86,7 +86,7 @@ const products = [
   {
     id: 10,
     name: "PILLAR COCK",
-    price: 0,
+    price: 140,
     inStock: true,
     size: "",
     image: ".PNG",
@@ -94,7 +94,7 @@ const products = [
   {
     id: 11,
     name: "NOZZLE COCK",
-    price: 0,
+    price: 140,
     inStock: true,
     size: "",
     image: ".PNG",
@@ -102,7 +102,7 @@ const products = [
   {
     id: 12,
     name: "WASHING MACHINE",
-    price: 0,
+    price: 140,
     inStock: true,
     size: "",
     image: ".PNG",

@@ -15,7 +15,7 @@ const products = [
   {
     id: 1,
     name: "P.V.C. SOLVENT",
-    price: 0,
+    price: 14,
     inStock: true,
     size: "10ML TUBE",
     image: "/pvcupvc1025.jpg",
@@ -23,7 +23,7 @@ const products = [
   {
     id: 2,
     name: "P.V.C. SOLVENT",
-    price: 0,
+    price: 20,
     inStock: true,
     size: "25ML TUBE",
     image: "/pvcupvc1025.jpg",
@@ -31,7 +31,7 @@ const products = [
   {
     id: 3,
     name: "P.V.C. SOLVENT",
-    price: 0,
+    price: 56,
     inStock: true,
     size: "59ML TIN",
     image: "/pvc59.jpg",
@@ -39,7 +39,7 @@ const products = [
   {
     id: 4,
     name: "P.V.C. SOLVENT",
-    price: 0,
+    price: 84,
     inStock: true,
     size: "118ML TIN",
     image: "/pvc118.jpg",
@@ -47,7 +47,7 @@ const products = [
   {
     id: 5,
     name: "P.V.C. SOLVENT",
-    price: 0,
+    price: 150,
     inStock: true,
     size: "237ML TIN",
     image: "/pvc237.jpg",
@@ -55,7 +55,7 @@ const products = [
   {
     id: 6,
     name: "P.V.C. SOLVENT",
-    price: 0,
+    price: 240,
     inStock: true,
     size: "500ML TIN",
     image: "/pvc500.jpg",

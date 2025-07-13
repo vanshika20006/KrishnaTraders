@@ -29,7 +29,7 @@ const products = [
  {
     id: 1,
     name: "WHITE & IVORY",
-    price: 0,
+    price: 700,
     inStock: true,
     size: "",
     image: "Singletoppushbutton2.jpg",

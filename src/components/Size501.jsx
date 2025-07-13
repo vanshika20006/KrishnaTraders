@@ -5,15 +5,13 @@ import { Link } from "react-router-dom";
 
 const categories = [
   { image: "ANGLECOCKVIVO.jpg", label: "EXTENSION NIPPLE", route: "/Size501" }
-  
- 
 ];
 
 const products = [
   {
     id: 1,
     name: "EXTENSION NIPPLE",
-    price: 0,
+    price: 26,
     inStock: true,
     size: '1',
     image: "ENIPPLE1.jpg",
@@ -21,7 +19,7 @@ const products = [
   {
     id: 2,
     name: "EXTENSION NIPPLE",
-    price: 0,
+    price: 36,
     inStock: true,
     size: '1.1/2',
     image: "ENIPPLE11.jpg",
@@ -29,7 +27,7 @@ const products = [
   {
     id: 3,
     name: "EXTENSION NIPPLE",
-    price: 0,
+    price: 46,
     inStock: true,
     size: '2',
     image: "ENIPPLE2.jpg",
@@ -37,7 +35,7 @@ const products = [
   {
     id: 4,
     name: "EXTENSION NIPPLE",
-    price: 0,
+    price: 56,
     inStock: true,
     size: '2.1/2',
     image: "ENIPPLE3.jpg",
@@ -45,7 +43,7 @@ const products = [
   {
     id: 5,
     name: "EXTENSION NIPPLE",
-    price: 0,
+    price: 66,
     inStock: true,
     size: '3',
     image: "ENIPPLE5.jpg",
@@ -53,7 +51,7 @@ const products = [
   {
     id: 6,
     name: "EXTENSION NIPPLE",
-    price: 0,
+    price: 130,
     inStock: true,
     size: '4',
     image: "ENIPPLE6.jpg",
@@ -61,7 +59,7 @@ const products = [
   {
     id: 7,
     name: "EXTENSION NIPPLE",
-    price: 0,
+    price: 180,
     inStock: true,
     size: '6',
     image: "ENIPPLE7.jpg",
@@ -69,7 +67,7 @@ const products = [
   {
     id: 8,
     name: "HEX NIPPLE SS",
-    price: 0,
+    price: 16,
     inStock: true,
     size: '1/2',
     image: "ENIPPLE8.jpg",

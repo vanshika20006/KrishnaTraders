@@ -16,7 +16,7 @@ const products = [
   {
     id: 1,
     name: "SHOWER",
-    price: 0,
+    price: 180,
     inStock: true,
     size: "4",
     image: "ptmtshoower4.jpg",
@@ -24,7 +24,7 @@ const products = [
   {
     id: 2,
     name: "SHOWER",
-    price: 0,
+    price: 220,
     inStock: true,
     size: "5",
     image: "ptmtshoower4.jpg",

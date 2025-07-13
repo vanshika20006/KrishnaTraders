@@ -14,7 +14,7 @@ const products = [
   {
     id: 1,
     name: "BALL VALVE",
-    price: 0,
+    price: 50,
     inStock: true,
     size: "1/2",
     image: "UPVCBALLVALVE1.jpg",
@@ -22,7 +22,7 @@ const products = [
   {
     id: 2,
     name: "BALL VALVE",
-    price: 0,
+    price: 60,
     inStock: true,
     size: "3/4",
     image: "UPVCBALLVALVE1.jpg",
@@ -30,7 +30,7 @@ const products = [
   {
     id: 3,
     name: "BALL VALVE",
-    price: 0,
+    price: 70,
     inStock: true,
     size: "1",
     image: "UPVCBALLVALVE1.jpg",
@@ -38,7 +38,7 @@ const products = [
   {
     id: 4,
     name: "BALL VALVE",
-    price: 0,
+    price: 140,
     inStock: true,
     size: "1-1/4",
     image: "UPVCBALLVALVE1.jpg",
@@ -46,7 +46,7 @@ const products = [
   {
     id: 5,
     name: "BALL VALVE",
-    price: 0,
+    price: 190,
     inStock: true,
     size: "1-1/2",
     image: "UPVCBALLVALVE1.jpg",
@@ -54,7 +54,7 @@ const products = [
   {
     id: 6,
     name: "BALL VALVE",
-    price: 0,
+    price: 360,
     inStock: true,
     size: "2",
     image: "UPVCBALLVALVE1.jpg",
