@@ -52,11 +52,9 @@ const Productcardfinal = () => {
         <div className="w-[25%] mr-80 flex flex-col">
           <h4 className="text-[22px] font-semibold">{name || "Product Name"}</h4>
 
-          <p className="text-gray-300 text-[15px] font-light pt-5 leading-relaxed">
-            <span className="block">🔹 <strong>Weight:</strong> 25kg (approx)</span>
-            <span className="block">🔹 <strong>Color:</strong> White / Grey</span>
-            <span className="block">🔹 <strong>Packaging:</strong> Wrapped with Polyfilm & Jute</span>
-            <span className="block">🔹 <strong>Capacity:</strong> 5 Ton Load Bearing</span>
+         <p className="text-gray-300 text-[15px] font-light pt-5 leading-relaxed">
+            <span className="block">🔹 <strong>Weight:</strong>175 GM</span>
+            <span className="block">🔹 <strong>Packaging:</strong>6</span>
           </p>
 
           {/* Price Display */}
