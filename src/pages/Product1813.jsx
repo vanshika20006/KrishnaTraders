@@ -52,10 +52,8 @@ const Productcardfinal = () => {
           <h4 className="text-[22px] font-semibold">{name || "Product Name"}</h4>
 
           <p className="text-gray-300 text-[15px] font-light pt-5 leading-relaxed">
-            <span className="block">🔹 <strong>Weight:</strong> 25kg (approx)</span>
-            <span className="block">🔹 <strong>Color:</strong> White / Grey</span>
-            <span className="block">🔹 <strong>Packaging:</strong> Wrapped with Polyfilm & Jute</span>
-            <span className="block">🔹 <strong>Capacity:</strong> 5 Ton Load Bearing</span>
+            <span className="block">🔹 <strong>Weight:</strong>-</span>
+            <span className="block">🔹 <strong>Packaging:</strong>-</span>
           </p>
 
           {/* Price Display */}
