@@ -23,14 +23,14 @@ const ValueCard: React.FC<ValueCardProps> = ({
   icon
 }) => {
   return (
-    <div className="flex flex-col items-center max-w-[300px]">
+    <div className="flex flex-col items-center max-w-[300px] md:max-w-[300px] w-full">
       <div className="rounded-full bg-white p-4 mb-4 w-16 h-16 flex items-center justify-center">
         <div className={`rounded-full ${iconColor} p-2 flex items-center justify-center`}>
           {icon}
         </div>
       </div>
-      <div className={`${backgroundColor} rounded-lg p-6 h-[260px] w-full flex flex-col items-center`}>
-        <h3 className="text-white font-bold text-xl mb-3">{title}</h3>
+      <div className={`${backgroundColor} rounded-lg p-6 md:h-[260px] w-full flex flex-col items-center`}>
+        <h3 className="text-white font-bold text-xl mb-3 text-center">{title}</h3>
         <p className="text-white text-sm text-center">{description}</p>
       </div>
     </div>
@@ -79,7 +79,7 @@ const ValuesCarousel: React.FC = () => {
   const visibleCards = () => {
     return (
       <>
-        <div className="transition-all duration-300 transform scale-90 opacity-70">
+        <div className="transition-all duration-300 transform scale-90 opacity-70 hidden lg:block">
           <ValueCard {...values[(currentIndex - 1 + values.length) % values.length]} />
         </div>
 
@@ -87,7 +87,7 @@ const ValuesCarousel: React.FC = () => {
           <ValueCard {...values[currentIndex]} />
         </div>
 
-        <div className="transition-all duration-300 transform scale-90 opacity-70">
+        <div className="transition-all duration-300 transform scale-90 opacity-70 hidden lg:block">
           <ValueCard {...values[(currentIndex + 1) % values.length]} />
         </div>
       </>
@@ -95,14 +95,14 @@ const ValuesCarousel: React.FC = () => {
   };
 
   return (
-    <div className="w-full h-[750px] bg-[#112D4E] py-16 px-4">
+    <div className="w-full min-h-[750px] bg-[#112D4E] py-16 px-4">
       <div className="container mx-auto relative">
-        <h2 className="text-white text-3xl  md:text-4xl font-bold pt-5 pb-10 mb-20 text-center">
+        <h2 className="text-white text-3xl md:text-4xl font-bold pt-5 pb-6 text-center">
           What We Believe
         </h2>
 
-        <div className="text-white text-center mb-12 max-w-3xl mx-auto">
-          <p className="text-lg">
+        <div className="text-white text-center mb-12 max-w-3xl mx-auto px-4">
+          <p className="text-base md:text-lg">
             At [Your Company Name], we believe that building something great starts with the
             right tools and trusted materials. Whether it's a large construction project or a
             small home repair, quality hardware makes all the difference — and we're here to
@@ -111,32 +111,32 @@ const ValuesCarousel: React.FC = () => {
         </div>
 
         {/* Carousel */}
-        <div className="relative flex justify-center items-center">
-          {/* Arrow buttons - updated styling */}
+        <div className="relative flex justify-center items-center px-2">
+          {/* Arrow buttons */}
           <button
             onClick={handlePrev}
-            className="absolute left-4 top-1/2 -translate-y-1/2 border border-white rounded-full p-2 hover:bg-white/10 transition duration-300"
+            className="absolute left-1 md:left-4 top-1/2 -translate-y-1/2 border border-white rounded-full p-2 hover:bg-white/10 transition duration-300 z-10"
             aria-label="Previous slide"
           >
-            <ArrowLeft className="text-white" size={24} />
+            <ArrowLeft className="text-white" size={20} />
           </button>
 
-          {/* Desktop: 3 Cards */}
+          {/* Desktop View: 3 Cards */}
           <div className="hidden md:flex justify-center items-center gap-8">
             {visibleCards()}
           </div>
 
-          {/* Mobile: Single Card */}
-          <div className="md:hidden flex justify-center">
+          {/* Mobile View: 1 Card */}
+          <div className="md:hidden flex justify-center w-full">
             <ValueCard {...values[currentIndex]} />
           </div>
 
           <button
             onClick={handleNext}
-            className="absolute right-4 top-1/2 -translate-y-1/2 border border-white rounded-full p-2 hover:bg-white/10 transition duration-300"
+            className="absolute right-1 md:right-4 top-1/2 -translate-y-1/2 border border-white rounded-full p-2 hover:bg-white/10 transition duration-300 z-10"
             aria-label="Next slide"
           >
-            <ArrowRight className="text-white" size={24} />
+            <ArrowRight className="text-white" size={20} />
           </button>
         </div>
       </div>

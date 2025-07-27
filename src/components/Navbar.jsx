@@ -2004,8 +2004,9 @@ const Navbar = () => {
       {/* Mobile Navbar */}
       <div className="block md:hidden px-4 py-4">
         <div className="flex flex-col items-center gap-4">
-          <img src="/kT-final-logo.png" alt="Logo" className="h-20 w-20" />
-          {renderSearchInput("w-full max-w-[200px]")}
+          
+          <img src="/kT-final-logo.png" alt="Logo" className="h-20 w-20 " />
+          {renderSearchInput("w-full max-w-[350px]")}
 
           <a
             href="https://www.google.com/maps/place/Devi+Ahilya..."
@@ -2020,22 +2021,20 @@ const Navbar = () => {
           </a>
 
           <div className="flex flex-wrap justify-center gap-3 mt-2">
-            <Link to="/home" className="bg-[#3F72AF] text-white px-3 py-1 text-xs rounded">
+            <Link to="/home" className="bg-[#3F72AF] text-white px-3 py-1  rounded">
               Home
             </Link>
-            <button className="border border-gray-400 text-xs px-3 py-1 rounded text-black">
-              Brands
-            </button>
+            
             <a
               href="https://wa.me/919981689326?text=Hello..."
               target="_blank"
               rel="noopener noreferrer"
-              className="border border-gray-400 text-xs px-3 py-1 rounded flex items-center text-black"
+              className="border border-gray-400 px-3 py-1 rounded flex items-center text-black"
             >
               <img src="/whats.png" className="h-4 w-4 mr-1" alt="WhatsApp" />
               Contact
             </a>
-            <Link to="/about" className="border border-gray-400 text-xs px-3 py-1 rounded text-black">
+            <Link to="/about" className="border border-gray-400  px-3 py-1 rounded text-black">
               About
             </Link>
           </div>

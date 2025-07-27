@@ -1,51 +1,53 @@
 import React from "react";
 import { Hammer, HardHat, Truck, ShieldCheck } from "lucide-react";
 
+// ✅ Mobile Version Matching Desktop Style
 const MobileWhyExpertTutor = () => {
   return (
-    <section className="bg-[#fcfcfc] px-4 pt-10 pb-16 lg:hidden block text-center">
+    <section className="bg-[#fcfcfc] px-4 pt-10 pb-16 block lg:hidden text-center">
       {/* Heading */}
-      <h1 className="text-2xl font-bold text-gray-800 mb-8">
+      <h1 className="text-2xl font-bold text-gray-800 mb-6">
         WHY KRISHNA TRADERS?
       </h1>
 
-      {/* BG image + Overlapping Cards */}
-      <div className="relative h-[380px]">
-        {/* Image */}
+      {/* Image & Overlapping Cards */}
+      <div className="relative flex justify-center items-center h-[420px]">
+        {/* Center Image */}
         <img
           src="question_mark.jpg"
           alt="question"
-          className="mx-auto h-[220px] mt-8"
+          className="h-[220px] z-0"
         />
 
-        {/* Left Cards */}
-       <div className="absolute top-1/2 left-2 transform -translate-y-1/2 flex flex-col gap-4 z-10 ml-5">
-  <div className="bg-[#163A6B] text-white rounded-xl p-4 shadow-md w-[180px] flex items-center gap-3">
-    <Hammer size={30} />
-    <span className="text-left text-sm font-medium">
-      Wide Range of Hand Tools
-    </span>
-  </div>
-
-  <div className="bg-[#163A6B] text-white rounded-xl p-4 shadow-md w-[180px] flex items-center gap-3">
-    <HardHat size={30} />
-    <span className="text-left text-sm font-medium">
-      Safety Certified Equipment
-    </span>
-  </div>
-</div>
-
-
-        {/* Right Cards */}
-        <div className="absolute top-1/2 right-2 transform -translate-y-1/2 flex flex-col gap-4 z-10 mr-5">
-          <div className="bg-[#163A6B] text-white rounded-xl p-4 shadow-md w-[180px] flex items-center gap-3">
-            <Truck size={30} />
-            <span className="text-left text-sm font-medium">Fast & Reliable Delivery</span>
+        {/* Left Column Cards */}
+        <div className="absolute top-[45%] left-1 flex flex-col gap-12 z-10">
+          <div className="bg-[#163A6B] text-white rounded-tl-[24px] rounded-br-[24px] p-1 shadow-md flex items-center gap-2 w-[140px] h-[55px]">
+            <Hammer size={18} />
+            <span className="text-left text-xs font-medium">
+              Wide Range of Hand Tools
+            </span>
           </div>
+          <div className="bg-[#163A6B] text-white rounded-tl-[24px] rounded-br-[24px] p-1 shadow-md flex items-center gap-2 w-[140px] h-[55px]">
+            <HardHat size={18} />
+            <span className="text-left text-xs font-medium">
+              Safety Certified Equipment
+            </span>
+          </div>
+        </div>
 
-          <div className="bg-[#163A6B] text-white rounded-xl p-4 shadow-md w-[180px] flex items-center gap-3">
-            <ShieldCheck size={30} />
-            <span className="text-left text-sm font-medium">100% Quality Assurance</span>
+        {/* Right Column Cards */}
+        <div className="absolute top-[15%] right-1 flex flex-col gap-12 z-10">
+          <div className="bg-[#163A6B] text-white rounded-tl-[24px] rounded-br-[24px] p-1 shadow-md flex items-center gap-2 w-[140px] h-[55px]">
+            <Truck size={18} />
+            <span className="text-left text-xs font-medium">
+              Fast & Reliable Delivery
+            </span>
+          </div>
+          <div className="bg-[#163A6B] text-white rounded-tl-[24px] rounded-br-[24px] p-1 shadow-md flex items-center gap-2 w-[140px] h-[55px]">
+            <ShieldCheck size={18} />
+            <span className="text-left text-xs font-medium">
+              100% Quality Assurance
+            </span>
           </div>
         </div>
       </div>
@@ -54,9 +56,7 @@ const MobileWhyExpertTutor = () => {
 };
 
 
-
-
-
+// ✅ Desktop + Mobile Combined
 const WhyExpertTutor = () => {
   return (
     <>
