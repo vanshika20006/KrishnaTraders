@@ -48,7 +48,7 @@ const MobileFooter = () => {
             <ul className="space-y-1 text-sm">
               <li>080-23456789</li>
               <li>+91 91234567891</li>
-              <li><a href="mailto:sales@KrishnaTraders.in">sales@KrishnaTraders.in</a></li>
+              <li><a href="mailto:sales@KrishnaTraders.in">sanitaryghar.in</a></li>
               <li>Location: TBD</li>
             </ul>
           </div>

@@ -36,7 +36,7 @@ const MobileWhyExpertTutor = () => {
         </div>
 
         {/* Right Column Cards */}
-        <div className="absolute top-[15%] right-1 flex flex-col gap-12 z-10">
+        <div className="absolute top-[25%] right-1 flex flex-col gap-12 z-10">
           <div className="bg-[#163A6B] text-white rounded-tl-[24px] rounded-br-[24px] p-1 shadow-md flex items-center gap-2 w-[140px] h-[55px]">
             <Truck size={18} />
             <span className="text-left text-xs font-medium">

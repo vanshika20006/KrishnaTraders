@@ -36,12 +36,49 @@ const categories = [
   { title: "Painting and Wood", expanded: false, products: [] },
 ];
 
+const MobileCategorySwiper = ({ products, navigate }) => {
+  return (
+    <Swiper
+      modules={[Grid, Navigation]}
+      navigation
+      spaceBetween={10}
+      slidesPerView={2}
+      grid={{ rows: 3, fill: "row" }}
+      className="mb-6"
+    >
+      {products.map((prod, i) => (
+       <SwiperSlide key={prod.label + i}>
+  <div
+    className="cursor-pointer rounded-lg shadow hover:shadow-lg transition-all overflow-hidden"
+    onClick={() => {
+      if (prod.route) navigate(prod.route);
+    }}
+  >
+    <div className="w-full h-32 flex items-center justify-center bg-white/70">
+      <img
+        src={prod.image}
+        alt={prod.label}
+        className="w-full h-28 object-contain p-1"
+      />
+    </div>
+    <div className="bg-white rounded-b-md px-2 text-center">
+      <p className="text-sm font-medium text-black">
+        {prod.label}
+      </p>
+    </div>
+  </div>
+</SwiperSlide>
+
+      ))}
+    </Swiper>
+  );
+};
+
 const CategorySection = ({ searchQuery = "" }) => {
   const [expandedPanels, setExpandedPanels] = useState(categories.map((c) => !!c.expanded));
   const [isMobile, setIsMobile] = useState(false);
   const navigate = useNavigate();
 
-  // Detect mobile screen
   useEffect(() => {
     const checkMobile = () => setIsMobile(window.innerWidth < 768);
     checkMobile();
@@ -90,7 +127,6 @@ const CategorySection = ({ searchQuery = "" }) => {
                 <span className="flex-1 border-t border-white/20 ml-6" />
               </button>
 
-              {/* Desktop View */}
               {!isMobile && expandedPanels[idx] && filteredProducts.length > 0 && (
                 <Swiper
                   modules={[Grid, Navigation]}
@@ -104,9 +140,7 @@ const CategorySection = ({ searchQuery = "" }) => {
                     <SwiperSlide key={prod.label + i}>
                       <div
                         className="cursor-pointer rounded-lg shadow hover:shadow-lg transition-all overflow-hidden"
-                        onClick={() => {
-                          if (prod.route) navigate(prod.route);
-                        }}
+                        onClick={() => navigate(prod.route)}
                       >
                         <div className="h-45 w-full">
                           {prod.image ? (
@@ -132,32 +166,8 @@ const CategorySection = ({ searchQuery = "" }) => {
                 </Swiper>
               )}
 
-              {/* Mobile View */}
-              {isMobile && expandedPanels[idx] && (
-                <div className="grid grid-cols-2 gap-4 mt-2">
-                  {filteredProducts.length > 0 ? (
-                    filteredProducts.map((prod, i) => (
-                      <div
-                        key={prod.label + i}
-                        className="bg-white rounded-md overflow-hidden shadow cursor-pointer"
-                        onClick={() => navigate(prod.route)}
-                      >
-                        <img
-                          src={prod.image}
-                          alt={prod.label}
-                          className="w-full h-24 object-cover"
-                        />
-                        <p className="text-center text-black text-sm p-1 font-medium">
-                          {prod.label}
-                        </p>
-                      </div>
-                    ))
-                  ) : (
-                    <p className="text-sm text-gray-300 pl-1 pt-2">
-                      No items found
-                    </p>
-                  )}
-                </div>
+              {isMobile && expandedPanels[idx] && filteredProducts.length > 0 && (
+                <MobileCategorySwiper products={filteredProducts} navigate={navigate} />
               )}
             </div>
           );
