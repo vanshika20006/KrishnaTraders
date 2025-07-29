@@ -13,6 +13,7 @@ const Productcardfinal = () => {
   } = location.state || {};
 
   const defaultImages = [
+    { url: "Aqua2-21X21.jpg" },
     { url: "Aqua24X24.jpg" },
     { url: "AquaBack.jpg" },
   ];
