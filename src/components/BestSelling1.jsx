@@ -22,7 +22,7 @@ const ProductCard = ({ id, name, image, inStock }) => { // Removed price and dis
         <img
           src={image}
           alt={name}
-          className="w-full h-full object-cover" // Changed object-content to object-cover
+          className="w-full h-full object-content" // Changed object-content to object-cover
         />
       </div>
 
@@ -113,7 +113,7 @@ const DesktopGhotu = () => {
               <img
                 src={cat.image}
                 alt={cat.label}
-                className="w-full h-28 object-cover rounded-md mb-2"
+                className="w-full h-28 object-content rounded-md mb-2"
               />
               <h6 className="font-semibold text-sm text-center mb-1">{cat.label}</h6>
               <p className="text-green-400 text-sm">In Stock</p>
