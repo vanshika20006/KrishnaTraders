@@ -44,17 +44,7 @@ const handleClick = () => {
       {/* Responsive padding and font sizes */}
       <div className="bg-white p-3 md:p-4 text-center">
         <h6 className="font-semibold text-sm md:text-base">{name}</h6>
-        <p className="text-xs text-gray-600 md:text-sm">Size: {size}</p>
-
-        {/* Price Display Logic */}
-        {discountedPrice ? (
-          <div>
-            <p className="text-red-600 font-bold text-base md:text-lg">₹{discountedPrice}</p>
-            <p className="line-through text-gray-500 text-xs md:text-sm">₹{price}</p>
-          </div>
-        ) : (
-          <p className="text-blue-700 font-bold text-base md:text-lg">₹{price}</p>
-        )}
+       
 
        
 
