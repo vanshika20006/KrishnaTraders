@@ -222,7 +222,7 @@ const DesktopGhotu = () => {
           onClick={() => setShowSort(!showSort)}
         >
           <h3 className="text-2xl  font-semibold text-[#1a1f2c]">
-  SS EXTENSION NIPPLE
+ SS JALI
           </h3>
           <ChevronDown className="w-6 h-6 text-[#1a1f2c]" />
         </div>
@@ -292,7 +292,7 @@ const MobileGhotu = () => {
       <div className="flex justify-between items-center mb-4">
 
 
-        <h2 className="text-xl font-semibold text-[#1a1f2c]">SS EXTENSION NIPPLE</h2>
+        <h2 className="text-xl font-semibold text-[#1a1f2c]">SS JALI</h2>
 
 
         <div className="flex items-center gap-4">
