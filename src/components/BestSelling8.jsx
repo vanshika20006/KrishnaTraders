@@ -8,7 +8,7 @@ const ProductCard = ({ id, name, image, inStock }) => { // Removed price and dis
   const navigate = useNavigate();
 
   const handleClick = () => {
-    navigate(`/varients6${id}`);
+    navigate(`/varients8${id}`);
   };
 
   return (
