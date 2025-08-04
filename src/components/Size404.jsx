@@ -22,7 +22,7 @@ const ProductCard = ({
 
   const handleClick = () => {
     // Pass all necessary data to the product details page
-    navigate(`/product43${id}`, {
+    navigate(`/product44${id}`, {
       state: {
         id,
         name,

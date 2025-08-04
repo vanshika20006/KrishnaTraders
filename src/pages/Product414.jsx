@@ -16,8 +16,6 @@ const Productcardfinal = () => {
 
   const defaultImages = [
     { url: "ARYASPOUTHY.jpg" }
-
-
   ];
 
   const imagesToShow = imageList || defaultImages;
