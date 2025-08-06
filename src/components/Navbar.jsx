@@ -11,330 +11,386 @@ const Navbar = () => {
     id: 1,
     name: "AQUA BLU(5T)",
     size: "12X12",
+     price: 700,
     slug: "1"
   },
   {
     id: 2,
     name: "AQUA BLU(5T)",
     size: "15X15",
+     price: 1050,
     slug: "2"
   },
   {
     id: 3,
     name: "AQUA BLU(5T)",
     size: "18X18",
+     price: 1300,
     slug: "3"
   },
   {
     id: 4,
     name: "AQUA BLU(5T)",
     size: "18X24",
+     price: 1800,
     slug: "4"
   },
   {
     id: 5,
     name: "AQUA BLU(5T)",
     size: "21X21",
+     price: 1900,
     slug: "5"
   },
   {
     id: 6,
     name: "AQUA BLU(5T)",
     size: "24X24",
+     price: 2150,
     slug: "6"
   },
   {
     id: 7,
     name: "AQUA BLU(5T)",
     size: "28X28",
+     price: 3800,
     slug: "7"
   },
   {
     id: 8,
     name: "AQUA BLU(5T)",
     size: "30X30",
+     price: 4400,
     slug: "8"
   },
   {
     id: 9,
     name: "AQUA BLU(5T)",
     size: "36X36",
+     price: 9000,
     slug: "9"
   },
   {
   id: 10,
   name: "FRP (5T)",
   size: "18X36",
+   price: 3400,
   slug: "F1"
 },
 {
   id: 11,
   name: "FRP (5T)",
   size: "24X24",
+   price: 2050,
   slug: "F2"
 },
 {
   id: 12,
   name: "FRP (5T)",
   size: "24X30",
+   price: 3800,
   slug: "F3"
 },
 {
   id: 13,
   name: "FRP (5T)",
   size: "24X36",
+   price: 4000,
   slug: "F4"
 },
 {
   id: 14,
   name: "FRP (5T)",
   size: "30X30",
+   price: 4000,
   slug: "F5"
 },
 {
   id: 15,
   name: "FRP (5T)",
   size: "36X36",
+   price: 5600,
   slug: "F6"
 },
 {
   id: 16,
   name: "CLASSIC",
   size: "12X12",
+   price: 180,
   slug: "21"
 },
 {
   id: 17,
   name: "CLASSIC",
   size: "15X15",
+   price: 370,
   slug: "22"
 },
 {
   id: 18,
   name: "CLASSIC",
   size: "18X24",
+   price: 620,
   slug: "23"
 },
 {
   id: 19,
   name: "CLASSIC",
   size: "21X21",
+   price: 660,
   slug: "24"
 },
 {
   id: 20,
   name: "CLASSIC",
   size: "24X24",
+   price: 920,
   slug: "25"
 },
 {
   id: 21,
   name: "LOCK",
   size: "18X24",
+   price: 960,
   slug: "P1"
 },
 {
   id: 22,
   name: "LOCK",
   size: "21X21",
+   price: 960,
   slug: "P2"
 },
 {
   id: 23,
   name: "LOCK",
   size: "24X24",
+   price: 1200,
   slug: "P3"
 },
 {
   id: 24,
   name: "HEAVY (1T)",
   size: "18X24",
+   price: 1300,
   slug: "E1"
 },
 {
   id: 25,
   name: "HEAVY (1T)",
   size: "21X21",
+   price: 6200,
   slug: "E2"
 },
 {
   id: 26,
   name: "HEAVY (1T)",
   size: "24X24",
+   price: 1520,
   slug: "E3"
 },
 {
   id: 27,
   name: "LDPE COVER",
   size: "12X12",
+   price: 440,
   slug: "31"
 },
 {
   id: 28,
   name: "LDPE COVER",
   size: "18X18",
+   price: 1000,
   slug: "32"
 },
 {
   id: 29,
   name: "LDPE COVER",
   size: "18X24",
+   price: 1200,
   slug: "33"
 },
 {
   id: 30,
   name: "LDPE COVER",
   size: "24X24",
+   price: 1450,
   slug: "34"
 },
 {
   id: 31,
   name: "LDPE COVER",
   size: "27X27",
+
+   price: 1860,
   slug: "35"
 },
 {
   id: 32,
   name: "LDPE COVER",
   size: "30X30",
+   price: 2700,
   slug: "36"
 },
 {
   id: 33,
   name: "HDP",
   size: "18X18",
+   price: 900,
   slug: "41"
 },
 {
   id: 34,
   name: "HDP",
   size: "24X24",
+   price: 1250,
   slug: "42"
 },
 {
   id: 35,
   name: "HDP",
   size: "18X24",
+   price: 1000,
   slug: "43"
 },
 {
   id: 36,
   name: "HDP",
   size: "27X27",
+   price: 1600,
   slug: "44"
 },
 {
   id: 37,
   name: "HDP",
   size: "30X30",
+   price: 2500,
   slug: "45"
 },
 {
   id: 38,
   name: "CLASSIC",
   size: "16X18",
+   price: 960,
   slug: "201"
 },
 {
   id: 39,
   name: "CLASSIC",
   size: "18X24",
+   price: 1160,
   slug: "202"
 },
 {
   id: 40,
   name: "SILVER",
   size: "18X16",
+   price: 1240,
   slug: "203"
 },
 {
   id: 41,
   name: "SILVER",
   size: "18X24",
+   price: 1500,
   slug: "204"
 },
 {
   id: 42,
   name: "GOLD",
   size: "18X16",
+   price: 1360,
   slug: "205"
 },
 {
   id: 43,
   name: "GOLD",
   size: "18X24",
+   price: 1700,
   slug: "206"
 },
 {
   id: 44,
   name: "MIRROR",
   size: "18X16",
+   price: 1500,
   slug: "207"
 },
 {
   id: 45,
   name: "MIRROR",
   size: "18X24",
+   price: 1900,
   slug: "208"
 },
 {
   id: 46,
   name: "PRISM",
   size: "18X16",
+   price: 1650,
   slug: "209"
 },
 {
   id: 47,
   name: "PRISM",
   size: "18X24",
+   price: 2100,
   slug: "2010"
 },
 {
   id: 48,
   name: "DOLLAR",
   size: "24X24",
+   price: 2600,
   slug: "2011"
 },
 {
   id: 49,
   name: "SQUARE",
   size: "18X16",
+   price: 1700,
   slug: "2012"
 },
 {
   id: 50,
   name: "SQUARE",
   size: "18X24",
+   price: 2200,
   slug: "2013"
 },
 {
   id: 51,
   name: "SILVER",
   size: "12X12",
+  price: 960,
   slug: "2014"
 },
 {
   id: 52,
   name: "SILVER",
   size: "14X16",
+  price: 960,
   slug: "2015"
 },
 {
   id: 53,
   name: "SILVER",
   size: "12X15",
+  price: 960,
   slug: "2016"
 },
 {
   id: 54,
   name: "DOUBLE BOWL SS",
   size: "37X18",
+  price: 3600,
   slug: "2017"
 },
 {
   id: 55,
   name: "DRAIN BOARD SS",
   size: "37X18",
+  price: 3600,
   slug: "2018"
 },
 {
