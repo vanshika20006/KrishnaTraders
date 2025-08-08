@@ -397,612 +397,713 @@ const Navbar = () => {
   id: 56,
   name: "HANDMADE SINK",
   size: "18X16X10",
+  price: 2500,
   slug: "211"
 },
 {
   id: 57,
   name: "HANDMADE SINK",
   size: "24X18X10",
+  price: 2500,
   slug: "212"
 },
 {
   id: 58,
   name: "HANDMADE GLOSSY",
   size: "24X18X10",
+  price: 3600,
   slug: "213"
 },
 {
   id: 59,
   name: "HANDMADE GOLD",
   size: "24X18X10",
+  price: 3600,
   slug: "214"
 },
 {
   id: 60,
   name: "HANDMADE ROSEGOLD",
   size: "24X18X10",
+  price: 3600,
   slug: "215"
 },
 {
   id: 61,
   name: "HANDMADE BLACK",
   size: "24X18X10",
+  price: 3600,
   slug: "216"
 },
 {
   id: 62,
   name: "DOUBLE BOWL BLACK",
   size: "37X18X10",
+  price: 7200,
   slug: "217"
 },
 {
   id: 63,
   name: "DOUBLE BOWL",
   size: "37X18X10",
+  price: 5800,
   slug: "218"
 },
 {
   id: 64,
   name: "DOUBLE BOWL",
   size: "45X20X10",
+  price: 6600,
   slug: "219"
 },
 {
   id: 65,
   name: "DOUBLE BOWL",
   size: "32X18X10",
+  price: 6600,
   slug: "2110"
 },
 {
   id: 66,
   name: "DRAIN BOARD",
   size: "37X18X10",
+  price: 5800,
   slug: "2111"
 },
 {
   id: 67,
   name: "WHITE",
   size: "18X24",
+  price: 3300,
   slug: "221"
 },
 {
   id: 68,
   name: "BROWN",
   size: "18X24",
+  price: 3300,
   slug: "222"
 },
 {
   id: 69,
   name: "GREY",
   size: "24X18",
+  price: 3300,
   slug: "223"
 },
 {
   id: 70,
   name: "BLACK",
   size: "24X18",
+  price: 3300,
   slug: "224"
 },
 {
   id: 71,
   name: "GREY STONE",
   size: "24X18",
+  price: 3300,
   slug: "225"
 },
 {
   id: 72,
   name: "PEACH IVORY",
   size: "24X18",
+  price: 3300,
   slug: "226"
 },
 {
   id: 73,
   name: "IVORY SAND",
   size: "24X18",
+  price: 3300,
   slug: "227"
 },
 {
   id: 74,
   name: "SNOW SAND",
   size: "24X18",
+  price: 3300,
   slug: "228"
 },
 {
   id: 75,
   name: "ALL COLOUR",
   size: "37X18",
+   price: 8600,
   slug: "231"
 },
 {
   id: 76,
   name: "ALL COLOUR",
   size: "37X18",
+   price: 8600,
   slug: "241"
 },
 {
   id: 77,
   name: "POLO DESIGN SHORT BODY",
   size: "18X18",
+  price: 56,
   slug: "301"
 },
 {
   id: 78,
   name: "POLO DESIGN LONG BODY",
   size: "24X24",
+  price: 60,
   slug: "302"
 },
 {
   id: 79,
   name: "POLO DESIGN ANGLE COCK",
   size: "18X24",
+  price: 56,
   slug: "303"
 },
 {
   id: 80,
   name: "POLO DESIGN SINK COCK",
   size: "27X27",
+  price: 220,
   slug: "304"
 },
 {
   id: 81,
   name: "POLO DESIGN SWAN COCK",
   size: "30X30",
+  price: 220,
   slug: "305"
 },
 {
   id: 82,
   name: "POLO DESIGN TWO WAY BIB COCK",
   size: "18X18",
+  price: 150,
   slug: "306"
 },
 {
   id: 83,
   name: "POLO DESIGN TWO WAY ANGLE",
   size: "24X24",
+  price: 150,
   slug: "307"
 },
 {
   id: 84,
   name: "CRYSTAL DESIGN SHORT BODY",
   size: "18X18",
+  price: 80,
   slug: "311"
 },
 {
   id: 85,
   name: "CRYSTAL DESIGN LONG BODY",
   size: "24X24",
+  price: 84,
   slug: "312"
 },
 {
   id: 86,
   name: "CRYSTAL DESIGN ANGLE COCK",
   size: "18X24",
+  price: 80,
   slug: "313"
 },
 {
   id: 87,
   name: "CRYSTAL DESIGN SINK COCK",
   size: "27X27",
+  price: 250,
   slug: "314"
 },
 {
   id: 88,
   name: "CRYSTAL DESIGN SWAN COCK",
   size: "30X30",
+  price: 250,
   slug: "315"
 },
 {
   id: 89,
   name: "CRYSTAL DESIGN TWO WAY BIB COCK",
   size: "18X18",
+  price: 170,
   slug: "316"
 },
 {
   id: 90,
   name: "CRYSTAL DESIGN TWO WAY ANGLE",
   size: "24X24",
+  price: 170,
   slug: "317"
 },
 {
   id: 91,
   name: "CRYSTAL DESIGN FOAM FLOW S/B",
   size: "18X24",
+   price: 84,
   slug: "318"
 },
 {
   id: 92,
   name: "CRYSTAL DESIGN FOAM FLOW L/B",
   size: "24X24",
+   price: 88,
   slug: "319"
 },
 {
   id: 93,
   name: "CRYSTAL DESIGN PILLAR COCK",
   size: "18X24",
+   price: 100,
   slug: "3110"
 },
 {
   id: 94,
   name: "OPEL DESIGN(BLUE) SHORT BODY",
   size: "18X18",
+  price: 80,
   slug: "321"
 },
 {
   id: 95,
   name: "OPEL DESIGN(BLUE) LONG BODY",
   size: "24X24",
+  price: 84,
   slug: "322"
 },
 {
   id: 96,
   name: "OPEL DESIGN(BLUE) BIB COCK",
   size: "18X24",
+  price: 80,
   slug: "323"
 },
 {
   id: 97,
   name: "OPEL DESIGN(BLUE) SINK COCK",
   size: "27X27",
+  price: 84,
   slug: "324"
 },
 {
   id: 98,
   name: "OPEL DESIGN(BLUE) SWAN COCK",
   size: "30X30",
+  price: 250,
   slug: "325"
 },
 {
   id: 99,
   name: "OPEL DESIGN(BLUE) ANGLE COCK",
   size: "18X18",
+  price: 80,
   slug: "326"
 },
 {
   id: 100,
   name: "OPEL DESIGN(BLUE) TWO WAY BIB COCK",
   size: "24X24",
+  price: 170,
   slug: "327"
 },
 {
   id: 101,
   name: "RANDOM MODEL SHORT BODY",
   size: "24X24",
+  price: 64,
   slug: "331"
 },
 {
   id: 102,
   name: "RANDOM MODEL ITALIAN PILLAR",
   size: "18X24",
+    price: 140,
   slug: "332"
 },
 {
   id: 103,
   name: "MOSCOW MODEL SHORT BODY",
   size: "18X18",
+  price: 56,
   slug: "341"
 },
 {
   id: 104,
   name: "MOSCOW MODELLONG BODY",
   size: "24X24",
+  price: 60,
   slug: "342"
 },
 {
   id: 105,
   name: "BREZZA SHORT BODY",
   size: "18X18",
+  price: 450,
   slug: "401"
 },
 {
   id: 106,
   name: "BREZZA LONG BODY",
   size: "24X24",
+  price: 430,
   slug: "402"
 },
 {
   id: 107,
   name: "BREZZA ANGLE COCK",
   size: "18X24",
+  price: 370,
   slug: "403"
 },
 {
   id: 108,
   name: "BREZZA SINK COCK",
   size: "27X27",
+  price: 680,
   slug: "404"
 },
 {
   id: 109,
   name: "BREZZA SWAN COCK",
   size: "30X30",
+   price: 700,
   slug: "405"
 },
 {
   id: 110,
   name: "BREZZA TWO WAY BIB COCK",
   size: "18X18",
+  price: 760,
   slug: "406"
 },
 {
   id: 111,
   name: "BREZZA TWO WAY ANGLE",
   size: "24X24",
+      price: 740,
   slug: "407"
 },
 {
   id: 112,
   name: "BREZZA PILLAR COCK",
   size: "18X24",
+  price: 520,
   slug: "408"
 },
 {
   id: 113,
   name: "BREZZA PILLAR COCK 6",
   size: "27X27",
+  price: 760,
   slug: "409"
 },
 {
   id: 114,
   name: "BREZZA NOZZLE COCK",
   size: "30X30",
+    price: 400,
   slug: "4010"
 },
 {
   id: 115,
   name: "BREZZA MIXER WITH BEND",
   size: "18X18",
+   price: 2500,
   slug: "4011"
 },
 {
   id: 116,
   name: "BREZZA FLUSH COCK (M)",
   size: "24X24",
+  price: 860,
   slug: "4012"
 },
 {
   id: 117,
   name: "BREZZA FLUSH COCK (HY)",
   size: "18X24",
+  price: 1040,
   slug: "4013"
 },
 {
   id: 118,
   name: "BREZZA ANGLE (PROJECT)",
   size: "27X27",
+    price: 250,
   slug: "4014"
 },
 {
   id: 119,
   name: "ARYA HEAD DIVERTOR WITH PLATE",
   size: "18X18",
+  price: 4800,
   slug: "411"
 },
 {
   id: 120,
   name: "ARYA HEAD TABLE TOP 13",
   size: "18X18",
+   price: 1900,
   slug: "412"
 },
 {
   id: 121,
   name: "ARYA HEAD Spout M",
   size: "18X18",
+   price: 620,
   slug: "413"
 },
 {
   id: 122,
   name: "ARYA HEAD Spout HY",
   size: "18X18",
+    price: 840,
   slug: "414"
 },
 {
   id: 123,
   name: "JERRY SHORT BODY",
   size: "18X18",
+  price: 480,
   slug: "421"
 },
 {
   id: 124,
   name: "JERRY LONG BODY",
   size: "24X24",
+  price: 510,
   slug: "422"
 },
 {
   id: 125,
   name: "JERRY ANGLE COCK",
   size: "18X24",
+   price: 390,
   slug: "423"
 },
 {
   id: 126,
   name: "JERRY SINK COCK",
   size: "27X27",
+   price: 700,
   slug: "424"
 },
 {
   id: 127,
   name: "JERRY SWAN COCK",
   size: "30X30",
+  price: 740,
   slug: "425"
 },
 {
   id: 128,
   name: "JERRY TWO WAY BIB COCK",
   size: "18X18",
+  price: 800,
   slug: "426"
 },
 {
   id: 129,
   name: "JERRY TWO WAY ANGLE",
   size: "24X24",
+   price: 760,
   slug: "427"
 },
 {
   id: 130,
   name: "JERRY PILLAR COCK",
   size: "18X24",
+  price: 540,
   slug: "428"
 },
 {
   id: 131,
   name: "JERRY PILLAR COCK 6",
   size: "27X27",
+  price: 780,
   slug: "429"
 },
 {
   id: 132,
   name: "JERRY NOZZLE COCK",
   size: "30X30",
+  price: 420,
   slug: "4210"
 },
 {
   id: 133,
   name: "JERRY MIXER WITH BEND",
   size: "18X18",
+  price: 2500,
   slug: "4211"
 },
 {
   id: 134,
   name: "VIVO CONCEALED VALVE",
   size: "18X18",
+   price: 460,
   slug: "431"
 },
 {
   id: 135,
   name: "VIVO ANGLE COCK",
   size: "24X24",
+  price: 300,
   slug: "432"
 },
 {
   id: 136,
   name: "VIVO FLUSH COCK",
   size: "18X24",
+    price: 700,
   slug: "433"
 },
 {
   id: 137,
   name: "EXTENSION NIPPLE 1",
   size: "1",
+  price: 26,
   slug: "501"
 },
 {
   id: 138,
   name: "EXTENSION NIPPLE 1.1/2",
   size: "1.1/2",
+  price: 36,
   slug: "502"
 },
 {
   id: 139,
   name: "EXTENSION NIPPLE 2",
   size: "2",
+   price: 46,
   slug: "503"
 },
 {
   id: 140,
   name: "EXTENSION NIPPLE 2.1/2",
   size: "2.1/2",
+   price: 56,
   slug: "504"
 },
 {
   id: 141,
   name: "EXTENSION NIPPLE 3",
   size: "3",
+   price: 66,
   slug: "505"
 },
 {
   id: 142,
   name: "EXTENSION NIPPLE 4",
   size: "4",
+   price: 130,
   slug: "506"
 },
 {
   id: 143,
   name: "EXTENSION NIPPLE 6",
   size: "6",
+   price: 180,
   slug: "507"
 },
 {
   id: 144,
   name: "HEX NIPPLE SS 1/2",
   size: "1/2",
+  price: 16,
   slug: "508"
 },
 {
   id: 145,
   name: "SANDWICH MODEL SHOWER",
   size: "4",
+  price: 220,
   slug: "511"
 },
 {
   id: 146,
   name: "SANDWICH MODEL SHOWER",
   size: "6",
+   price: 310,
   slug: "512"
 },
 {
   id: 147,
   name: "SANDWICH MODEL SHOWER",
   size: "8",
+   price: 660,
   slug: "513"
 },
 {
   id: 148,
   name: "SANDWICH MODEL SHOWER",
   size: "10",
+  price: 0,
   slug: "514"
 },
 {
   id: 149,
   name: "SANDWICH MODEL SHOWER",
   size: "12",
+  price: 0,
   slug: "515"
 },
 {
   id: 150,
   name: "CURVE MODEL SHOWER",
   size: "4",
+  price: 260,
   slug: "521"
 },
 {
   id: 151,
   name: "CURVE MODEL SHOWER",
   size: "6",
+  price: 340,
   slug: "522"
 },
 {
   id: 152,
   name: "CURVE MODEL SHOWER",
   size: "8",
+   price: 1100,
   slug: "523"
 },
 {
   id: 153,
   name: "CURVE MODEL SHOWER",
   size: "10",
+   price: 0,
   slug: "524"
 },
 {
   id: 154,
   name: "CURVE MODEL SHOWER",
   size: "12",
+   price: 0,
   slug: "525"
 },
 {
   id: 155,
   name: "ABS SHOWER",
   size: "3",
+  price: 200,
   slug: "531"
 },
 {
   id: 156,
   name: "ABS SHOWER",
   size: "4",
+  price: 220,
   slug: "532"
 },
 {
   id: 157,
   name: "PTMT SHOWER",
-  price: 0,
+  price: 180,
   inStock: true,
   size: "4",
   image: "ptmtshoower4.jpg",
@@ -1011,7 +1112,7 @@ const Navbar = () => {
 {
   id: 158,
   name: "PTMT SHOWER",
-  price: 0,
+  price: 220,
   inStock: true,
   size: "5",
   image: "ptmtshoower4.jpg",
@@ -1020,7 +1121,7 @@ const Navbar = () => {
 {
   id: 159,
   name: "SS ROD MEDIUM",
-  price: 0,
+  price: 120,
   inStock: true,
   size: "9",
   image: "medium9.jpg",
@@ -1029,7 +1130,7 @@ const Navbar = () => {
 {
   id: 160,
   name: "SS ROD HEAVY",
-  price: 0,
+  price: 160,
   inStock: true,
   size: "9",
   image: "Heavy9.jpg",
@@ -1038,7 +1139,7 @@ const Navbar = () => {
 {
   id: 161,
   name: "SS ROD MEDIUM",
-  price: 0,
+  price: 150,
   inStock: true,
   size: "12",
   image: "Medium12.jpg",
@@ -1047,7 +1148,7 @@ const Navbar = () => {
 {
   id: 162,
   name: "SS ROD HEAVY",
-  price: 0,
+  price: 180,
   inStock: true,
   size: "12",
   image: "Heavy12.jpg",
@@ -1056,7 +1157,7 @@ const Navbar = () => {
 {
   id: 163,
   name: "SS ROD MEDIUM",
-  price: 0,
+  price: 280,
   inStock: true,
   size: "15",
   image: "Medium15.jpg",
@@ -1065,7 +1166,7 @@ const Navbar = () => {
 {
   id: 164,
   name: "SS ROD HEAVY",
-  price: 0,
+  price: 320,
   inStock: true,
   size: "15",
   image: "Heavy15.jpg",
@@ -1074,7 +1175,7 @@ const Navbar = () => {
 {
   id: 165,
   name: "SS ROD MEDIUM",
-  price: 0,
+  price: 400,
   inStock: true,
   size: "18",
   image: "Medium18.jpg",
@@ -1083,7 +1184,7 @@ const Navbar = () => {
 {
   id: 166,
   name: "SS ROD HEAVY",
-  price: 0,
+  price: 450,
   inStock: true,
   size: "18",
   image: "Heavy18.jpg",
@@ -1093,6 +1194,7 @@ const Navbar = () => {
   id: 167,
   name: "CP FLANCH ROUND",
   size: "Medium",
+ 
   slug: "5311"
 },
 {
@@ -1111,12 +1213,14 @@ const Navbar = () => {
   id: 170,
   name: "PVC GUN 1.5MTR",
   size: "1",
+  price: 320,
   slug: "5411"
 },
 {
   id: 171,
   name: "MAHINDRA 1.5MTR",
   size: "1",
+  price: 620,
   slug: "5421"
 },
 {
@@ -1129,132 +1233,154 @@ const Navbar = () => {
   id: 173,
   name: "PTMT GUN 1MTR",
   size: "1",
+  price: 300,
   slug: "5431"
 },
 {
   id: 174,
   name: "PTMT (HY) GUN 1MTR",
   size: "1",
+  price: 340,
   slug: "5432"
 },
 {
   id: 175,
   name: "TEFLON TAPE SMALL 8MTR.",
   size: "1/2",
+  price: 9,
   slug: "5511"
 },
 {
   id: 176,
   name: "TEFLON TAPE LARGE 12MTR.",
   size: "1/2",
+  price: 17,
   slug: "5512"
 },
 {
   id: 177,
   name: "TEFLON TAPE LARGE 12MTR.",
   size: "3/4",
+  price: 30,
   slug: "5513"
 },
 {
   id: 178,
   name: "TEFLON TAPE LARGE 12MTR.",
   size: "1",
+    price: 50,
   slug: "5514"
 },
 {
   id: 179,
   name: "SS JALI NORMAL",
   size: 36,
+  price: 32,
   slug: "5611"
 },
 {
   id: 180,
   name: "SS JALI NORMAL",
   size: 36,
+  price: 34,
   slug: "5612"
 },
 {
   id: 181,
   name: "SS JALI NORMAL",
   size: 36,
+  price: 39,
   slug: "5613"
 },
 {
   id: 182,
   name: "SS JALI LOCKING JALI",
   size: 36,
+   price: 56,
   slug: "5614"
 },
 {
   id: 183,
   name: "SS JALI HOLE JALI",
   size: 36,
+  price: 39,
   slug: "5615"
 },
 {
   id: 184,
   name: "SS JALI LOCKING HOLE",
   size: 36,
+   price: 56,
   slug: "5616"
 },
 {
   id: 185,
   name: "SS JALI KABJA JALI",
   size: 36,
+    price: 68,
   slug: "5617"
 },
 {
   id: 186,
   name: "SS JALI COCKROACH JALI",
   size: 36,
+  price: 160,
   slug: "5618"
 },
 {
   id: 187,
   name: "ANGLE COCK CHINA",
   size: "1",
+  price: 70,
   slug: "5711"
 },
 {
   id: 188,
   name: "SS ANGLE COCK",
   size: "1",
+   price: 200,
   slug: "5721"
 },
 {
     id: 189,
     name: "SPENDLE DISC MEDIUM",
     size: "MEDIUM",
+    price: 70,
     slug: "5811"
   },
   {
     id: 190,
     name: "SPENDLE DISC HEAVY",
     size: "HEAVY",
+    price: 90,
     slug: "5812"
   },
   {
     id: 191,
     name: "SPENDLE DISC NO 1",
     size: "NO 1",
+    price: 86,
     slug: "5813"
   },
   {
     id: 192,
     name: "SPENDLE DISC NO 2",
     size: "NO 2",
+    price: 98,
     slug: "5814"
   },
   {
     id: 193,
     name: "SPENDLE DISC NO 3",
     size: "NO 3",
+     price: 112,
     slug: "5815"
   },
   {
     id: 194,
     name: "SPENDLE DISC CONCEALED VALVE",
     size: "CONCEALED VALVE",
+     price: 200,
     slug: "5816"
   },
  
@@ -1262,126 +1388,147 @@ const Navbar = () => {
     id: 195,
     name: "C.P.V.C. SOLVENT 10ML TUBE",
     size: "10ML TUBE",
+      price: 24,
     slug: "0011"
   },
   {
     id: 196,
     name: "C.P.V.C. SOLVENT 25ML TUBE",
     size: "25ML TUBE",
+      price: 36,
     slug: "0012"
   },
   {
     id: 197,
     name: "C.P.V.C. SOLVENT 59ML TIN",
     size: "59ML TIN",
+      price: 84,
     slug: "0013"
   },
   {
     id: 198,
     name: "C.P.V.C. SOLVENT 118ML TIN",
     size: "118ML TIN",
+      price: 150,
     slug: "0014"
   },
   {
     id: 199,
     name: "C.P.V.C. SOLVENT 237ML TIN",
     size: "237ML TIN",
+      price: 240,
     slug: "0015"
   },
   {
   id: 200,
   name: "U.P.V.C. SOLVENT 10ML TUBE",
   size: "10ML TUBE",
+    price: 18,
   slug: "0021"
 },
 {
   id: 201,
   name: "U.P.V.C. SOLVENT 25ML TUBE",
   size: "25ML TUBE",
+    price: 29,
   slug: "0022"
 },
 {
   id: 202,
   name: "U.P.V.C. SOLVENT 59ML TIN",
   size: "59ML TIN",
+    price: 60,
   slug: "0023"
 },
 {
   id: 203,
   name: "U.P.V.C. SOLVENT 118ML TIN",
   size: "118ML TIN",
+    price: 114,
   slug: "0024"
 },
 {
   id: 204,
   name: "U.P.V.C. SOLVENT 237ML TIN",
   size: "237ML TIN",
+    price: 150,
   slug: "0025"
 },
 {
   id: 205,
   name: "P.V.C. SOLVENT 10ML TUBE",
   size: "10ML TUBE",
+    price: 14,
   slug: "0031"
 },
 {
   id: 206,
   name: "P.V.C. SOLVENT 25ML TUBE",
   size: "25ML TUBE",
+    price: 20,
   slug: "0032"
 },
 {
   id: 207,
   name: "P.V.C. SOLVENT 59ML TIN",
   size: "59ML TIN",
+    price: 56,
   slug: "0033"
 },
 {
   id: 208,
   name: "P.V.C. SOLVENT 118ML TIN",
   size: "118ML TIN",
+  price: 84,
   slug: "0034"
 },
 {
   id: 209,
   name: "P.V.C. SOLVENT 237ML TIN",
   size: "237ML TIN",
+  price: 150,
   slug: "0035"
 },
 {
   id: 210,
   name: "P.V.C. SOLVENT 500ML TIN",
   size: "500ML TIN",
+  price: 240,
   slug: "0036"
 },
 {
   id: 211,
   name: "FLUSH TANK SIDE HANDLE",
   size: "36",
+  price: 770,
   slug: "701"
 },
 {
   id: 212,
   name: "FLUSH TANK SINGLE TOP PUSH BUTTON",
   size: "42",
+  price: 1020,
   slug: "711"
 },
 {
   id: 213,
   name: "FLUSH TANK DOUBLE TOP PUSH BUTTON",
   size: "48",
+   price: 1220,
   slug: "721"
 },
 {
   id: 214,
   name: "FLUSH TANK ULTRA SLIM BODY",
   size: "36",
+  price: 1250,
   slug: "731"
 },
 {
   id: 215,
   name: "FLUSH TANK SINGLE FRONT PUSH",
   size: "42",
+price:1020,
   slug: "741"
 },
 {
@@ -1394,114 +1541,135 @@ const Navbar = () => {
   id: 217,
   name: "SEAT COVER EWC SEAT COVER",
   size: "36",
+  price: 370,
   slug: "801"
 },
 {
   id: 218,
   name: "SEAT COVER ANGLO INDIAN",
   size: "42",
+  price:440,
   slug: "811"
 },
 {
   id: 219,
   name: "SEAT COVER EWC SEAT COVER WITH JET",
   size: "48",
+  price:420,
   slug: "821"
 },
 {
   id: 220,
   name: "SEAT COVER SOFT CLOSE (ROUND)",
   size: "36",
+  price:700,
   slug: "831"
 },
 {
   id: 221,
   name: "SEAT COVER SOFT CLOSE (SQUARE)",
   size: "42",
+  price:800,
   slug: "841"
 },
 {
   id: 222,
   name: "PTMT CONNECTION 18\"",
   size: "18",
+  price:70,
   slug: "901"
 },
 {
   id: 223,
   name: "PTMT CONNECTION 24\"",
   size: "24",
+  price:80,
   slug: "902"
 },
 {
   id: 224,
   name: "PTMT CONNECTION 30\"",
   size: "30",
+  price:90,
   slug: "903"
 },
 {
   id: 225,
   name: "PTMT CONNECTION 36\"",
   size: "36",
+  price:100,
   slug: "904"
 },
 {
   id: 226,
   name: "SS CONNECTION 18\"",
   size: "18",
+  price:90,
   slug: "911"
 },
 {
   id: 227,
   name: "SS CONNECTION 24\"",
   size: "24",
+  price:110,
   slug: "912"
 },
 {
   id: 228,
   name: "SS CONNECTION 30\"",
   size: "30",
+  price:130,
   slug: "913"
 },
 {
   id: 229,
   name: "SS CONNECTION 36\"",
   size: "36",
+  price:150,
   slug: "914"
 },
 {
   id: 230,
   name: "HOSE CLIP 3/8",
   size: "3/8",
+  price:4,
   slug: "181"
 },
 {
   id: 231,
   name: "HOSE CLIP 1/2",
   size: "1/2",
+  price:4,
   slug: "182"
 },
 {
   id: 232,
   name: "HOSE CLIP 3/4",
   size: "3/4",
+  price:4,
+
   slug: "183"
 },
 {
   id: 233,
   name: "HOSE CLIP 1",
   size: "1",
+  price:4,
+
   slug: "184"
 },
 {
   id: 234,
   name: "HOSE CLIP 1-1/4",
   size: "1-1/4",
+  price:4.85,
   slug: "185"
 },
 {
   id: 235,
   name: "HOSE CLIP 1-1/2",
   size: "1-1/2",
+   price:4.85,
   slug: "186"
 },
 {
@@ -1520,114 +1688,133 @@ const Navbar = () => {
   id: 238,
   name: "CHINA CLIP 1/2",
   size: "1/2",
+  price:2.5,
   slug: "1812"
 },
 {
   id: 239,
   name: "CHINA CLIP 3/4",
   size: "3/4",
+   price:2.5,
   slug: "1813"
 },
 {
   id: 240,
   name: "CHINA CLIP 1",
   size: "1",
+   price:2.5,
   slug: "1814"
 },
 {
   id: 241,
   name: "CHINA CLIP 5/8",
   size: "5/8",
+   price:2.5,
   slug: "1815"
 },
 {
   id: 242,
   name: "CHINA CLIP 1-1/4",
   size: "1-1/4",
+   price:4.8,
   slug: "1816"
 },
 {
   id: 243,
   name: "CHINA CLIP 1-1/2",
   size: "1-1/2",
+  price:5,
   slug: "1817"
 },
 {
   id: 244,
   name: "CHINA CLIP 1-3/4",
   size: "1-3/4",
+  price:5.5,
   slug: "1818"
 },
 {
   id: 245,
   name: "CHINA CLIP WITH KEY 3/4",
   size: "3/4",
+  price:5.5,
   slug: "1819"
 },
 {
   id: 246,
   name: "CHINA CLIP WITH KEY 1",
   size: "1",
+  price:5.5,
   slug: "1820"
 },
 {
   id: 247,
   name: "CHINA CLIP WITH KEY 1-1/4",
   size: "1-1/4",
+  price:5.5,
   slug: "1821"
 },
 {
   id: 248,
   name: "U CLIP(PIPE CLIP-PATTI) 1/2",
   size: "1/2",
+  price:2.25,
   slug: "1822"
 },
 {
   id: 249,
   name: "U CLIP(PIPE CLIP-PATTI) 3/4",
   size: "3/4",
+   price:2.25,
   slug: "1823"
 },
 {
   id: 250,
   name: "U CLIP(PIPE CLIP-PATTI) 1",
   size: "1",
+   price:2.25,
   slug: "1824"
 },
 {
   id: 251,
   name: "U CLIP(PIPE CLIP-PATTI) 1-1/4",
   size: "1-1/4",
+   price:2.75,
   slug: "1825"
 },
 {
   id: 252,
   name: "U CLIP(PIPE CLIP-PATTI) 1-1/2",
   size: "1-1/2",
+  price:2.75,
   slug: "1826"
 },
 {
   id: 253,
   name: "U CLIP(PIPE CLIP-PATTI) 2",
   size: "2",
+  price:4.25,
   slug: "1827"
 },
 {
   id: 254,
   name: "U CLIP(PIPE CLIP-PATTI) 2.1/2",
   size: "2.1/2",
+  price:4.8,
   slug: "1828"
 },
 {
   id: 255,
   name: "U CLIP(PIPE CLIP-PATTI) 3",
   size: "3",
+  price:5,
   slug: "1829"
 },
 {
   id: 256,
   name: "U CLIP(PIPE CLIP-PATTI) 4",
   size: "4",
+  price:6,
   slug: "1830"
 },
 {
@@ -1700,216 +1887,252 @@ const Navbar = () => {
   id: 268,
   name: "BALL VALVE 1/2",
   size: "1/2",
+  price:50,
   slug: "17011"
 },
 {
   id: 269,
   name: "BALL VALVE 3/4",
   size: "3/4",
+  price:60,
   slug: "17012"
 },
 {
   id: 270,
   name: "BALL VALVE 1",
   size: "1",
+  price:70,
   slug: "17013"
 },
 {
   id: 271,
   name: "BALL VALVE 1-1/4",
   size: "1-1/4",
+  price:140,
   slug: "17014"
 },
 {
   id: 272,
   name: "BALL VALVE 1-1/2",
   size: "1-1/2",
+  price:190,
   slug: "17015"
 },
 {
   id: 273,
   name: "BALL VALVE 2",
   size: "2",
+  price:360,
   slug: "17016"
 },
 {
   id: 274,
   name: "THREAD BALL VALVE 1/2",
   size: "1/2",
+  price:50,
   slug: "17021"
 },
 {
   id: 275,
   name: "THREAD BALL VALVE 1",
   size: "1",
+  price:70,
   slug: "17022"
 },
 {
   id: 276,
   name: "THREE WAY BALL VALVE 1",
   size: "1",
+  price:100,
   slug: "17031"
 },
 {
   id: 277,
   name: "CPVC PIPE 3/4",
   size: "3/4",
+  price:240,
   slug: "14011"
 },
 {
   id: 278,
   name: "CPVC PIPE 1",
   size: "1",
+  price:370,
   slug: "14012"
 },
 {
   id: 279,
   name: "UPVC PIPE 1/2",
   size: "1/2",
+  price:155,
   slug: "13011"
 },
 {
   id: 280,
   name: "UPVC PIPE 3/4",
   size: "3/4",
+  price:200,
   slug: "13012"
 },
 {
   id: 281,
   name: "UPVC PIPE 1",
   size: "1",
+  price:290,
   slug: "13013"
 },
 {
   id: 282,
   name: "RADO MODEL SHORT BODY",
   size: "",
+  price:110,
   slug: "601"
 },
 {
   id: 283,
   name: "RADO MODEL LONG BODY",
   size: "",
+  price:130,
   slug: "602"
 },
 {
   id: 284,
   name: "RADO MODEL ANGLE COCK",
   size: "",
+  price:110,
   slug: "603"
 },
 {
   id: 285,
   name: "RADO MODEL SHORT SINK COCK",
   size: "",
+  price:270,
   slug: "604"
 },
 {
   id: 286,
   name: "RADO MODEL SHORT SWAN COCK",
   size: "",
+   price:270,
   slug: "605"
 },
 {
   id: 287,
   name: "RADO MODEL TWO WAY BIB COCK",
   size: "",
+   price:250,
   slug: "606"
 },
 {
   id: 288,
   name: "RADO MODEL TWO WAY ANGLE",
   size: "",
+   price:250,
   slug: "607"
 },
 {
   id: 289,
   name: "RADO MODEL LONG SINK COCK",
   size: "",
+   price:310,
   slug: "608"
 },
 {
   id: 290,
   name: "RADO MODEL LONG SWAN COCK",
   size: "",
+   price:310,
   slug: "609"
 },
 {
   id: 291,
   name: "RADO MODEL PILLAR COCK",
   size: "",
+   price:140,
   slug: "6010"
 },
 {
   id: 292,
   name: "RADO MODEL NOZZLE COCK",
   size: "",
+   price:140,
   slug: "6011"
 },
 {
   id: 293,
   name: "RADO MODEL WASHING MACHINE",
   size: "",
+   price:140,
   slug: "6012"
 },
 {
   id: 294,
   name: "FRANKY MODEL SHORT BODY",
   size: "",
+   price:140,
   slug: "611"
 },
 {
   id: 295,
   name: "FRANKY MODEL LONG BODY",
   size: "",
+   price:160,
   slug: "612"
 },
 {
   id: 296,
   name: "FRANKY MODEL ANGLE COCK",
   size: "",
+   price:140,
   slug: "613"
 },
 {
   id: 297,
   name: "FRANKY MODEL SHORT SINK COCK",
   size: "",
+   price:370,
   slug: "614"
 },
 {
   id: 298,
   name: "FRANKY MODEL SHORT SWAN COCK",
   size: "",
+  price:370,
   slug: "615"
 },
 {
   id: 299,
   name: "FRANKY MODEL TWO WAY BIB COCK",
   size: "",
+  price:320,
   slug: "616"
 },
 {
   id: 300,
   name: "FRANKY MODEL TWO WAY ANGLE",
   size: "",
+  price:320,
   slug: "617"
 },
 {
   id: 301,
   name: "FRANKY MODEL MIXER WITH BEND",
   size: "",
+  price:2000,
   slug: "618"
 },
 {
   id: 302,
   name: "FRANKY MODEL PILLAR COCK",
   size: "",
+  price:180,
   slug: "619"
 },
 {
   id: 303,
   name: "FRANKY MODEL NOZZLE COCK",
   size: "",
+  price:180,
   slug: "620"
 }
 

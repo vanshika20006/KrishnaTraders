@@ -49,18 +49,18 @@ const categories = [
   
    { image: "Brass.png", label: "Brass faucets", route: "/categories4" },
   
-  { image: "PVCtaps.png", label: "PVC Taps (Rolex)", route: "/categories3" },
+  { image: "PVCtaps.png", label: "PVC Taps (Rolex)", route: "/varients3" },
  
   { image: "Flush.png", label: "Flush Tank", route: "/categories7" },
   { image: "chambercover.png", label: "Seat Cover", route: "/categories8" },
   { image: "Connection.png", label: "Connection Pipe", route: "/categories9" },
   { image: "PTMT.png", label: "PTMT Taps", route: "/categories10" },
-  { image: "sumolex.jpg", label: "Sumolex Pipe & Fittings", route: "/pdf" },
-  { image: "sumolex.jpg", label: "Sumolex PTMT Taps", route: "/pdf" },
+  { image: "sumolex.jpg", label: "Sumolex Pipe & Fittings", route: "/pdf1" },
+  { image: "sumolex.jpg", label: "Sumolex PTMT Taps", route: "/pdf2" },
   { image: "UPVCPIPE.png", label: "UPVC Pipe", route: "/categories13" },
   { image: "CPVCPIPE.png", label: "CPVC Pipe", route: "/categories4" },
-  { image: "UPVCFITTING.png", label: "UPVC Fittings", route: "/categories15" },
-  { image: "CPVCFITTING.png", label: "CPVC Fittings", route: "/categories16" },
+  { image: "UPVCFITTING.png", label: "UPVC Fittings", route: "/pdf3" },
+  { image: "CPVCFITTING.png", label: "CPVC Fittings", route: "/pdf4" },
   { image: "BALL.png", label: "Ball Valve", route: "/categories17" },
 ];
 // Sample product data with different images and properties

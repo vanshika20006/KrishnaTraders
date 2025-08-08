@@ -89,7 +89,7 @@ const products = [
  {
     id: 1,
     name: "ROUND",
-    price: 4500,
+    price: 0,
     inStock: true,
     size: "Medium", // in inches
     image: "/mdhvfl.jpg",
@@ -97,7 +97,7 @@ const products = [
   {
     id: 2,
     name: "ROUND",
-    price: 4500,
+    price: 0,
     inStock: true,
     size: "Small", // in inches
     image: "/smflanch.jpg",
@@ -105,7 +105,7 @@ const products = [
   {
     id: 3,
     name: "ROUND",
-    price: 4500,
+    price: 0,
     inStock: true,
     size: "Heavy", // in inches
     image: "/mdhvfl.jpg",
