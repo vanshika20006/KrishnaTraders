@@ -113,7 +113,7 @@ const products = [
     price: 17,
     inStock: true,
     size: "12M",
-    image: "/teflonlr.jpg",
+    image: "/OneTef.png", //teflonlr.jpg
   },
   {
     id: 9,
