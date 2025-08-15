@@ -92,7 +92,7 @@ const products = [
     image: "/UPVCNAIL1.jpg",
   },
   {
-    id: 4,
+    id: 5,
     name: "CPVC NAIL CLAMP",
     price: 4500,
     inStock: true,

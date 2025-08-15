@@ -45,30 +45,37 @@ const MobileCategorySwiper = ({ products, navigate }) => {
       slidesPerView={2}
       grid={{ rows: 3, fill: "row" }}
       className="mb-6"
+     style={{
+  '--swiper-navigation-size': '40px', // icon ka size
+  '--swiper-navigation-color': '#1a0909ff', // icon ka color
+  '--swiper-navigation-sides-offset': '5px', // side se distance
+  fontWeight: '900',
+  // '--swiper-navigation-top-offset': '330px', // top se distance
+}}
+
     >
       {products.map((prod, i) => (
-       <SwiperSlide key={prod.label + i}>
-  <div
-    className="cursor-pointer rounded-lg shadow hover:shadow-lg transition-all overflow-hidden"
-    onClick={() => {
-      if (prod.route) navigate(prod.route);
-    }}
-  >
-    <div className="w-full h-32 flex items-center justify-center bg-white/70">
-      <img
-        src={prod.image}
-        alt={prod.label}
-        className="w-full h-28 object-contain p-1"
-      />
-    </div>
-    <div className="bg-white rounded-b-md px-2 text-center">
-      <p className="text-sm font-medium text-black">
-        {prod.label}
-      </p>
-    </div>
-  </div>
-</SwiperSlide>
-
+        <SwiperSlide key={prod.label + i}>
+          <div
+            className="cursor-pointer rounded-lg shadow hover:shadow-lg transition-all overflow-hidden"
+            onClick={() => {
+              if (prod.route) navigate(prod.route);
+            }}
+          >
+            <div className="w-full h-32 flex items-center justify-center bg-white/70">
+              <img
+                src={prod.image}
+                alt={prod.label}
+                className="w-full h-28 object-contain p-1"
+              />
+            </div>
+            <div className="bg-white rounded-b-md px-2 text-center">
+              <p className="text-sm font-medium text-black">
+                {prod.label}
+              </p>
+            </div>
+          </div>
+        </SwiperSlide>
       ))}
     </Swiper>
   );
@@ -97,9 +104,14 @@ const CategorySection = ({ searchQuery = "" }) => {
       className={`w-full max-w-screen mx-auto my-8 rounded-xl ${isMobile ? "px-4 pt-6 pb-12" : "pl-60 pr-60 pt-10"}`}
       style={{ background: "#112D4E" }}
     >
-      <h2 className={`text-white font-serif font-bold text-center mb-6 ${isMobile ? "text-2xl" : "text-3xl"}`}>
+      <h1
+        className={`text-white text-center font-serif font-bold mb-6 ${
+          isMobile ? "text-center" : "text-left"
+        }`}
+        style={{ fontSize: isMobile ? "30px" : "40px" }}
+      >
         Shop By Category
-      </h2>
+      </h1>
 
       <div className="space-y-3">
         {categories.map((cat, idx) => {
@@ -108,9 +120,14 @@ const CategorySection = ({ searchQuery = "" }) => {
           );
 
           return (
-            <div key={cat.title} className="mb-3">
+            <div
+              key={cat.title}
+              className={`${isMobile && idx === 0 ? "mt-6" : ""} mb-3`}
+            >
               <button
-                className="flex items-center gap-4 text-lg font-medium text-white font-serif mb-3 focus:outline-none w-full"
+                className={`flex items-center gap-4 text-lg font-medium text-white font-serif mb-3 focus:outline-none w-full ${
+                  isMobile ? "justify-center" : ""
+                }`}
                 aria-expanded={expandedPanels[idx]}
                 onClick={() => handleToggle(idx)}
               >
@@ -124,7 +141,7 @@ const CategorySection = ({ searchQuery = "" }) => {
                     <ChevronDown size={22} />
                   )}
                 </span>
-                <span className="flex-1 border-t border-white/20 ml-6" />
+                {!isMobile && <span className="flex-1 border-t border-white/20 ml-6" />}
               </button>
 
               {!isMobile && expandedPanels[idx] && filteredProducts.length > 0 && (

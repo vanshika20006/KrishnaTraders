@@ -22,7 +22,7 @@ const ProductCard = ({ image, name, inStock, price, size, slug }) => {
         <img
           src={image}
           alt={name}
-          className="w-full h-full oobject-content" // Changed object-content to object-contain for better image fitting
+          className="w-full h-full object-content" // Changed object-content to object-contain for better image fitting
         />
       </div>
 

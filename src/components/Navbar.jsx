@@ -6,7 +6,7 @@ const Navbar = () => {
   const [showSuggestions, setShowSuggestions] = useState(false);
   const navigate = useNavigate();
 
- const products = [
+const products = [
   {
     id: 1,
     name: "AQUA BLU(5T)",
