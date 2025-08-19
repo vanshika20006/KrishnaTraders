@@ -117,10 +117,10 @@ const MobileProductDetailContent = () => {
       </div>
 
       {/* Image Slider (Middle on Mobile) */}
-      <div className="product-image-slider w-[370px] h-[320px] sm:h-[350px] bg-white rounded-md overflow-hidden flex items-center justify-center mb-6">
+      <div className="product-image-slider w-[320px] h-[280px] sm:h-[350px] bg-white rounded-md overflow-hidden flex items-center justify-center mb-6">
         <SimpleImageSlider
-          width={370} // Use 100% width for responsiveness
-          height={320} // Fixed height for mobile, can be made responsive with sm:h-[...] etc.
+          width={320} // Use 100% width for responsiveness
+          height={280} // Fixed height for mobile, can be made responsive with sm:h-[...] etc.
           images={imagesToShow}
           showBullets={true}
           showNavs={true}
