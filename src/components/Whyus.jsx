@@ -11,12 +11,12 @@ const MobileWhyExpertTutor = () => {
       </h1>
 
       {/* Image & Overlapping Cards */}
-      <div className="relative flex justify-center items-center h-[420px]">
+      <div className="relative flex justify-center items-center h-[280px]">
         {/* Center Image */}
         <img
           src="question_mark.jpg"
           alt="question"
-          className="h-[220px] z-0"
+          className="h-[300px] z-0"
         />
 
         {/* Left Column Cards */}

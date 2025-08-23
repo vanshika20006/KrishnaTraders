@@ -9,8 +9,8 @@ const MobileFooter = () => {
         {/* Row 1: Shop + Quick Links */}
         <div className="flex justify-between gap-6">
           {/* Shop */}
-          <div className="min-w-[45%]">
-            <h3 className="text-md font-bold mb-2">Shop</h3>
+          <div className="flex-1 text-center">
+            <h3 className="text-md font-bold mb-2 ml-10">Shop</h3>
             <ul className="space-y-1 text-sm">
               <li>Bathroom</li>
               <li>Flooring</li>
@@ -21,8 +21,8 @@ const MobileFooter = () => {
           </div>
 
           {/* Quick Links */}
-          <div className="min-w-[45%]">
-            <h3 className="text-md font-bold mb-2">Quick Links</h3>
+          <div className="flex-1 text-center">
+            <h3 className="text-md font-bold mb-2 ml-10">Quick Links</h3>
             <ul className="space-y-1 text-sm">
               <li><a href="#">About Us</a></li>
               <li><a href="#">Brands</a></li>
@@ -34,8 +34,8 @@ const MobileFooter = () => {
         {/* Row 2: Other Links + Contact */}
         <div className="flex justify-between gap-6">
           {/* Other Links */}
-          <div className="min-w-[45%]">
-            <h3 className="text-md font-bold mb-2">Other Links</h3>
+          <div className="flex-1 text-center">
+            <h3 className="text-md font-bold mb-2 ml-10">Other Links</h3>
             <ul className="space-y-1 text-sm">
               <li><a href="#">Shipping Policy</a></li>
               <li><a href="#">Terms & Conditions</a></li>
@@ -43,8 +43,8 @@ const MobileFooter = () => {
           </div>
 
           {/* Contact */}
-          <div className="min-w-[45%]">
-            <h3 className="text-md font-bold mb-2">Contact</h3>
+          <div className="flex-1 text-center">
+            <h3 className="text-md font-bold mb-2 ml-10">Contact</h3>
             <ul className="space-y-1 text-sm">
               <li>080-23456789</li>
               <li>+91 91234567891</li>
@@ -56,8 +56,8 @@ const MobileFooter = () => {
 
         {/* Follow Us Centered */}
         <div className="text-center">
-          <h4 className="font-semibold text-sm mb-2">Follow us</h4>
-          <div className="flex justify-center gap-4">
+          <h4 className="font-semibold text-sm mb-2 mr-8">Follow us</h4>
+          <div className="flex justify-center gap-4 mr-8">
             <a href="#"><Facebook size={20} /></a>
             <a href="#"><Twitter size={20} /></a>
             <a href="#"><Instagram size={20} /></a>
