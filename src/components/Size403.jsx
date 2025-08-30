@@ -44,11 +44,11 @@ const ProductCard = ({
     >
       {/* Image Section */}
       {/* Responsive image height: h-32 for small screens, h-48 for medium/desktop */}
-      <div className="w-full h-32 md:h-48">
+      <div className="w-full h-32 md:h-62">
         <img
           src={image}
           alt={name}
-          className="w-full h-full object-content" // Kept object-content as per your original ProductCard
+          className="w-full h-full object-cover" // Kept object-content as per your original ProductCard
         />
       </div>
 

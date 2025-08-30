@@ -43,11 +43,11 @@ const ProductCard = ({
                  flex flex-col" // Added flex-col for consistent vertical alignment on smaller cards
     >
       {/* Image Section - full width/height top part */}
-      <div className="w-full h-32 md:h-48"> {/* Responsive image height */}
+      <div className="w-full h-40 md:h-65"> {/* Responsive image height */}
         <img
           src={image}
           alt={name}
-          className="w-full h-full object-content" // Kept object-content as per your original ProductCard
+          className="w-full h-full object-cover" // Kept object-content as per your original ProductCard
         />
       </div>
 

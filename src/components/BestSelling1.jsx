@@ -18,7 +18,7 @@ const ProductCard = ({ id, name, image, inStock }) => { // Removed price and dis
                  flex flex-col" // Added flex-col for consistent vertical alignment on smaller cards
     >
       {/* Image Section - full width/height top part */}
-      <div className="w-full h-32 md:h-48"> {/* Responsive image height */}
+      <div className="w-full h-32 md:h-65"> {/* Responsive image height */}
         <img
           src={image}
           alt={name}
@@ -125,7 +125,7 @@ const DesktopGhotu = () => {
       {/* RIGHT PANEL - DESKTOP */}
       <div className="flex-1 px-2 py-6">
         {/* DISCOUNT BOX - DESKTOP */}
-        <div className="mb-3 ml-220 flex w-[230px] h-[50px] rounded-2xl overflow-hidden border-4 border-[#1b3554]">
+        {/* <div className="mb-3 ml-220 flex w-[230px] h-[50px] rounded-2xl overflow-hidden border-4 border-[#1b3554]">
           <div className="flex-1 bg-[#f7933e] text-white flex items-center justify-center text-2xl font-bold">
             Discount
           </div>
@@ -138,7 +138,7 @@ const DesktopGhotu = () => {
               className="w-full h-full text-center bg-transparent text-[#1b3554] text-3xl font-semibold outline-none"
             />
           </div>
-        </div>
+        </div> */}
 
         {/* SORT HEADER - DESKTOP */}
         <div
@@ -207,20 +207,7 @@ const MobileGhotu = () => {
         <h2 className="text-xl font-semibold text-[#1a1f2c]">Chamber Cover</h2>
         <div className="flex items-center gap-4">
           {/* Discount input on mobile top bar */}
-          <div className="flex w-[120px] h-[35px] rounded-xl overflow-hidden border-2 border-[#1b3554]">
-            <div className="flex-1 bg-[#f7933e] text-white flex items-center justify-center text-sm font-bold">
-              Disc.
-            </div>
-            <div className="flex-1 bg-[#9db7c0] flex items-center justify-center">
-              <input
-                type="number"
-                placeholder="%"
-                value={discount}
-                onChange={(e) => setDiscount(e.target.value)}
-                className="w-full h-full text-center bg-transparent text-[#1b3554] text-lg font-semibold outline-none"
-              />
-            </div>
-          </div>
+          
           {/* Menu button for mobile sidebar */}
           <button onClick={() => setIsSidebarOpen(true)} className="p-2 rounded-md bg-[#0A2A4D] text-white">
             <Menu className="w-6 h-6" />

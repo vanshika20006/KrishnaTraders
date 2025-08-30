@@ -52,7 +52,7 @@ const DesktopProductDetailContent = () => {
         {/* Right Product Info */}
         <div className="w-[25%] mr-80 flex flex-col">
           <h4 className="text-[22px] font-semibold">{name || "Product Name"}</h4>
-          <h4 className="text-[18px] pt-1">{size || "Product Size"}</h4>
+          {/* <h4 className="text-[18px] pt-1">{size || "Product Size"}</h4> */}
 
           <p className="text-gray-300 text-[15px] font-light pt-5 leading-relaxed">
     <span className="block">🔹 <strong>Weight:</strong>165 GM</span>

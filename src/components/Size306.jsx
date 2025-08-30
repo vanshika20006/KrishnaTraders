@@ -48,7 +48,7 @@ const ProductCard = ({
         <img
           src={image}
           alt={name}
-          className="w-full h-full object-content" // Kept object-content as per your original ProductCard
+          className="w-full h-full object-cover" // Kept object-cover as per your original ProductCard
         />
       </div>
 
@@ -56,7 +56,7 @@ const ProductCard = ({
       {/* Responsive padding and font sizes */}
       <div className="bg-white p-3 md:p-4 text-center">
         <h6 className="font-semibold text-sm md:text-base">{name}</h6>
-        <p className="text-xs text-gray-600 md:text-sm">Size: {size}</p>
+        {/* <p className="text-xs text-gray-600 md:text-sm">Size: {size}</p> */}
 
         {/* Price Display Logic */}
         {discountedPrice ? (

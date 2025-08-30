@@ -47,7 +47,7 @@ const ProductCard = ({
         <img
           src={image}
           alt={name}
-          className="w-full h-full object-content" // Kept object-content as per your original ProductCard
+          className="w-full h-full object-cover" // Kept object-content as per your original ProductCard
         />
       </div>
 

@@ -202,22 +202,7 @@ const DesktopGhotu = () => {
         
         {/* Discount Box */}
         {/* ml-231 is kept as per your original code */}
-        <div className="ml-231 flex w-[215px] h-[50px] rounded-2xl overflow-hidden border-4 border-[#1b3554] mb-4">
-          <div className="flex-1 bg-[#f7933e] text-white flex items-center justify-center text-2xl font-bold">
-            Discount
-          </div>
-          <div className="flex-1 bg-[#9db7c0] flex items-center justify-center">
-            <input
-              type="number"
-              min="0"
-              max="100"
-              value={discount}
-              onChange={(e) => setDiscount(Number(e.target.value))}
-              placeholder="%"
-              className="w-16 px-2 py-1 text-black rounded text-center outline-none"
-            />
-          </div>
-        </div>
+        
 
         {/* Sorting Dropdown */}
         <div
@@ -296,22 +281,7 @@ const MobileGhotu = () => {
         <h2 className="text-xl font-semibold text-[#1a1f2c]">CP fittings and more</h2>
         <div className="flex items-center gap-4">
           {/* Discount input on mobile top bar */}
-          <div className="flex w-[120px] h-[35px] rounded-xl overflow-hidden border-2 border-[#1b3554]">
-            <div className="flex-1 bg-[#f7933e] text-white flex items-center justify-center text-sm font-bold">
-              Disc.
-            </div>
-            <div className="flex-1 bg-[#9db7c0] flex items-center justify-center">
-              <input
-                type="number"
-                min="0"
-                max="100"
-                value={discount}
-                onChange={(e) => setDiscount(Number(e.target.value))}
-                placeholder="%"
-                className="w-full h-full text-center bg-transparent text-[#1b3554] text-lg font-semibold outline-none"
-              />
-            </div>
-          </div>
+          
           {/* Menu button for mobile sidebar */}
           <button onClick={() => setIsSidebarOpen(true)} className="p-2 rounded-md bg-[#0A2A4D] text-white">
             <Menu className="w-6 h-6" />

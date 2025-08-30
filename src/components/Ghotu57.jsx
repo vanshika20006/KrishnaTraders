@@ -54,7 +54,8 @@ const ProductCard = ({
       {/* Details Section */}
       <div className="bg-white p-3 md:p-4 text-center"> {/* Responsive padding */}
         <h6 className="font-semibold text-sm md:text-base">{name}</h6> {/* Responsive font size */}
-
+<p className="text-sm text-gray-600">{size}</p>
+      <p className="text-blue-700 font-bold">₹{price}</p>
         {/* Price Display Logic */}
         
 
