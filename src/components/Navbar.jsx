@@ -2281,7 +2281,74 @@ price:1020,
       </div>
 
       {/* Mobile Navbar */}
-      <div className="block md:hidden px-4 py-4">
+     <div className="block md:hidden px-6 py-4 bg-[#f9f9e6]">
+  <div className="flex flex-col items-center gap-6">
+    
+    {/* Logo */}
+    <img src="/kT-final-logo.png" alt="Logo" className="h-25 w-25" />
+
+    {/* Searchbar - Full width */}
+    <div className="w-full max-w-md">
+      {renderSearchInput("w-full")}
+    </div>
+
+    {/* Navigation Buttons */}
+    <div className="w-full flex flex-wrap justify-center gap-4 mt-2">
+      
+      {/* Home */}
+      <Link 
+        to="/home" 
+        className="flex items-center justify-center bg-[#3F72AF] text-white px-6 py-3 rounded-lg text-lg font-semibold w-[40%] min-w-[140px] 
+                   transition-all duration-300 ease-in-out hover:scale-105 hover:shadow-lg hover:bg-[#365f95]"
+      >
+        Home
+      </Link>
+      
+      {/* Contact */}
+      <a
+        href="https://wa.me/918962075300?text=Hello..."
+        target="_blank"
+        rel="noopener noreferrer"
+        className="flex items-center justify-center bg-[#3F72AF] text-white px-6 py-3 rounded-lg text-lg font-semibold w-[40%] min-w-[140px] 
+                   transition-all duration-300 ease-in-out hover:scale-105 hover:shadow-lg hover:bg-[#365f95]"
+      >
+        <img src="/whats.png" className="h-5 w-5 mr-2" alt="WhatsApp" />
+        Contact
+      </a>
+      
+      {/* About */}
+      <Link 
+        to="/about" 
+        className="flex items-center justify-center bg-[#3F72AF] text-white px-6 py-3 rounded-lg text-lg font-semibold w-[40%] min-w-[140px] 
+                   transition-all duration-300 ease-in-out hover:scale-105 hover:shadow-lg hover:bg-[#365f95]"
+      >
+        About
+      </Link>
+
+      {/* Showroom */}
+      <a
+  href="https://www.justdial.com/Indore/Krishna-Traders-Opposite-To-Datt-Mandir-Annapurna-Road/0731PX731-X731-170308110541-Z1B3_BZDET"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="flex items-center justify-center gap-2 bg-[#3F72AF] text-white px-6 py-3 rounded-lg text-lg font-semibold w-[40%] min-w-[140px] 
+             transition-all duration-300 ease-in-out hover:scale-105 hover:shadow-lg hover:bg-[#365f95]"
+>
+  <img src="/showroom.png" className="h-5 w-5" alt="Showroom" />
+  Showroom
+</a>
+
+      
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+      {/* <div className="block md:hidden px-4 py-4">
         <div className="flex flex-col items-center gap-4">
           
           <img src="/kT-final-logo.png" alt="Logo" className="h-20 w-20 " />
@@ -2329,7 +2396,7 @@ price:1020,
             </button>
           </div>
         </div>
-      </div>
+      </div> */}
     </header>
   );
 };
