@@ -18,7 +18,7 @@ const DesktopProductDetailContent = () => {
 
 
  const defaultImages = [
-  { url: "Nozzle-cock-BREZZA.jpg" },
+  { url: "nozzbre.jpg" },
   { url: "BREZZA-MODEL-every-product-me-2nd-ya-3rd.jpg" },
 ];
 // As per your latest code, imagesToShow always uses defaultImages
@@ -103,7 +103,7 @@ const MobileProductDetailContent = () => {
 
 
 const defaultImages = [
-  { url: "Nozzle-cock-BREZZA.jpg" },
+  { url: "nozzbre.jpg" },
   { url: "BREZZA-MODEL-every-product-me-2nd-ya-3rd.jpg" },
 ];	
   // As per your latest code, imagesToShow always uses defaultImages

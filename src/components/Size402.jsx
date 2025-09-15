@@ -103,7 +103,7 @@ const products = [
     price: 1900,
     inStock: true,
     size: "18X18",
-    image: "/Arya-head-TABLE.jpg",
+    image: "/Arya-head-TABLEa.jpg",
   },
   {
     id: 3,
@@ -111,7 +111,7 @@ const products = [
     price: 620,
     inStock: true,
     size: "18X18",
-    image: "/ARYASPOUTM.jpg",
+    image: "/sma.jpg",
   },
   {
     id: 4,
@@ -119,7 +119,7 @@ const products = [
     price: 840,
     inStock: true,
     size: "18X18",
-    image: "/ARYASPOUTHY.jpg",
+    image: "/sha.jpg",
   }
 ];// --- Desktop Ghotu Component (EXACTLY as you provided, no changes) ---
 const DesktopGhotu = () => {

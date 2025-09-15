@@ -306,10 +306,7 @@ const ValuesCarousel: React.FC = () => {
 
         <div className="text-white text-center mb-12 max-w-3xl mx-auto px-4">
           <p className="text-base md:text-lg">
-            At [Your Company Name], we believe that building something great starts with the
-            right tools and trusted materials. Whether it's a large construction project or a
-            small home repair, quality hardware makes all the difference — and we're here to
-            make sure you get exactly that.
+           At Krishna Traders, we believe that trust is built on quality. Every pipe, fitting, and sanitary solution we provide is backed by high-quality goods, warranty-covered products, and regular, timely service.
           </p>
         </div>
 

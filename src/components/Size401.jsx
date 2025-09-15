@@ -103,7 +103,7 @@ const products = [
     price: 430,
     inStock: true,
     size: "24X24",
-    image: "/Long-body-BREZZA-1s.jpg",
+    image: "/LBB.jpg",
   },
   {
     id: 3,
@@ -135,7 +135,7 @@ const products = [
     price: 760,
     inStock: true,
     size: "18X18",
-    image: "/Two-way-bib-cock-BREZZA-1st.jpg",
+    image: "/twbcb.jpg",
   },
   {
     id: 7,
@@ -143,7 +143,7 @@ const products = [
     price: 740,
     inStock: true,
     size: "24X24",
-    image: "/Two-way-angle-clock-Brezza.jpg",
+    image: "/twab.jpg",
   },
   {
     id: 8,
@@ -159,7 +159,7 @@ const products = [
     price: 760,
     inStock: true,
     size: "27X27",
-    image: "/BREZZA6COCK1.jpg",
+    image: "/PCB.jpg",
   },
   {
     id: 10,
@@ -167,7 +167,7 @@ const products = [
     price: 400,
     inStock: true,
     size: "30X30",
-    image: "/Nozzle-cock-BREZZA.jpg",
+    image: "/nozzbre.jpg",
   },
   {
     id: 11,
@@ -199,7 +199,7 @@ const products = [
     price: 250,
     inStock: true,
     size: "27X27",
-    image: "/Angle-PROJECT-1st.jpg",
+    image: "/acp.jpg",
   }
 ];// --- Desktop Ghotu Component (EXACTLY as you provided, no changes) ---
 const DesktopGhotu = () => {

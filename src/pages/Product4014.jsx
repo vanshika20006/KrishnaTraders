@@ -18,8 +18,8 @@ const DesktopProductDetailContent = () => {
 
 
  const defaultImages = [
-    { url: "Angle-PROJECT-1st.jpg" },
-    { url: "Angle-PROJECT-2nd.jpg" },
+    { url: "acp.jpg" },
+    { url: "acp.jpg" },
     { url: "BREZZA-MODEL-every-product-me-2nd-ya-3rd.jpg" },
   ];
 // As per your latest code, imagesToShow always uses defaultImages
@@ -104,8 +104,8 @@ const MobileProductDetailContent = () => {
   } = location.state || {};
 
  const defaultImages = [
-    { url: "Angle-PROJECT-1st.jpg" },
-    { url: "Angle-PROJECT-2nd.jpg" },
+    { url: "acp.jpg" },
+    { url: "acp.jpg" },
     { url: "BREZZA-MODEL-every-product-me-2nd-ya-3rd.jpg" },
   ];	
   // As per your latest code, imagesToShow always uses defaultImages

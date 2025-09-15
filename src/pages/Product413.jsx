@@ -18,8 +18,8 @@ const DesktopProductDetailContent = () => {
 
 
  const defaultImages = [
-    { url: "ARYASPOUTM.jpg" },
-    { url: "ARYASPOUTM2.jpg" }
+    { url: "sma.jpg" },
+    { url: "sma1.jpg" }
 
 
   ];
@@ -105,8 +105,8 @@ const MobileProductDetailContent = () => {
   } = location.state || {};
 
 const defaultImages = [
-    { url: "ARYASPOUTM.jpg" },
-    { url: "ARYASPOUTM2.jpg" }
+    { url: "sma.jpg" },
+    { url: "sma1.jpg" }
 
 
   ];	

@@ -94,7 +94,7 @@ const products = [
     price: 480,
     inStock: true,
     size: "18X18",
-    image: "/Short-body-JERRY.jpg",
+    image: "/sbj.jpg",
   },
   {
     id: 2,
@@ -102,7 +102,7 @@ const products = [
     price: 510,
     inStock: true,
     size: "24X24",
-    image: "/Long-body-JERRY-1st.jpg",
+    image: "/lbjerry.jpg",
   },
   {
     id: 3,
@@ -134,7 +134,7 @@ const products = [
     price: 800,
     inStock: true,
     size: "18X18",
-    image: "/Two-way-bib-cock-JERRY.jpg",
+    image: "/twbj.jpg",  
   },
   {
     id: 7,
@@ -142,7 +142,7 @@ const products = [
     price: 760,
     inStock: true,
     size: "24X24",
-    image: "/Two-way-angle-cock-JERRY.jpg",
+    image: "/twbcjerry.jpg",
   },
   {
     id: 8,
@@ -150,7 +150,7 @@ const products = [
     price: 540,
     inStock: true,
     size: "18X24",
-    image: "/Pillar-cock-JERRY.jpg",
+    image: "/pcj.jpg",
   },
   {
     id: 9,
@@ -166,7 +166,7 @@ const products = [
     price: 420,
     inStock: true,
     size: "30X30",
-    image: "/Nozzle-cock-JERRY.jpg",
+    image: "/ncj.jpg",
   },
   {
     id: 11,
